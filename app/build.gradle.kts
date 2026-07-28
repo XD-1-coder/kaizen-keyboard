@@ -215,7 +215,7 @@ dependencies {
     implementation(projects.lib.color)
     implementation(projects.lib.compose)
     implementation(projects.lib.kotlin)
-    implementation(projects.lib.native)
+    //implementation(projects.lib.native)
     implementation(projects.lib.snygg)
 
     testImplementation(libs.kotest.assertions.core)
