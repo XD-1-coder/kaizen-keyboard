@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2025 The Kaizen Keyboard Contributors
+ * Copyright (C) 2020-2025 The Kaizen_Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -85,7 +85,7 @@ class CrashDialogActivity : ComponentActivity() {
         }
         errorReport.apply {
             appendLine("#### Environment information")
-            appendLine("- Kaizen Keyboard $versionName (${BuildConfig.VERSION_CODE})")
+            appendLine("- Kaizen_Keyboard $versionName (${BuildConfig.VERSION_CODE})")
             appendLine("- Device: ${Devtools.getDeviceName()}")
             appendLine("- Android: ${Devtools.getAndroidVersion()}")
             appendLine()

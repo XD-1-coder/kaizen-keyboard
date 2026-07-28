@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
+ * Copyright (C) 2021-2025 The Kaizen_Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -69,7 +69,7 @@ fun AboutScreen() = FlorisScreen {
             FlorisCanvasIcon(
                 modifier = Modifier.requiredSize(64.dp),
                 iconId = R.mipmap.floris_app_icon,
-                contentDescription = "Kaizen Keyboard app icon",
+                contentDescription = "Kaizen_Keyboard app icon",
             )
             Text(
                 text = stringRes(R.string.floris_app_name),

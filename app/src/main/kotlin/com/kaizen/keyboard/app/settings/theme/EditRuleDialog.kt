@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
+ * Copyright (C) 2022-2025 The Kaizen_Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -391,8 +391,8 @@ private fun EditCodeValueDialog(
     var errorId by rememberSaveable(codeValue) { mutableIntStateOf(NATIVE_NULLPTR.toInt()) }
 
     val focusRequester = remember { FocusRequester() }
-    val isKaizen KeyboardEnabled by InputMethodUtils.observeIsFlorisboardEnabled(foregroundOnly = true)
-    val isKaizen KeyboardSelected by InputMethodUtils.observeIsFlorisboardSelected(foregroundOnly = true)
+    val isKaizen_KeyboardEnabled by InputMethodUtils.observeIsFlorisboardEnabled(foregroundOnly = true)
+    val isKaizen_KeyboardSelected by InputMethodUtils.observeIsFlorisboardSelected(foregroundOnly = true)
 
     var isRecordingKey by remember { mutableStateOf(false) }
     var lastRecordingToast by remember { mutableStateOf<Toast?>(null) }
@@ -414,7 +414,7 @@ private fun EditCodeValueDialog(
             isRecordingKey = false
             return
         }
-        if (!isKaizen KeyboardEnabled || !isKaizen KeyboardSelected) {
+        if (!isKaizen_KeyboardEnabled || !isKaizen_KeyboardSelected) {
             lastRecordingToast?.cancel()
             lastRecordingToast = context.showShortToastSync(
                 R.string.settings__theme_editor__code_recording_requires_default_ime_floris,

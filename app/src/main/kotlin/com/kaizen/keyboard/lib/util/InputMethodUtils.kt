@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
+ * Copyright (C) 2021-2025 The Kaizen_Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -73,7 +73,7 @@ object InputMethodUtils {
         foregroundOnly: Boolean = false,
     ): State<Boolean> {
         return if (AndroidVersion.ATLEAST_API34_U) {
-            timedObserveIsKaizen KeyboardEnabled()
+            timedObserveIsKaizen_KeyboardEnabled()
         } else {
             AndroidSettings.Secure.observeAsState(
                 key = Settings.Secure.ENABLED_INPUT_METHODS,
@@ -89,7 +89,7 @@ object InputMethodUtils {
         foregroundOnly: Boolean = false,
     ): State<Boolean> {
         return if (AndroidVersion.ATLEAST_API34_U) {
-            timedObserveIsKaizen KeyboardSelected()
+            timedObserveIsKaizen_KeyboardSelected()
         } else {
             AndroidSettings.Secure.observeAsState(
                 key = Settings.Secure.DEFAULT_INPUT_METHOD,
@@ -131,7 +131,7 @@ object InputMethodUtils {
 
     @RequiresApi(api = 34)
     @Composable
-    private fun timedObserveIsKaizen KeyboardEnabled(): State<Boolean> {
+    private fun timedObserveIsKaizen_KeyboardEnabled(): State<Boolean> {
         val state = remember { mutableStateOf(false) }
         val context = LocalContext.current
         LaunchedEffect(Unit) {
@@ -145,7 +145,7 @@ object InputMethodUtils {
 
     @RequiresApi(api = 34)
     @Composable
-    private fun timedObserveIsKaizen KeyboardSelected(): State<Boolean> {
+    private fun timedObserveIsKaizen_KeyboardSelected(): State<Boolean> {
         val state = remember { mutableStateOf(false) }
         val context = LocalContext.current
         LaunchedEffect(Unit) {

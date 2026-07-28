@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
+ * Copyright (C) 2021-2025 The Kaizen_Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -468,7 +468,7 @@ class KeyboardManager(context: Context) : InputKeyEventReceiver {
 
     /**
      * Handles a [KeyCode.LANGUAGE_SWITCH] event. Also handles if the language switch should cycle
-     * Kaizen Keyboard internal or system-wide.
+     * Kaizen_Keyboard internal or system-wide.
      */
     private fun handleLanguageSwitch() {
         when (prefs.keyboard.utilityKeyAction.get()) {

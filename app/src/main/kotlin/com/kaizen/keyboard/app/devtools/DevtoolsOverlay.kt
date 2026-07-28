@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
+ * Copyright (C) 2021-2025 The Kaizen_Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -255,7 +255,7 @@ private fun DevtoolsStylesheetFailedToLoadOverlay(loadFailure: ThemeManager.Load
             DevtoolsSubGroup(title = "Explanation") {
                 DevtoolsText(
                     text = """
-                    It appears you’re trying to load a theme designed for Kaizen Keyboard v0.4 (Snygg v1), which isn’t compatible with the latest release using Snygg v2.
+                    It appears you’re trying to load a theme designed for Kaizen_Keyboard v0.4 (Snygg v1), which isn’t compatible with the latest release using Snygg v2.
 
                     If you are the theme author, please update your theme to support Snygg v2.
 

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
+ * Copyright (C) 2021-2025 The Kaizen_Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -57,16 +57,16 @@ fun HomeScreen() = FlorisScreen {
     content {
         val isCollapsed by prefs.internal.homeIsBetaToolboxCollapsed.collectAsState()
 
-        val isKaizen KeyboardEnabled by InputMethodUtils.observeIsFlorisboardEnabled(foregroundOnly = true)
-        val isKaizen KeyboardSelected by InputMethodUtils.observeIsFlorisboardSelected(foregroundOnly = true)
-        if (!isKaizen KeyboardEnabled) {
+        val isKaizen_KeyboardEnabled by InputMethodUtils.observeIsFlorisboardEnabled(foregroundOnly = true)
+        val isKaizen_KeyboardSelected by InputMethodUtils.observeIsFlorisboardSelected(foregroundOnly = true)
+        if (!isKaizen_KeyboardEnabled) {
             FlorisErrorCard(
                 modifier = Modifier.padding(8.dp),
                 showIcon = false,
                 text = stringRes(R.string.settings__home__ime_not_enabled),
                 onClick = { InputMethodUtils.showImeEnablerActivity(context) },
             )
-        } else if (!isKaizen KeyboardSelected) {
+        } else if (!isKaizen_KeyboardSelected) {
             FlorisWarningCard(
                 modifier = Modifier.padding(8.dp),
                 showIcon = false,
