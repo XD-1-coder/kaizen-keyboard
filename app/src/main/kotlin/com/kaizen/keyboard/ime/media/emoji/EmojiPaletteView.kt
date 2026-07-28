@@ -173,7 +173,7 @@ fun EmojiPaletteView(
     var recentlyUsedVersion by remember { mutableIntStateOf(0) }
     val scope = rememberCoroutineScope()
 
-    @Composable
+@Composable
     fun GridHeader(text: String) {
         SnyggText(
             elementName = FlorisImeUi.MediaEmojiSubheader.elementName,
@@ -181,7 +181,7 @@ fun EmojiPaletteView(
         )
     }
 
-    @Composable
+@Composable
     fun EmojiKeyWrapper(
         emojiSet: EmojiSet,
         isPinned: Boolean = false,
@@ -228,7 +228,7 @@ fun EmojiPaletteView(
     }
 
 
-    @Composable
+@Composable
     fun EmojiCategoriesTabRow(
         activeCategory: EmojiCategory,
         onCategoryChange: (EmojiCategory) -> Unit,
@@ -393,7 +393,6 @@ fun EmojiPaletteView(
     }
 }
 
-@Composable
 private fun EmojiKey(
     emojiSet: EmojiSet,
     emojiCompatInstance: EmojiCompat?,
@@ -479,7 +478,6 @@ private fun EmojiKey(
 }
 
 @OptIn(ExperimentalLayoutApi::class)
-@Composable
 private fun EmojiVariationsPopup(
     variations: List<Emoji>,
     visible: Boolean,
@@ -543,7 +541,6 @@ private fun EmojiHistoryPopup(
     val showMoveLeft = isCurrentlyPinned && !pinnedUS.isAutomatic || !recentUS.isAutomatic
     val showMoveRight = isCurrentlyPinned && !pinnedUS.isAutomatic || !recentUS.isAutomatic
 
-    @Composable
     fun Action(icon: ImageVector, action: suspend () -> Unit) {
         SnyggBox(
             elementName = FlorisImeUi.MediaEmojiKeyPopupElement.elementName,
@@ -627,6 +624,31 @@ private fun EmojiHistoryPopup(
     }
 }
 
+fun EmojiText(
+    text: String,
+    emojiCompatInstance: EmojiCompat?,
+    modifier: Modifier = Modifier,
+    color: Color = Color.Black,
+    fontSize: TextUnit = EmojiDefaultFontSize,
+) {
+    AndroidView(
+        modifier = modifier,
+        factory = { context ->
+            val textView = if (emojiCompatInstance != null) EmojiTextView(context) else TextView(context)
+            textView.apply {
+                setTextSize(TypedValue.COMPLEX_UNIT_SP, fontSize.value)
+                setTextColor(color.toArgb())
+                try {
+                    typeface = Typeface.createFromAsset(context.assets, "fonts/ios_emoji.ttf")
+                } catch (e: Exception) { }
+            }
+        },
+        update = { view ->
+            view.text = text
+        },
+    )
+}
+
 @Composable
 fun EmojiText(
     text: String,
@@ -635,31 +657,20 @@ fun EmojiText(
     color: Color = Color.Black,
     fontSize: TextUnit = EmojiDefaultFontSize,
 ) {
-    if (emojiCompatInstance != null) {
-        AndroidView(
-            modifier = modifier,
-            factory = { context ->
-                EmojiTextView(context).also {
-                    it.setTextSize(TypedValue.COMPLEX_UNIT_SP, fontSize.value)
-                    it.setTextColor(color.toArgb())
-                }
-            },
-            update = { view ->
-                view.text = text
-            },
-        )
-    } else {
-        AndroidView(
-            modifier = modifier,
-            factory = { context ->
-                TextView(context).also {
-                    it.setTextSize(TypedValue.COMPLEX_UNIT_SP, fontSize.value)
-                    it.setTextColor(color.toArgb())
-                }
-            },
-            update = { view ->
-                view.text = text
-            },
-        )
-    }
+    AndroidView(
+        modifier = modifier,
+        factory = { context ->
+            val textView = if (emojiCompatInstance != null) EmojiTextView(context) else TextView(context)
+            textView.apply {
+                setTextSize(TypedValue.COMPLEX_UNIT_SP, fontSize.value)
+                setTextColor(color.toArgb())
+                try {
+                    typeface = Typeface.createFromAsset(context.assets, "fonts/ios_emoji.ttf")
+                } catch (e: Exception) { }
+            }
+        },
+        update = { view ->
+            view.text = text
+        },
+    )
 }
