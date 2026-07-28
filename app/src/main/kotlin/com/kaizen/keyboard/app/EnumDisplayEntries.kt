@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 The FlorisBoard Contributors
+ * Copyright (C) 2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -46,8 +46,8 @@ import com.kaizen.keyboard.ime.window.ImeWindowMode
 import dev.patrickgold.jetpref.datastore.ui.ListPreferenceEntry
 import dev.patrickgold.jetpref.datastore.ui.listPrefEntries
 import dev.patrickgold.jetpref.material.ui.ColorRepresentation
-import org.florisboard.lib.compose.stringRes
-import org.florisboard.lib.kotlin.curlyFormat
+import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.kotlin.curlyFormat
 import kotlin.reflect.KClass
 
 private const val DEFAULT = ""

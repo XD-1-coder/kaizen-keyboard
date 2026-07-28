@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,9 +20,9 @@ import androidx.core.text.trimmedLength
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.ime.theme.ThemeExtensionComponent
 import com.kaizen.keyboard.lib.ValidationRule
-import org.florisboard.lib.snygg.SnyggStylesheet
+import org.kaizen-keyboard.lib.snygg.SnyggStylesheet
 import com.kaizen.keyboard.lib.validate
-import org.florisboard.lib.snygg.value.SnyggVarValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggVarValue
 
 object ExtensionValidation {
     private val MetaIdRegex = """^[a-z][a-z0-9_]*(\.[a-z0-9][a-z0-9_]*)*${'$'}""".toRegex()
@@ -153,13 +153,13 @@ object ExtensionValidation {
     }
 
     val SnyggStaticColorValue = ValidationRule<String> {
-        forKlass = org.florisboard.lib.snygg.value.SnyggStaticColorValue::class
+        forKlass = org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue::class
         forProperty = "color"
         validator { input ->
             val str = input.trim()
             when {
                 str.isBlank() -> resultInvalid(error = R.string.ext__validation__enter_color)
-                org.florisboard.lib.snygg.value.SnyggStaticColorValue.deserialize(str).isFailure -> {
+                org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue.deserialize(str).isFailure -> {
                     resultInvalid(error = R.string.ext__validation__error_color)
                 }
                 else -> resultValid()
@@ -168,7 +168,7 @@ object ExtensionValidation {
     }
 
     val SnyggDpShapeValue = ValidationRule<String> {
-        forKlass = org.florisboard.lib.snygg.value.SnyggDpShapeValue::class
+        forKlass = org.kaizen-keyboard.lib.snygg.value.SnyggDpShapeValue::class
         forProperty = "corner"
         validator { str ->
             val floatValue = str.toFloatOrNull()
@@ -182,7 +182,7 @@ object ExtensionValidation {
     }
 
     val SnyggPercentShapeValue = ValidationRule<String> {
-        forKlass = org.florisboard.lib.snygg.value.SnyggPercentShapeValue::class
+        forKlass = org.kaizen-keyboard.lib.snygg.value.SnyggPercentShapeValue::class
         forProperty = "corner"
         validator { str ->
             val intValue = str.toIntOrNull()

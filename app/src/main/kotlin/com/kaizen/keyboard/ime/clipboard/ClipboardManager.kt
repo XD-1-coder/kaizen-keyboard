@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -38,13 +38,13 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import org.florisboard.lib.android.AndroidClipboardManager
-import org.florisboard.lib.android.AndroidClipboardManager_OnPrimaryClipChangedListener
-import org.florisboard.lib.android.clearPrimaryClipAnyApi
-import org.florisboard.lib.android.setOrClearPrimaryClip
-import org.florisboard.lib.android.showShortToastSync
-import org.florisboard.lib.android.systemService
-import org.florisboard.lib.kotlin.tryOrNull
+import org.kaizen-keyboard.lib.android.AndroidClipboardManager
+import org.kaizen-keyboard.lib.android.AndroidClipboardManager_OnPrimaryClipChangedListener
+import org.kaizen-keyboard.lib.android.clearPrimaryClipAnyApi
+import org.kaizen-keyboard.lib.android.setOrClearPrimaryClip
+import org.kaizen-keyboard.lib.android.showShortToastSync
+import org.kaizen-keyboard.lib.android.systemService
+import org.kaizen-keyboard.lib.kotlin.tryOrNull
 
 /**
  * [ClipboardManager] manages the clipboard and clipboard history.

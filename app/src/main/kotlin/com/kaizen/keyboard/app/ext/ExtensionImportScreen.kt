@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -53,15 +53,15 @@ import com.kaizen.keyboard.lib.NATIVE_NULLPTR
 import com.kaizen.keyboard.lib.cache.CacheManager
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import com.kaizen.keyboard.lib.io.FileRegistry
-import org.florisboard.lib.compose.FlorisBulletSpacer
-import org.florisboard.lib.compose.FlorisButtonBar
-import org.florisboard.lib.compose.FlorisOutlinedBox
-import org.florisboard.lib.compose.FlorisOutlinedButton
-import org.florisboard.lib.compose.defaultFlorisOutlinedBox
-import org.florisboard.lib.compose.florisHorizontalScroll
-import org.florisboard.lib.compose.stringRes
-import org.florisboard.lib.android.showLongToastSync
-import org.florisboard.lib.kotlin.resultOk
+import org.kaizen-keyboard.lib.compose.FlorisBulletSpacer
+import org.kaizen-keyboard.lib.compose.FlorisButtonBar
+import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen-keyboard.lib.compose.FlorisOutlinedButton
+import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen-keyboard.lib.compose.florisHorizontalScroll
+import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.android.showLongToastSync
+import org.kaizen-keyboard.lib.kotlin.resultOk
 
 enum class ExtensionImportScreenType(
     val id: String,

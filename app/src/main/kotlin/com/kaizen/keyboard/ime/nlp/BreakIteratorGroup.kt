@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,8 +19,8 @@ package com.kaizen.keyboard.ime.nlp
 import android.icu.text.BreakIterator
 import com.kaizen.keyboard.lib.FlorisLocale
 import io.github.reactivecircus.cache4k.Cache
-import org.florisboard.lib.kotlin.GuardedByLock
-import org.florisboard.lib.kotlin.guardedByLock
+import org.kaizen-keyboard.lib.kotlin.GuardedByLock
+import org.kaizen-keyboard.lib.kotlin.guardedByLock
 
 open class BreakIteratorGroup {
     private val charInstances = Cache.Builder<FlorisLocale, GuardedByLock<BreakIterator>>().build()

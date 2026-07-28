@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2025 The FlorisBoard Contributors
+ * Copyright (C) 2020-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -36,10 +36,10 @@ import com.kaizen.keyboard.lib.devtools.LogTopic
 import com.kaizen.keyboard.lib.devtools.flogError
 import com.kaizen.keyboard.lib.devtools.flogInfo
 import java.lang.ref.WeakReference
-import org.florisboard.lib.kotlin.io.FsDir
-import org.florisboard.lib.kotlin.io.FsFile
-import org.florisboard.lib.kotlin.io.subDir
-import org.florisboard.lib.kotlin.io.subFile
+import org.kaizen-keyboard.lib.kotlin.io.FsDir
+import org.kaizen-keyboard.lib.kotlin.io.FsFile
+import org.kaizen-keyboard.lib.kotlin.io.subDir
+import org.kaizen-keyboard.lib.kotlin.io.subFile
 import kotlin.system.exitProcess
 
 /**

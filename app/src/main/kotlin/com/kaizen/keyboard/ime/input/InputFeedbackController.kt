@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,10 +25,10 @@ import com.kaizen.keyboard.app.FlorisPreferenceStore
 import com.kaizen.keyboard.ime.keyboard.KeyData
 import com.kaizen.keyboard.ime.text.key.KeyCode
 import com.kaizen.keyboard.ime.text.keyboard.TextKeyData
-import org.florisboard.lib.android.AndroidVersion
-import org.florisboard.lib.android.systemServiceOrNull
-import org.florisboard.lib.android.systemVibratorOrNull
-import org.florisboard.lib.android.vibrate
+import org.kaizen-keyboard.lib.android.AndroidVersion
+import org.kaizen-keyboard.lib.android.systemServiceOrNull
+import org.kaizen-keyboard.lib.android.systemVibratorOrNull
+import org.kaizen-keyboard.lib.android.vibrate
 import com.kaizen.keyboard.lib.devtools.flogDebug
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

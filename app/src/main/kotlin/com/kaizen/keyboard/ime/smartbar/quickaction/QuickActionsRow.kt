@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,7 +34,7 @@ import com.kaizen.keyboard.ime.smartbar.SmartbarLayout
 import com.kaizen.keyboard.ime.text.keyboard.TextKeyData
 import com.kaizen.keyboard.keyboardManager
 import dev.patrickgold.jetpref.datastore.model.collectAsState
-import org.florisboard.lib.snygg.ui.SnyggRow
+import org.kaizen-keyboard.lib.snygg.ui.SnyggRow
 
 internal val ToggleOverflowPanelAction = QuickAction.InsertKey(TextKeyData.TOGGLE_ACTIONS_OVERFLOW)
 

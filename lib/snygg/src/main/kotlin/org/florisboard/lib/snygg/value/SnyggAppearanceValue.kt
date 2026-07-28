@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.florisboard.lib.snygg.value
+package org.kaizen-keyboard.lib.snygg.value
 
 import androidx.compose.ui.graphics.Color
-import org.florisboard.lib.color.ColorPalette
+import org.kaizen-keyboard.lib.color.ColorPalette
 import kotlin.math.roundToInt
 
 sealed interface SnyggAppearanceValue : SnyggValue

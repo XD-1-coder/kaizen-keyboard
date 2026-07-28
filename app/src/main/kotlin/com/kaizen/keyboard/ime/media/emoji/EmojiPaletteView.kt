@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -91,18 +91,18 @@ import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import com.kaizen.keyboard.keyboardManager
 import dev.patrickgold.jetpref.datastore.model.collectAsState
 import kotlinx.coroutines.launch
-import org.florisboard.lib.android.AndroidKeyguardManager
-import org.florisboard.lib.android.showShortToast
-import org.florisboard.lib.android.systemService
-import org.florisboard.lib.compose.florisScrollbar
-import org.florisboard.lib.compose.header
-import org.florisboard.lib.compose.stringRes
-import org.florisboard.lib.snygg.SnyggSelector
-import org.florisboard.lib.snygg.ui.SnyggBox
-import org.florisboard.lib.snygg.ui.SnyggIcon
-import org.florisboard.lib.snygg.ui.SnyggRow
-import org.florisboard.lib.snygg.ui.SnyggText
-import org.florisboard.lib.snygg.ui.rememberSnyggThemeQuery
+import org.kaizen-keyboard.lib.android.AndroidKeyguardManager
+import org.kaizen-keyboard.lib.android.showShortToast
+import org.kaizen-keyboard.lib.android.systemService
+import org.kaizen-keyboard.lib.compose.florisScrollbar
+import org.kaizen-keyboard.lib.compose.header
+import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.snygg.SnyggSelector
+import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen-keyboard.lib.snygg.ui.SnyggRow
+import org.kaizen-keyboard.lib.snygg.ui.SnyggText
+import org.kaizen-keyboard.lib.snygg.ui.rememberSnyggThemeQuery
 import kotlin.math.ceil
 
 private val EmojiCategoryValues = EmojiCategory.entries

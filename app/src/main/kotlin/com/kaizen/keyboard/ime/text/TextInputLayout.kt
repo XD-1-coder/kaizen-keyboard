@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -37,7 +37,7 @@ import com.kaizen.keyboard.ime.text.keyboard.TextKeyboardLayout
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import com.kaizen.keyboard.keyboardManager
 import dev.patrickgold.jetpref.datastore.model.collectAsState
-import org.florisboard.lib.snygg.ui.SnyggIcon
+import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
 
 @Composable
 fun TextInputLayout(

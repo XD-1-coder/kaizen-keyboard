@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 
 package com.kaizen.keyboard.lib.ext
 
-import org.florisboard.lib.kotlin.curlyFormat
+import org.kaizen-keyboard.lib.kotlin.curlyFormat
 
 object ExtensionDefaults {
     private const val ID_LOCAL_TEMPLATE = "local.{groupName}.{extensionName}"

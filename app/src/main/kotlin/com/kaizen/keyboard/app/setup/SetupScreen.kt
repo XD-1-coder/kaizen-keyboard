@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -56,12 +56,12 @@ import dev.patrickgold.jetpref.datastore.ui.PreferenceUiScope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import org.florisboard.lib.android.AndroidVersion
-import org.florisboard.lib.compose.FlorisBulletSpacer
-import org.florisboard.lib.compose.FlorisStep
-import org.florisboard.lib.compose.FlorisStepLayout
-import org.florisboard.lib.compose.FlorisStepState
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.android.AndroidVersion
+import org.kaizen-keyboard.lib.compose.FlorisBulletSpacer
+import org.kaizen-keyboard.lib.compose.FlorisStep
+import org.kaizen-keyboard.lib.compose.FlorisStepLayout
+import org.kaizen-keyboard.lib.compose.FlorisStepState
+import org.kaizen-keyboard.lib.compose.stringRes
 
 @Composable
 fun SetupScreen() = FlorisScreen {
@@ -75,8 +75,8 @@ fun SetupScreen() = FlorisScreen {
     val prefs by FlorisPreferenceStore
     val scope = rememberCoroutineScope()
 
-    val isFlorisBoardEnabled by InputMethodUtils.observeIsFlorisboardEnabled(foregroundOnly = true)
-    val isFlorisBoardSelected by InputMethodUtils.observeIsFlorisboardSelected(foregroundOnly = true)
+    val isKaizen KeyboardEnabled by InputMethodUtils.observeIsFlorisboardEnabled(foregroundOnly = true)
+    val isKaizen KeyboardSelected by InputMethodUtils.observeIsFlorisboardSelected(foregroundOnly = true)
     val hasNotificationPermission by prefs.internal.notificationPermissionState.collectAsState()
 
     val requestNotification =
@@ -91,8 +91,8 @@ fun SetupScreen() = FlorisScreen {
         }
 
     content(
-        isFlorisBoardEnabled,
-        isFlorisBoardSelected,
+        isKaizen KeyboardEnabled,
+        isKaizen KeyboardSelected,
         context,
         navController,
         requestNotification,
@@ -103,8 +103,8 @@ fun SetupScreen() = FlorisScreen {
 
 @Composable
 private fun FlorisScreenScope.content(
-    isFlorisBoardEnabled: Boolean,
-    isFlorisBoardSelected: Boolean,
+    isKaizen KeyboardEnabled: Boolean,
+    isKaizen KeyboardSelected: Boolean,
     context: Context,
     navController: NavController,
     requestNotification: ManagedActivityResultLauncher<String, Boolean>,
@@ -114,8 +114,8 @@ private fun FlorisScreenScope.content(
 
     val stepState = rememberSaveable(saver = FlorisStepState.Saver) {
         val initStep = when {
-            !isFlorisBoardEnabled -> Steps.EnableIme.id
-            !isFlorisBoardSelected -> Steps.SelectIme.id
+            !isKaizen KeyboardEnabled -> Steps.EnableIme.id
+            !isKaizen KeyboardSelected -> Steps.SelectIme.id
             hasNotificationPermission == NotificationPermissionState.NOT_SET && AndroidVersion.ATLEAST_API33_T -> Steps.SelectNotification.id
             else -> Steps.FinishUp.id
         }
@@ -123,11 +123,11 @@ private fun FlorisScreenScope.content(
     }
 
     content {
-        LaunchedEffect(isFlorisBoardEnabled, isFlorisBoardSelected, hasNotificationPermission) {
+        LaunchedEffect(isKaizen KeyboardEnabled, isKaizen KeyboardSelected, hasNotificationPermission) {
             stepState.setCurrentAuto(
                 when {
-                    !isFlorisBoardEnabled -> Steps.EnableIme.id
-                    !isFlorisBoardSelected -> Steps.SelectIme.id
+                    !isKaizen KeyboardEnabled -> Steps.EnableIme.id
+                    !isKaizen KeyboardSelected -> Steps.SelectIme.id
                     hasNotificationPermission == NotificationPermissionState.NOT_SET && AndroidVersion.ATLEAST_API33_T -> Steps.SelectNotification.id
                     else -> Steps.FinishUp.id
                 }
@@ -142,8 +142,8 @@ private fun FlorisScreenScope.content(
                 val isEnabled = InputMethodUtils.isFlorisboardEnabled(context)
                 if (stepState.getCurrentAuto().value == Steps.EnableIme.id &&
                     stepState.getCurrentManual().value == -1 &&
-                    !isFlorisBoardEnabled &&
-                    !isFlorisBoardSelected &&
+                    !isKaizen KeyboardEnabled &&
+                    !isKaizen KeyboardSelected &&
                     hasNotificationPermission == NotificationPermissionState.NOT_SET &&
                     isEnabled
                 ) {
@@ -183,12 +183,12 @@ private fun footer(context: Context) {
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.Center,
     ) {
-        val privacyPolicyUrl = stringRes(R.string.florisboard__privacy_policy_url)
+        val privacyPolicyUrl = stringRes(R.string.kaizen-keyboard__privacy_policy_url)
         TextButton(onClick = { context.launchUrl(privacyPolicyUrl) }) {
             Text(text = stringRes(R.string.setup__footer__privacy_policy))
         }
         FlorisBulletSpacer()
-        val repositoryUrl = stringRes(R.string.florisboard__repo_url)
+        val repositoryUrl = stringRes(R.string.kaizen-keyboard__repo_url)
         TextButton(onClick = { context.launchUrl(repositoryUrl) }) {
             Text(text = stringRes(R.string.setup__footer__repository))
         }

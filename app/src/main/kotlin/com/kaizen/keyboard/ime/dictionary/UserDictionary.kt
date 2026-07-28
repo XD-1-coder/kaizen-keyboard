@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -36,9 +36,9 @@ import androidx.room.Update
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.lib.FlorisLocale
 import com.kaizen.keyboard.lib.ValidationRule
-import org.florisboard.lib.android.readText
-import org.florisboard.lib.android.writeText
-import org.florisboard.lib.kotlin.tryOrNull
+import org.kaizen-keyboard.lib.android.readText
+import org.kaizen-keyboard.lib.android.writeText
+import org.kaizen-keyboard.lib.kotlin.tryOrNull
 import java.lang.ref.WeakReference
 
 private const val WORDS_TABLE = "words"

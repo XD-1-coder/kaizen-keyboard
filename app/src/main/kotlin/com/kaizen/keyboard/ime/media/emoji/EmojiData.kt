@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2024-2025 The FlorisBoard Contributors
+ * Copyright (C) 2024-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@ package com.kaizen.keyboard.ime.media.emoji
 
 import android.content.Context
 import com.kaizen.keyboard.lib.FlorisLocale
-import org.florisboard.lib.android.bufferedReader
+import org.kaizen-keyboard.lib.android.bufferedReader
 import io.github.reactivecircus.cache4k.Cache
 import java.util.*
 

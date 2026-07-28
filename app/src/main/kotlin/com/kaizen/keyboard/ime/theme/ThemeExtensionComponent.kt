@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,12 +22,12 @@ import kotlinx.serialization.EncodeDefault
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.florisboard.lib.color.MaterialYouFlags
-import org.florisboard.lib.snygg.SnyggStylesheetEditor
+import org.kaizen-keyboard.lib.color.MaterialYouFlags
+import org.kaizen-keyboard.lib.snygg.SnyggStylesheetEditor
 
 @Suppress("NOTHING_TO_INLINE")
 inline fun extCoreTheme(id: String) = ExtensionComponentName(
-    extensionId = "org.florisboard.themes",
+    extensionId = "org.kaizen-keyboard.themes",
     componentId = id,
 )
 

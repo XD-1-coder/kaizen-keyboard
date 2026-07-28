@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -35,13 +35,13 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.lib.util.launchActivity
-import org.florisboard.lib.android.AndroidSettings
-import org.florisboard.lib.compose.FlorisCanvasIcon
-import org.florisboard.lib.compose.FlorisErrorCard
-import org.florisboard.lib.compose.FlorisSimpleCard
-import org.florisboard.lib.compose.FlorisWarningCard
-import org.florisboard.lib.compose.observeAsState
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.android.AndroidSettings
+import org.kaizen-keyboard.lib.compose.FlorisCanvasIcon
+import org.kaizen-keyboard.lib.compose.FlorisErrorCard
+import org.kaizen-keyboard.lib.compose.FlorisSimpleCard
+import org.kaizen-keyboard.lib.compose.FlorisWarningCard
+import org.kaizen-keyboard.lib.compose.observeAsState
+import org.kaizen-keyboard.lib.compose.stringRes
 
 @Composable
 fun SpellCheckerServiceSelector(florisSpellCheckerEnabled: MutableState<Boolean>) {

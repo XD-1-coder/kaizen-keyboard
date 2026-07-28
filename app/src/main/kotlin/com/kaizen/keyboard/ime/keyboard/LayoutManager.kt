@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -43,8 +43,8 @@ import kotlinx.coroutines.cancel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.florisboard.lib.kotlin.DeferredResult
-import org.florisboard.lib.kotlin.runCatchingAsync
+import org.kaizen-keyboard.lib.kotlin.DeferredResult
+import org.kaizen-keyboard.lib.kotlin.runCatchingAsync
 
 private data class LTN(
     val type: LayoutType,

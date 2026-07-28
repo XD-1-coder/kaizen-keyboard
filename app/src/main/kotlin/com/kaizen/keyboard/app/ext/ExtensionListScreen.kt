@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2024-2025 The FlorisBoard Contributors
+ * Copyright (C) 2024-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -55,11 +55,11 @@ import com.kaizen.keyboard.extensionManager
 import com.kaizen.keyboard.ime.theme.ThemeExtension
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import com.kaizen.keyboard.lib.ext.ExtensionManager
-import org.florisboard.lib.compose.FlorisOutlinedBox
-import org.florisboard.lib.compose.FlorisTextButton
-import org.florisboard.lib.compose.defaultFlorisOutlinedBox
-import org.florisboard.lib.compose.florisScrollbar
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen-keyboard.lib.compose.FlorisTextButton
+import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen-keyboard.lib.compose.florisScrollbar
+import org.kaizen-keyboard.lib.compose.stringRes
 
 enum class ExtensionListScreenType(
     val id: String,

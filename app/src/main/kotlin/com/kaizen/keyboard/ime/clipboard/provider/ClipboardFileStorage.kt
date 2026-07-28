@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,9 +20,9 @@ import android.content.Context
 import android.net.Uri
 import com.kaizen.keyboard.lib.devtools.LogTopic
 import com.kaizen.keyboard.lib.devtools.flogDebug
-import org.florisboard.lib.android.readToFile
-import org.florisboard.lib.kotlin.io.FsFile
-import org.florisboard.lib.kotlin.io.subFile
+import org.kaizen-keyboard.lib.android.readToFile
+import org.kaizen-keyboard.lib.kotlin.io.FsFile
+import org.kaizen-keyboard.lib.kotlin.io.subFile
 
 /**
  * Backend helper object which is used by [ClipboardMediaProvider] to serve content.

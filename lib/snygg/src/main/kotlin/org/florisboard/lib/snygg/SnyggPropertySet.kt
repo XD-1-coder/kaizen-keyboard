@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.florisboard.lib.snygg
+package org.kaizen-keyboard.lib.snygg
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
@@ -34,21 +34,21 @@ import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.decodeFromJsonElement
 import kotlinx.serialization.json.encodeToJsonElement
-import org.florisboard.lib.snygg.value.SnyggCustomFontFamilyValue
-import org.florisboard.lib.snygg.value.SnyggFontStyleValue
-import org.florisboard.lib.snygg.value.SnyggFontWeightValue
-import org.florisboard.lib.snygg.value.SnyggGenericFontFamilyValue
-import org.florisboard.lib.snygg.value.SnyggContentScaleValue
-import org.florisboard.lib.snygg.value.SnyggDpSizeValue
-import org.florisboard.lib.snygg.value.SnyggShapeValue
-import org.florisboard.lib.snygg.value.SnyggSpSizeValue
-import org.florisboard.lib.snygg.value.SnyggStaticColorValue
-import org.florisboard.lib.snygg.value.SnyggTextAlignValue
-import org.florisboard.lib.snygg.value.SnyggTextDecorationLineValue
-import org.florisboard.lib.snygg.value.SnyggTextMaxLinesValue
-import org.florisboard.lib.snygg.value.SnyggTextOverflowValue
-import org.florisboard.lib.snygg.value.SnyggUndefinedValue
-import org.florisboard.lib.snygg.value.SnyggValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggCustomFontFamilyValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggFontStyleValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggFontWeightValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggGenericFontFamilyValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggContentScaleValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggDpSizeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggShapeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggSpSizeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggTextAlignValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggTextDecorationLineValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggTextMaxLinesValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggTextOverflowValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggUndefinedValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggValue
 import kotlin.collections.contains
 
 sealed class SnyggPropertySet {
@@ -58,20 +58,20 @@ sealed class SnyggPropertySet {
         val spec = SnyggSpec.propertySetSpecOf(rule)
         checkNotNull(spec) {
             "Encoder passed rule '$rule' for which no property spec is associated. Please report this bug in the " +
-                "florisboard issue tracker."
+                "kaizen-keyboard issue tracker."
         }
         return when (spec.type) {
             SnyggSpecDecl.PropertySet.Type.SINGLE_SET -> {
                 check(this is SnyggSinglePropertySet) {
                     "Encoder called toJsonElement() for rule '$rule' on a MULTIPLE_SETS instance, even though the " +
-                        "spec requires a SINGLE_SET. Please report this bug in the florisboard issue tracker."
+                        "spec requires a SINGLE_SET. Please report this bug in the kaizen-keyboard issue tracker."
                 }
                 this.toJsonElementSpecialized(rule, config)
             }
             SnyggSpecDecl.PropertySet.Type.MULTIPLE_SETS -> {
                 check(this is SnyggMultiplePropertySets) {
                     "Encoder called toJsonElement() for rule '$rule' on a SINGLE_SET instance, even though the " +
-                        "spec requires a MULTIPLE_SETS. Please report this bug in the florisboard issue tracker."
+                        "spec requires a MULTIPLE_SETS. Please report this bug in the kaizen-keyboard issue tracker."
                 }
                 this.toJsonElementSpecialized(rule, config)
             }
@@ -87,7 +87,7 @@ sealed class SnyggPropertySet {
             val spec = SnyggSpec.propertySetSpecOf(rule)
             checkNotNull(spec) {
                 "Decoder passed rule '$rule' for which no property spec is associated. Please report this bug in the " +
-                    "florisboard issue tracker."
+                    "kaizen-keyboard issue tracker."
             }
             return when (spec.type) {
                 SnyggSpecDecl.PropertySet.Type.SINGLE_SET -> {

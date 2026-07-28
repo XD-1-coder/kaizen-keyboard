@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -109,25 +109,25 @@ import dev.patrickgold.jetpref.datastore.model.collectAsState
 import java.time.Instant
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import org.florisboard.lib.android.AndroidKeyguardManager
-import org.florisboard.lib.android.AndroidVersion
-import org.florisboard.lib.android.showShortToastSync
-import org.florisboard.lib.android.systemService
-import org.florisboard.lib.compose.LocalLocalizedDateTimeFormatter
-import org.florisboard.lib.compose.autoMirrorForRtl
-import org.florisboard.lib.compose.florisHorizontalScroll
-import org.florisboard.lib.compose.florisVerticalScroll
-import org.florisboard.lib.compose.rippleClickable
-import org.florisboard.lib.compose.stringRes
-import org.florisboard.lib.snygg.SnyggQueryAttributes
-import org.florisboard.lib.snygg.ui.SnyggBox
-import org.florisboard.lib.snygg.ui.SnyggButton
-import org.florisboard.lib.snygg.ui.SnyggChip
-import org.florisboard.lib.snygg.ui.SnyggColumn
-import org.florisboard.lib.snygg.ui.SnyggIcon
-import org.florisboard.lib.snygg.ui.SnyggIconButton
-import org.florisboard.lib.snygg.ui.SnyggRow
-import org.florisboard.lib.snygg.ui.SnyggText
+import org.kaizen-keyboard.lib.android.AndroidKeyguardManager
+import org.kaizen-keyboard.lib.android.AndroidVersion
+import org.kaizen-keyboard.lib.android.showShortToastSync
+import org.kaizen-keyboard.lib.android.systemService
+import org.kaizen-keyboard.lib.compose.LocalLocalizedDateTimeFormatter
+import org.kaizen-keyboard.lib.compose.autoMirrorForRtl
+import org.kaizen-keyboard.lib.compose.florisHorizontalScroll
+import org.kaizen-keyboard.lib.compose.florisVerticalScroll
+import org.kaizen-keyboard.lib.compose.rippleClickable
+import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.snygg.SnyggQueryAttributes
+import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen-keyboard.lib.snygg.ui.SnyggButton
+import org.kaizen-keyboard.lib.snygg.ui.SnyggChip
+import org.kaizen-keyboard.lib.snygg.ui.SnyggColumn
+import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen-keyboard.lib.snygg.ui.SnyggIconButton
+import org.kaizen-keyboard.lib.snygg.ui.SnyggRow
+import org.kaizen-keyboard.lib.snygg.ui.SnyggText
 
 private val ItemWidth = 200.dp
 private val DialogWidth = 240.dp

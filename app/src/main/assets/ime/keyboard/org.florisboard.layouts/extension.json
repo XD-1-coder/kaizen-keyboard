@@ -1,7 +1,7 @@
 {
   "$": "ime.extension.keyboard",
   "meta": {
-    "id": "org.florisboard.layouts",
+    "id": "org.kaizen-keyboard.layouts",
     "version": "0.1.0",
     "title": "Default layouts",
     "description": "Default layouts which are always available.",
@@ -15,28 +15,28 @@
         "label": "Arabic",
         "authors": [ "HeiWiper" ],
         "direction": "rtl",
-        "modifier": "org.florisboard.layouts:arabic"
+        "modifier": "org.kaizen-keyboard.layouts:arabic"
       },
       {
         "id": "armenian_alt_phonetic",
         "label": "Armenian Alt Phonetic",
         "authors": [ "MikayelB" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:armenian"
+        "modifier": "org.kaizen-keyboard.layouts:armenian"
       },
       {
         "id": "western_armenian",
         "label": "Armenian (Western)",
         "authors": [ "PJTSearch" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:armenian"
+        "modifier": "org.kaizen-keyboard.layouts:armenian"
       },
       {
         "id": "eastern_armenian",
         "label": "Armenian (Eastern)",
         "authors": [ "PJTSearch" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:armenian"
+        "modifier": "org.kaizen-keyboard.layouts:armenian"
       },
       {
         "id": "azerbaijani",
@@ -55,7 +55,7 @@
         "label": "Unijoy",
         "authors": [ "RHJihan" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:bengali_unijoy"
+        "modifier": "org.kaizen-keyboard.layouts:bengali_unijoy"
       },
       {
         "id": "hindi_in",
@@ -74,7 +74,7 @@
         "label": "Bone",
         "authors": [ "ostrya" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:neo2"
+        "modifier": "org.kaizen-keyboard.layouts:neo2"
       },
       {
         "id": "bulgarian_bds",
@@ -135,35 +135,35 @@
         "label": "Diktor",
         "authors": [ "kuroya2mouse" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:diktor"
+        "modifier": "org.kaizen-keyboard.layouts:diktor"
       },
       {
         "id": "dvorak",
         "label": "Dvorak",
         "authors": [ "patrickgold" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:dvorak"
+        "modifier": "org.kaizen-keyboard.layouts:dvorak"
       },
       {
         "id": "dvorak_de",
         "label": "Dvorak (DE)",
         "authors": [ "msrd0" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:dvorak_de"
+        "modifier": "org.kaizen-keyboard.layouts:dvorak_de"
       },
       {
         "id": "dvorak_es",
         "label": "Dvorak (ÑÇ)",
         "authors": [ "tsiflimagas" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:dvorak"
+        "modifier": "org.kaizen-keyboard.layouts:dvorak"
       },
       {
         "id": "dvorak_se",
         "label": "Dvorak (SE)",
         "authors": [ "iceaway" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:dvorak_se"
+        "modifier": "org.kaizen-keyboard.layouts:dvorak_se"
       },
       {
         "id": "esperanto",
@@ -224,7 +224,7 @@
         "label": "עברית",
         "authors": [ "Antony" ],
         "direction": "rtl",
-        "modifier": "org.florisboard.layouts:hebrew"
+        "modifier": "org.kaizen-keyboard.layouts:hebrew"
       },
       {
         "id": "hungarian",
@@ -273,7 +273,7 @@
         "label": "JIS",
         "authors": [ "waelwindows" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:jis"
+        "modifier": "org.kaizen-keyboard.layouts:jis"
       },
       {
         "id": "korean",
@@ -292,7 +292,7 @@
         "label": "کوردی (قوەرتی نوێ)",
         "authors": [ "GoRaN" ],
         "direction": "rtl",
-        "modifier": "org.florisboard.layouts:kurdish"
+        "modifier": "org.kaizen-keyboard.layouts:kurdish"
       },
       {
         "id": "kurdish_kurmanci",
@@ -305,7 +305,7 @@
         "label": 	"کوردی (ق‌ڤ‌ف‌غ)",
         "authors": [ "GoRaN" ],
         "direction": "rtl",
-        "modifier": "org.florisboard.layouts:kurdish"
+        "modifier": "org.kaizen-keyboard.layouts:kurdish"
       },
       {
         "id": "nalmy",
@@ -318,7 +318,7 @@
         "label": "Neo2",
         "authors": [ "ostrya" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:neo2"
+        "modifier": "org.kaizen-keyboard.layouts:neo2"
       },
       {
         "id": "norwegian",
@@ -331,21 +331,21 @@
         "label": "Persian",
         "authors": [ "PHELAT" ],
         "direction": "rtl",
-        "modifier": "org.florisboard.layouts:persian"
+        "modifier": "org.kaizen-keyboard.layouts:persian"
       },
       {
         "id": "persian2",
         "label": "Persian2",
         "authors": [ "M-Koushan" ],
         "direction": "rtl",
-        "modifier": "org.florisboard.layouts:persian2"
+        "modifier": "org.kaizen-keyboard.layouts:persian2"
       },
       {
         "id": "persian3",
         "label": "Persian3",
         "authors": [ "SaeID-Rz" ],
         "direction": "rtl",
-        "modifier": "org.florisboard.layouts:persian3"
+        "modifier": "org.kaizen-keyboard.layouts:persian3"
       },
       {
         "id": "qwerty",
@@ -472,7 +472,7 @@
         "label": "Urdu Phonetic",
         "authors": [ "mubashir-rehman", "mirfatif" ],
         "direction": "rtl",
-        "modifier": "org.florisboard.layouts:arabic"
+        "modifier": "org.kaizen-keyboard.layouts:arabic"
       },
       {
         "id": "warang_citi",
@@ -753,14 +753,14 @@
         "label": "Armenian",
         "authors": [ "PJTSearch" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:armenian"
+        "modifier": "org.kaizen-keyboard.layouts:armenian"
       },
       {
         "id": "cjk",
         "label": "CJK",
         "authors": [ "waelwindows" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:cjk"
+        "modifier": "org.kaizen-keyboard.layouts:cjk"
       },
       {
         "id": "eastern",
@@ -779,7 +779,7 @@
         "label": "Neo2",
         "authors": [ "ostrya" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:neo2"
+        "modifier": "org.kaizen-keyboard.layouts:neo2"
       },
       {
         "id": "persian",
@@ -838,7 +838,7 @@
         "label": "CJK",
         "authors": [ "waelwindows" ],
         "direction": "ltr",
-        "modifier": "org.florisboard.layouts:cjk"
+        "modifier": "org.kaizen-keyboard.layouts:cjk"
       },
       {
         "id": "eastern",

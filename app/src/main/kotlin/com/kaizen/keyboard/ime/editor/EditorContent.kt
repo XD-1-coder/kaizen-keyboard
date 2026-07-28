@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 
 package com.kaizen.keyboard.ime.editor
 
-import org.florisboard.lib.kotlin.safeSubstring
+import org.kaizen-keyboard.lib.kotlin.safeSubstring
 
 /**
  * A snapshot window of an input editor content around the selection/cursor.

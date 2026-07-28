@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 The FlorisBoard Contributors
+ * Copyright (C) 2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,8 +28,8 @@ import com.kaizen.keyboard.lib.ext.ExtensionMeta
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient
-import org.florisboard.lib.kotlin.io.FsDir
-import org.florisboard.lib.kotlin.io.subFile
+import org.kaizen-keyboard.lib.kotlin.io.FsDir
+import org.kaizen-keyboard.lib.kotlin.io.subFile
 
 @Serializable
 class LanguagePackComponent(

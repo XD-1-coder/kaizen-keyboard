@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -47,9 +47,9 @@ import dev.patrickgold.jetpref.datastore.ui.ListPreference
 import dev.patrickgold.jetpref.datastore.ui.Preference
 import dev.patrickgold.jetpref.datastore.ui.PreferenceGroup
 import dev.patrickgold.jetpref.datastore.ui.SwitchPreference
-import org.florisboard.lib.android.AndroidVersion
-import org.florisboard.lib.compose.FlorisErrorCard
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.android.AndroidVersion
+import org.kaizen-keyboard.lib.compose.FlorisErrorCard
+import org.kaizen-keyboard.lib.compose.stringRes
 
 @OptIn(ExperimentalJetPrefDatastoreUi::class)
 @Composable
@@ -120,7 +120,7 @@ fun TypingScreen() = FlorisScreen {
                         )
                         FlorisHyperlinkText(
                             text = "Feedback thread (GitHub)",
-                            url = "https://github.com/florisboard/florisboard/discussions/1935",
+                            url = "https://github.com/kaizen-keyboard/kaizen-keyboard/discussions/1935",
                         )
                     }
                 }

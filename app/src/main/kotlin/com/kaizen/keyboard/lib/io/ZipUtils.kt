@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,10 +18,10 @@ package com.kaizen.keyboard.lib.io
 
 import android.content.Context
 import android.net.Uri
-import org.florisboard.lib.android.copyRecursively
-import org.florisboard.lib.android.write
-import org.florisboard.lib.kotlin.io.FsDir
-import org.florisboard.lib.kotlin.io.FsFile
+import org.kaizen-keyboard.lib.android.copyRecursively
+import org.kaizen-keyboard.lib.android.write
+import org.kaizen-keyboard.lib.kotlin.io.FsDir
+import org.kaizen-keyboard.lib.kotlin.io.FsFile
 import java.io.FileOutputStream
 import java.util.zip.ZipEntry
 import java.util.zip.ZipFile

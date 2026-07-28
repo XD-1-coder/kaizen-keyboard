@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 The FlorisBoard Contributors
+ * Copyright (C) 2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,8 +18,8 @@ package com.kaizen.keyboard.ime.theme
 
 import android.content.Context
 import com.kaizen.keyboard.lib.devtools.flogError
-import org.florisboard.lib.kotlin.io.subFile
-import org.florisboard.lib.snygg.value.SnyggAssetResolver
+import org.kaizen-keyboard.lib.kotlin.io.subFile
+import org.kaizen-keyboard.lib.snygg.value.SnyggAssetResolver
 import java.net.URI
 
 class FlorisAssetResolver(val context: Context, val themeInfo: ThemeManager.ThemeInfo) : SnyggAssetResolver {

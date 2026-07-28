@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -43,13 +43,13 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.florisboard.lib.android.query
-import org.florisboard.lib.android.readToFile
-import org.florisboard.lib.kotlin.io.FsDir
-import org.florisboard.lib.kotlin.io.FsFile
-import org.florisboard.lib.kotlin.io.readJson
-import org.florisboard.lib.kotlin.io.subDir
-import org.florisboard.lib.kotlin.io.subFile
+import org.kaizen-keyboard.lib.android.query
+import org.kaizen-keyboard.lib.android.readToFile
+import org.kaizen-keyboard.lib.kotlin.io.FsDir
+import org.kaizen-keyboard.lib.kotlin.io.FsFile
+import org.kaizen-keyboard.lib.kotlin.io.readJson
+import org.kaizen-keyboard.lib.kotlin.io.subDir
+import org.kaizen-keyboard.lib.kotlin.io.subFile
 import java.io.Closeable
 import java.io.File
 import java.util.UUID

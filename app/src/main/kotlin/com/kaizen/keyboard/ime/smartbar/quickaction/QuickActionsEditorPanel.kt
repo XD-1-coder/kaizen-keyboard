@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -58,14 +58,14 @@ import com.kaizen.keyboard.ime.text.keyboard.TextKeyData
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import com.kaizen.keyboard.keyboardManager
 import com.kaizen.keyboard.lib.toIntOffset
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.compose.stringRes
 import kotlinx.coroutines.runBlocking
-import org.florisboard.lib.snygg.ui.SnyggBox
-import org.florisboard.lib.snygg.ui.SnyggColumn
-import org.florisboard.lib.snygg.ui.SnyggIcon
-import org.florisboard.lib.snygg.ui.SnyggIconButton
-import org.florisboard.lib.snygg.ui.SnyggRow
-import org.florisboard.lib.snygg.ui.SnyggText
+import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen-keyboard.lib.snygg.ui.SnyggColumn
+import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen-keyboard.lib.snygg.ui.SnyggIconButton
+import org.kaizen-keyboard.lib.snygg.ui.SnyggRow
+import org.kaizen-keyboard.lib.snygg.ui.SnyggText
 
 private const val ItemNotFound = -1
 private val NoopAction = QuickAction.InsertKey(TextKeyData(code = KeyCode.NOOP))

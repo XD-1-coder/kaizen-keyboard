@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -56,13 +56,13 @@ import com.kaizen.keyboard.lib.util.AppVersionUtils
 import dev.patrickgold.jetpref.datastore.model.collectAsState
 import dev.patrickgold.jetpref.datastore.ui.ProvideDefaultDialogPrefStrings
 import java.util.concurrent.atomic.AtomicBoolean
-import org.florisboard.lib.android.AndroidVersion
-import org.florisboard.lib.android.hideAppIcon
-import org.florisboard.lib.android.showAppIcon
-import org.florisboard.lib.compose.ProvideLocalizedResources
-import org.florisboard.lib.compose.conditional
-import org.florisboard.lib.compose.stringRes
-import org.florisboard.lib.kotlin.collectIn
+import org.kaizen-keyboard.lib.android.AndroidVersion
+import org.kaizen-keyboard.lib.android.hideAppIcon
+import org.kaizen-keyboard.lib.android.showAppIcon
+import org.kaizen-keyboard.lib.compose.ProvideLocalizedResources
+import org.kaizen-keyboard.lib.compose.conditional
+import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.kotlin.collectIn
 
 enum class AppTheme(val id: String) {
     AUTO("auto"),

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2025 The FlorisBoard Contributors
+ * Copyright (C) 2020-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -33,10 +33,10 @@ import kotlinx.serialization.KSerializer
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.modules.SerializersModule
 import kotlinx.serialization.modules.polymorphic
-import org.florisboard.lib.android.reader
-import org.florisboard.lib.kotlin.resultErr
-import org.florisboard.lib.kotlin.resultErrStr
-import org.florisboard.lib.kotlin.resultOk
+import org.kaizen-keyboard.lib.android.reader
+import org.kaizen-keyboard.lib.kotlin.resultErr
+import org.kaizen-keyboard.lib.kotlin.resultErrStr
+import org.kaizen-keyboard.lib.kotlin.resultOk
 
 val DefaultJsonConfig = Json {
     classDiscriminator = "$"

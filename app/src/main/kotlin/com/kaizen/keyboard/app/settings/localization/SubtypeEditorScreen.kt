@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -84,10 +84,10 @@ import dev.patrickgold.jetpref.material.ui.JetPrefAlertDialog
 import dev.patrickgold.jetpref.material.ui.JetPrefDropdown
 import dev.patrickgold.jetpref.material.ui.JetPrefDropdownMenuDefaults
 import dev.patrickgold.jetpref.material.ui.JetPrefListItem
-import org.florisboard.lib.compose.FlorisButtonBar
-import org.florisboard.lib.compose.FlorisDropdownLikeButton
-import org.florisboard.lib.compose.florisScrollbar
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.compose.FlorisButtonBar
+import org.kaizen-keyboard.lib.compose.FlorisDropdownLikeButton
+import org.kaizen-keyboard.lib.compose.florisScrollbar
+import org.kaizen-keyboard.lib.compose.stringRes
 
 
 private val SelectComponentName = ExtensionComponentName("00", "00")

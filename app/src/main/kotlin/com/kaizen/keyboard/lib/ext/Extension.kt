@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,10 +24,10 @@ import com.kaizen.keyboard.lib.io.ZipUtils
 import kotlinx.serialization.Polymorphic
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient
-import org.florisboard.lib.kotlin.io.FsDir
-import org.florisboard.lib.kotlin.io.FsFile
-import org.florisboard.lib.kotlin.resultErr
-import org.florisboard.lib.kotlin.resultOk
+import org.kaizen-keyboard.lib.kotlin.io.FsDir
+import org.kaizen-keyboard.lib.kotlin.io.FsFile
+import org.kaizen-keyboard.lib.kotlin.resultErr
+import org.kaizen-keyboard.lib.kotlin.resultOk
 
 /**
  * An extension container holding a parsed config, a working directory file

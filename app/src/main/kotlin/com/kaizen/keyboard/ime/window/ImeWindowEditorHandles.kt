@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025-2026 The FlorisBoard Contributors
+ * Copyright (C) 2025-2026 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -61,12 +61,12 @@ import com.kaizen.keyboard.ime.keyboard.FlorisImeSizing
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import dev.patrickgold.jetpref.datastore.model.collectAsState
 import kotlinx.coroutines.delay
-import org.florisboard.lib.compose.conditional
-import org.florisboard.lib.compose.drawableRes
-import org.florisboard.lib.compose.toDp
-import org.florisboard.lib.snygg.ui.SnyggIcon
-import org.florisboard.lib.snygg.ui.SnyggIconButton
-import org.florisboard.lib.snygg.ui.rememberSnyggThemeQuery
+import org.kaizen-keyboard.lib.compose.conditional
+import org.kaizen-keyboard.lib.compose.drawableRes
+import org.kaizen-keyboard.lib.compose.toDp
+import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen-keyboard.lib.snygg.ui.SnyggIconButton
+import org.kaizen-keyboard.lib.snygg.ui.rememberSnyggThemeQuery
 
 enum class ImeWindowResizeHandle(
     val left: Boolean = false,

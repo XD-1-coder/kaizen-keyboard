@@ -1,7 +1,7 @@
 {
-  "id": "dev.patrickgold.florisboard.beta",
-  "url": "https://github.com/florisboard/florisboard",
-  "author": "florisboard",
-  "name": "FlorisBoard Preview",
+  "id": "dev.patrickgold.kaizen-keyboard.beta",
+  "url": "https://github.com/kaizen-keyboard/kaizen-keyboard",
+  "author": "kaizen-keyboard",
+  "name": "Kaizen Keyboard Preview",
   "additionalSettings": "{\"includePrereleases\":true,\"fallbackToOlderReleases\":true,\"apkFilterRegEx\":\"preview\"}"
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,9 +31,9 @@ import com.kaizen.keyboard.R
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import com.kaizen.keyboard.lib.io.FlorisRef
 import com.kaizen.keyboard.lib.io.loadTextAsset
-import org.florisboard.lib.compose.florisHorizontalScroll
-import org.florisboard.lib.compose.florisVerticalScroll
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.compose.florisHorizontalScroll
+import org.kaizen-keyboard.lib.compose.florisVerticalScroll
+import org.kaizen-keyboard.lib.compose.stringRes
 
 @Composable
 fun ProjectLicenseScreen() = FlorisScreen {

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -47,9 +47,9 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
-import org.florisboard.lib.kotlin.io.deleteContentsRecursively
-import org.florisboard.lib.kotlin.tryOrNull
-import org.florisboard.libnative.dummyAdd
+import org.kaizen-keyboard.lib.kotlin.io.deleteContentsRecursively
+import org.kaizen-keyboard.lib.kotlin.tryOrNull
+import org.kaizen-keyboard.libnative.dummyAdd
 import java.lang.ref.WeakReference
 
 /**

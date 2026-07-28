@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -59,7 +59,7 @@ import com.kaizen.keyboard.ime.text.key.KeyType
 import com.kaizen.keyboard.ime.window.ImeWindowMode
 import com.kaizen.keyboard.lib.FlorisLocale
 import com.kaizen.keyboard.lib.compose.vectorResource
-import org.florisboard.lib.compose.icons.ForwardDelete
+import org.kaizen-keyboard.lib.compose.icons.ForwardDelete
 
 interface ComputingEvaluator {
     val version: Int

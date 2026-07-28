@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 The FlorisBoard Contributors
+ * Copyright (C) 2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package org.florisboard.lib.snygg
+package org.kaizen-keyboard.lib.snygg
 
 import androidx.compose.material3.ColorScheme
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
-import org.florisboard.lib.color.getColor
-import org.florisboard.lib.snygg.value.SnyggAssetResolver
-import org.florisboard.lib.snygg.value.SnyggDefinedVarValue
-import org.florisboard.lib.snygg.value.SnyggDynamicDarkColorValue
-import org.florisboard.lib.snygg.value.SnyggDynamicLightColorValue
-import org.florisboard.lib.snygg.value.SnyggDefaultAssetResolver
-import org.florisboard.lib.snygg.value.SnyggFontStyleValue
-import org.florisboard.lib.snygg.value.SnyggFontWeightValue
-import org.florisboard.lib.snygg.value.SnyggUndefinedValue
-import org.florisboard.lib.snygg.value.SnyggStaticColorValue
-import org.florisboard.lib.snygg.value.SnyggUriValue
+import org.kaizen-keyboard.lib.color.getColor
+import org.kaizen-keyboard.lib.snygg.value.SnyggAssetResolver
+import org.kaizen-keyboard.lib.snygg.value.SnyggDefinedVarValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggDynamicDarkColorValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggDynamicLightColorValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggDefaultAssetResolver
+import org.kaizen-keyboard.lib.snygg.value.SnyggFontStyleValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggFontWeightValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggUndefinedValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggUriValue
 import java.io.File
 
 /**

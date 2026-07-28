@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -65,12 +65,12 @@ import com.kaizen.keyboard.lib.util.launchActivity
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.update
-import org.florisboard.lib.android.AndroidInternalR
-import org.florisboard.lib.android.AndroidVersion
-import org.florisboard.lib.android.showShortToastSync
-import org.florisboard.lib.android.systemServiceOrNull
-import org.florisboard.lib.kotlin.collectIn
-import org.florisboard.lib.kotlin.collectLatestIn
+import org.kaizen-keyboard.lib.android.AndroidInternalR
+import org.kaizen-keyboard.lib.android.AndroidVersion
+import org.kaizen-keyboard.lib.android.showShortToastSync
+import org.kaizen-keyboard.lib.android.systemServiceOrNull
+import org.kaizen-keyboard.lib.kotlin.collectIn
+import org.kaizen-keyboard.lib.kotlin.collectLatestIn
 import java.lang.ref.WeakReference
 
 /**

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -51,11 +51,11 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.serialization.EncodeDefault
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.Serializable
-import org.florisboard.lib.android.AndroidVersion
-import org.florisboard.lib.android.UriSerializer
-import org.florisboard.lib.android.query
-import org.florisboard.lib.android.stringRes
-import org.florisboard.lib.kotlin.tryOrNull
+import org.kaizen-keyboard.lib.android.AndroidVersion
+import org.kaizen-keyboard.lib.android.UriSerializer
+import org.kaizen-keyboard.lib.android.query
+import org.kaizen-keyboard.lib.android.stringRes
+import org.kaizen-keyboard.lib.kotlin.tryOrNull
 
 private const val CLIPBOARD_HISTORY_TABLE = "clipboard_history"
 private const val CLIPBOARD_FILES_TABLE = "clipboard_files"
@@ -105,7 +105,7 @@ data class ClipboardItem @OptIn(ExperimentalSerializationApi::class) constructor
         private val TEXT_PLAIN = listOf("text/plain")
         private val MEDIA_PROJECTION = arrayOf(OpenableColumns.DISPLAY_NAME)
 
-        const val FLORIS_CLIP_LABEL = "florisboard/clipboard_item"
+        const val FLORIS_CLIP_LABEL = "kaizen-keyboard/clipboard_item"
 
         fun text(text: String): ClipboardItem {
             return ClipboardItem(

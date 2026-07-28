@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,14 +30,14 @@ import kotlinx.coroutines.withContext
 import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.json.Json
-import org.florisboard.lib.android.readText
-import org.florisboard.lib.kotlin.guardedByLock
+import org.kaizen-keyboard.lib.android.readText
+import org.kaizen-keyboard.lib.kotlin.guardedByLock
 
 class LatinLanguageProvider(context: Context) : SpellingProvider, SuggestionProvider {
     companion object {
         // Default user ID used for all subtypes, unless otherwise specified.
         // See `ime/core/Subtype.kt` Line 210 and 211 for the default usage
-        const val ProviderId = "org.florisboard.nlp.providers.latin"
+        const val ProviderId = "org.kaizen-keyboard.nlp.providers.latin"
     }
 
     private val appContext by context.appContext()

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025-2026 The FlorisBoard Contributors
+ * Copyright (C) 2025-2026 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,7 +32,7 @@ import kotlinx.coroutines.flow.updateAndGet
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.florisboard.lib.kotlin.collectIn
+import org.kaizen-keyboard.lib.kotlin.collectIn
 
 /**
  * The window controller is responsible for managing everything related to window config, spec, insets,

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -55,10 +55,10 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.lib.util.InputMethodUtils
-import org.florisboard.lib.android.showShortToastSync
-import org.florisboard.lib.android.showShortToast
-import org.florisboard.lib.compose.stringRes
-import org.florisboard.lib.compose.verticalTween
+import org.kaizen-keyboard.lib.android.showShortToastSync
+import org.kaizen-keyboard.lib.android.showShortToast
+import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.compose.verticalTween
 
 private const val AnimationDuration = 200
 

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@ import com.kaizen.keyboard.ime.keyboard.KeyData
 import com.kaizen.keyboard.ime.text.gestures.SwipeAction
 import com.kaizen.keyboard.ime.text.key.KeyCode
 import com.kaizen.keyboard.ime.text.keyboard.TextKeyData
-import org.florisboard.lib.android.removeAndReturn
+import org.kaizen-keyboard.lib.android.removeAndReturn
 import com.kaizen.keyboard.lib.devtools.flogDebug
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -38,7 +38,7 @@ import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
-import org.florisboard.lib.kotlin.guardedByLock
+import org.kaizen-keyboard.lib.kotlin.guardedByLock
 
 class InputEventDispatcher private constructor(private val repeatableKeyCodes: IntArray) {
     companion object {

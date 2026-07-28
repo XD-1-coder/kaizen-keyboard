@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 The FlorisBoard Contributors
+ * Copyright (C) 2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@ import com.kaizen.keyboard.app.Routes
 import com.kaizen.keyboard.extensionManager
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import dev.patrickgold.jetpref.datastore.ui.Preference
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.compose.stringRes
 
 @Composable
 fun ExtensionHomeScreen() = FlorisScreen {

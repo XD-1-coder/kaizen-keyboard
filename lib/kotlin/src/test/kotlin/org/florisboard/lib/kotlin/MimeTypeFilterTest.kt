@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 The FlorisBoard Contributors
+ * Copyright (C) 2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.florisboard.lib.kotlin
+package org.kaizen-keyboard.lib.kotlin
 
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.datatest.withData
@@ -93,7 +93,7 @@ class MimeTypeFilterTest : FunSpec({
         }
 
         test("legacy otf file should work with wildcard filters") {
-            // https://github.com/florisboard/florisboard/issues/2957
+            // https://github.com/kaizen-keyboard/kaizen-keyboard/issues/2957
             val filter = mimeTypeFilterOf(
                 "font/*",
                 "application/font-*",

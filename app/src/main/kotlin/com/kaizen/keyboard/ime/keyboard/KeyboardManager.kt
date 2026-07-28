@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -73,13 +73,13 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.florisboard.lib.android.AndroidKeyguardManager
-import org.florisboard.lib.android.showLongToast
-import org.florisboard.lib.android.showLongToastSync
-import org.florisboard.lib.android.showShortToastSync
-import org.florisboard.lib.android.systemService
-import org.florisboard.lib.kotlin.collectIn
-import org.florisboard.lib.kotlin.collectLatestIn
+import org.kaizen-keyboard.lib.android.AndroidKeyguardManager
+import org.kaizen-keyboard.lib.android.showLongToast
+import org.kaizen-keyboard.lib.android.showLongToastSync
+import org.kaizen-keyboard.lib.android.showShortToastSync
+import org.kaizen-keyboard.lib.android.systemService
+import org.kaizen-keyboard.lib.kotlin.collectIn
+import org.kaizen-keyboard.lib.kotlin.collectLatestIn
 
 private val DoubleSpacePeriodMatcher = """([^.!?‽\s]\s)""".toRegex()
 
@@ -468,7 +468,7 @@ class KeyboardManager(context: Context) : InputKeyEventReceiver {
 
     /**
      * Handles a [KeyCode.LANGUAGE_SWITCH] event. Also handles if the language switch should cycle
-     * FlorisBoard internal or system-wide.
+     * Kaizen Keyboard internal or system-wide.
      */
     private fun handleLanguageSwitch() {
         when (prefs.keyboard.utilityKeyAction.get()) {

@@ -1,13 +1,13 @@
 <resources>
     <item name="floris_app_name" translatable="false" type="string">@string/app_name</item>
 
-    <string name="florisboard__repo_url" translatable="false">https://github.com/florisboard/florisboard</string>
-    <string name="florisboard__issue_tracker_url" translatable="false">https://github.com/florisboard/florisboard/issues</string>
-    <string name="florisboard__privacy_policy_url" translatable="false">https://florisboard.org/legal/privacy/</string>
-    <string name="florisboard__changelog_url" translatable="false">https://github.com/florisboard/florisboard/releases/v{version}</string>
-    <string name="florisboard__commit_by_hash_url" translatable="false">https://github.com/florisboard/florisboard/commit/{hash}</string>
-    <string name="florisboard__internal_key_codes_url" translatable="false">https://github.com/florisboard/florisboard/blob/main/app/src/main/kotlin/dev/patrickgold/florisboard/ime/text/key/KeyCode.kt</string>
-    <string name="florisboard__character_key_codes_url" translatable="false">https://unicode-table.com/en</string>
+    <string name="kaizen-keyboard__repo_url" translatable="false">https://github.com/kaizen-keyboard/kaizen-keyboard</string>
+    <string name="kaizen-keyboard__issue_tracker_url" translatable="false">https://github.com/kaizen-keyboard/kaizen-keyboard/issues</string>
+    <string name="kaizen-keyboard__privacy_policy_url" translatable="false">https://kaizen-keyboard.org/legal/privacy/</string>
+    <string name="kaizen-keyboard__changelog_url" translatable="false">https://github.com/kaizen-keyboard/kaizen-keyboard/releases/v{version}</string>
+    <string name="kaizen-keyboard__commit_by_hash_url" translatable="false">https://github.com/kaizen-keyboard/kaizen-keyboard/commit/{hash}</string>
+    <string name="kaizen-keyboard__internal_key_codes_url" translatable="false">https://github.com/kaizen-keyboard/kaizen-keyboard/blob/main/app/src/main/kotlin/dev/patrickgold/kaizen-keyboard/ime/text/key/KeyCode.kt</string>
+    <string name="kaizen-keyboard__character_key_codes_url" translatable="false">https://unicode-table.com/en</string>
 
     <string name="general__system_string_placeholder" translatable="false">%s</string>
     <string name="general__empty_string" translatable="false"/>

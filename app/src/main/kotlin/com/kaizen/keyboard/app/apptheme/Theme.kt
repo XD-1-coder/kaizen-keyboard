@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,8 +29,8 @@ import androidx.core.view.WindowCompat
 import com.kaizen.keyboard.app.AppTheme
 import com.kaizen.keyboard.app.FlorisPreferenceStore
 import dev.patrickgold.jetpref.datastore.model.collectAsState
-import org.florisboard.lib.color.neutralDynamicColorScheme
-import org.florisboard.lib.color.systemAccentOrDefault
+import org.kaizen-keyboard.lib.color.neutralDynamicColorScheme
+import org.kaizen-keyboard.lib.color.systemAccentOrDefault
 
 
 @Composable

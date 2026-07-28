@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -53,10 +53,10 @@ import kotlinx.serialization.KSerializer
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.modules.SerializersModule
 import kotlinx.serialization.modules.polymorphic
-import org.florisboard.lib.android.FileObserver
-import org.florisboard.lib.kotlin.io.FsFile
-import org.florisboard.lib.kotlin.io.writeJson
-import org.florisboard.lib.kotlin.throwOnFailure
+import org.kaizen-keyboard.lib.android.FileObserver
+import org.kaizen-keyboard.lib.kotlin.io.FsFile
+import org.kaizen-keyboard.lib.kotlin.io.writeJson
+import org.kaizen-keyboard.lib.kotlin.throwOnFailure
 
 @OptIn(ExperimentalSerializationApi::class)
 val ExtensionJsonConfig = Json {

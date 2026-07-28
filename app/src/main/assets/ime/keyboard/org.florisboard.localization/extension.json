@@ -1,7 +1,7 @@
 {
   "$": "ime.extension.keyboard",
   "meta": {
-    "id": "org.florisboard.localization",
+    "id": "org.kaizen-keyboard.localization",
     "version": "0.2.0",
     "title": "Default subtype presets / popup mappings",
     "description": "Default subtype presets and popup mappings which are always available.",
@@ -9,9 +9,9 @@
     "license": "apache-2.0"
   },
   "dependencies": [
-    "org.florisboard.composers",
-    "org.florisboard.currencysets",
-    "org.florisboard.layouts"
+    "org.kaizen-keyboard.composers",
+    "org.kaizen-keyboard.currencysets",
+    "org.kaizen-keyboard.layouts"
   ],
   "punctuationRules": [
     {
@@ -85,692 +85,692 @@
   "subtypePresets": [
     {
       "languageTag": "en-US",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:en",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:en",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "en-UK",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:pound",
-      "popupMapping": "org.florisboard.localization:en",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:pound",
+      "popupMapping": "org.kaizen-keyboard.localization:en",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "en-CA",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:en",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:en",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "en-AU",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:en",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:en",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "de-DE",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:de",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:de",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwertz"
+        "characters": "org.kaizen-keyboard.layouts:qwertz"
       }
     },
     {
       "languageTag": "de-AT",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:de",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:de",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwertz"
+        "characters": "org.kaizen-keyboard.layouts:qwertz"
       }
     },
     {
       "languageTag": "de-CH",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:de",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:de",
       "preferred": {
-        "characters": "org.florisboard.layouts:swiss_german"
+        "characters": "org.kaizen-keyboard.layouts:swiss_german"
       }
     },
     {
       "languageTag": "de-DE-neobone",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:de-DE-neobone",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:de-DE-neobone",
       "preferred": {
-        "characters": "org.florisboard.layouts:neo2",
-        "symbols": "org.florisboard.layouts:neo2",
-        "numericRow": "org.florisboard.layouts:neo2"
+        "characters": "org.kaizen-keyboard.layouts:neo2",
+        "symbols": "org.kaizen-keyboard.layouts:neo2",
+        "numericRow": "org.kaizen-keyboard.layouts:neo2"
       }
     },
     {
       "languageTag": "fr-FR",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:fr",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:fr",
       "preferred": {
-        "characters": "org.florisboard.layouts:azerty"
+        "characters": "org.kaizen-keyboard.layouts:azerty"
       }
     },
     {
       "languageTag": "fr-CA",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:fr",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:fr",
       "preferred": {
-        "characters": "org.florisboard.layouts:canadian_french"
+        "characters": "org.kaizen-keyboard.layouts:canadian_french"
       }
     },
     {
       "languageTag": "fr-CH",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:fr",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:fr",
       "preferred": {
-        "characters": "org.florisboard.layouts:swiss_french"
+        "characters": "org.kaizen-keyboard.layouts:swiss_french"
       }
     },
     {
       "languageTag": "it-IT",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:it",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:it",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "it-CH",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:it",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:it",
       "preferred": {
-        "characters": "org.florisboard.layouts:swiss_italian"
+        "characters": "org.kaizen-keyboard.layouts:swiss_italian"
       }
     },
     {
       "languageTag": "es-ES",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:es",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:es",
       "preferred": {
-        "characters": "org.florisboard.layouts:spanish"
+        "characters": "org.kaizen-keyboard.layouts:spanish"
       }
     },
     {
       "languageTag": "es-US",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:es",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:es",
       "preferred": {
-        "characters": "org.florisboard.layouts:spanish"
+        "characters": "org.kaizen-keyboard.layouts:spanish"
       }
     },
     {
       "languageTag": "es-419",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:es",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:es",
       "preferred": {
-        "characters": "org.florisboard.layouts:spanish"
+        "characters": "org.kaizen-keyboard.layouts:spanish"
       }
     },
     {
       "languageTag": "pt-PT",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:pt",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:pt",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "pt-BR",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:pt-BR",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:pt-BR",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "nb-NO",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:nb",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:nb",
       "preferred": {
-        "characters": "org.florisboard.layouts:norwegian"
+        "characters": "org.kaizen-keyboard.layouts:norwegian"
       }
     },
     {
       "languageTag": "nn-NO",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:nn",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:nn",
       "preferred": {
-        "characters": "org.florisboard.layouts:norwegian"
+        "characters": "org.kaizen-keyboard.layouts:norwegian"
       }
     },
     {
       "languageTag": "sv-SE",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:sv",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:sv",
       "preferred": {
-        "characters": "org.florisboard.layouts:swedish_finnish"
+        "characters": "org.kaizen-keyboard.layouts:swedish_finnish"
       }
     },
     {
       "languageTag": "fi-FI",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:fi",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:fi",
       "preferred": {
-        "characters": "org.florisboard.layouts:swedish_finnish"
+        "characters": "org.kaizen-keyboard.layouts:swedish_finnish"
       }
     },
     {
       "languageTag": "da-DK",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:da",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:da",
       "preferred": {
-        "characters": "org.florisboard.layouts:danish"
+        "characters": "org.kaizen-keyboard.layouts:danish"
       }
     },
     {
       "languageTag": "id",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:id",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:id",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "is-IS",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:is",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:is",
       "preferred": {
-        "characters": "org.florisboard.layouts:icelandic"
+        "characters": "org.kaizen-keyboard.layouts:icelandic"
       }
     },
     {
       "languageTag": "fo",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:fo",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:fo",
       "preferred": {
-        "characters": "org.florisboard.layouts:faroese"
+        "characters": "org.kaizen-keyboard.layouts:faroese"
       }
     },
     {
       "languageTag": "fa-FA",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:rial",
-      "popupMapping": "org.florisboard.localization:fa",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:rial",
+      "popupMapping": "org.kaizen-keyboard.localization:fa",
       "preferred": {
-        "characters": "org.florisboard.layouts:persian",
-        "symbols": "org.florisboard.layouts:persian",
-        "symbols2": "org.florisboard.layouts:persian",
-        "numericRow": "org.florisboard.layouts:persian"
+        "characters": "org.kaizen-keyboard.layouts:persian",
+        "symbols": "org.kaizen-keyboard.layouts:persian",
+        "symbols2": "org.kaizen-keyboard.layouts:persian",
+        "numericRow": "org.kaizen-keyboard.layouts:persian"
       }
     },
     {
       "languageTag": "fa-FA",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:rial",
-      "popupMapping": "org.florisboard.localization:fa2",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:rial",
+      "popupMapping": "org.kaizen-keyboard.localization:fa2",
       "preferred": {
-        "characters": "org.florisboard.layouts:persian2",
-        "symbols": "org.florisboard.layouts:persian",
-        "symbols2": "org.florisboard.layouts:persian",
-        "numericRow": "org.florisboard.layouts:persian"
+        "characters": "org.kaizen-keyboard.layouts:persian2",
+        "symbols": "org.kaizen-keyboard.layouts:persian",
+        "symbols2": "org.kaizen-keyboard.layouts:persian",
+        "numericRow": "org.kaizen-keyboard.layouts:persian"
       }
     },
     {
       "languageTag": "fa-FA",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:rial",
-      "popupMapping": "org.florisboard.localization:fa3",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:rial",
+      "popupMapping": "org.kaizen-keyboard.localization:fa3",
       "preferred": {
-        "characters": "org.florisboard.layouts:persian3",
-        "symbols": "org.florisboard.layouts:persian",
-        "symbols2": "org.florisboard.layouts:persian",
-        "numericRow": "org.florisboard.layouts:western_arabic"
+        "characters": "org.kaizen-keyboard.layouts:persian3",
+        "symbols": "org.kaizen-keyboard.layouts:persian",
+        "symbols2": "org.kaizen-keyboard.layouts:persian",
+        "numericRow": "org.kaizen-keyboard.layouts:western_arabic"
       }
     },
     {
       "languageTag": "ar",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:rial",
-      "popupMapping": "org.florisboard.localization:ar",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:rial",
+      "popupMapping": "org.kaizen-keyboard.localization:ar",
       "preferred": {
-        "characters": "org.florisboard.layouts:arabic",
-        "symbols": "org.florisboard.layouts:eastern",
-        "symbols2": "org.florisboard.layouts:eastern",
-        "numericRow": "org.florisboard.layouts:eastern_arabic"
+        "characters": "org.kaizen-keyboard.layouts:arabic",
+        "symbols": "org.kaizen-keyboard.layouts:eastern",
+        "symbols2": "org.kaizen-keyboard.layouts:eastern",
+        "numericRow": "org.kaizen-keyboard.layouts:eastern_arabic"
       }
     },
     {
       "languageTag": "az",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:azerbaijani_manat",
-      "popupMapping": "org.florisboard.localization:tr",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:azerbaijani_manat",
+      "popupMapping": "org.kaizen-keyboard.localization:tr",
       "preferred": {
-        "characters": "org.florisboard.layouts:azerbaijani"
+        "characters": "org.kaizen-keyboard.layouts:azerbaijani"
       }
     },
     {
       "languageTag": "hu",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:hu",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:hu",
       "preferred": {
-        "characters": "org.florisboard.layouts:hungarian"
+        "characters": "org.kaizen-keyboard.layouts:hungarian"
       }
     },
     {
       "languageTag": "eo",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:eo",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:eo",
       "preferred": {
-        "characters": "org.florisboard.layouts:esperanto"
+        "characters": "org.kaizen-keyboard.layouts:esperanto"
       }
     },
     {
       "languageTag": "hr",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:hr",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:hr",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwertz"
+        "characters": "org.kaizen-keyboard.layouts:qwertz"
       }
     },
     {
       "languageTag": "hy",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:armenian_dram",
-      "popupMapping": "org.florisboard.localization:hy",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:armenian_dram",
+      "popupMapping": "org.kaizen-keyboard.localization:hy",
       "preferred": {
-        "characters": "org.florisboard.layouts:armenian_alt_phonetic",
-        "symbols": "org.florisboard.layouts:armenian"
+        "characters": "org.kaizen-keyboard.layouts:armenian_alt_phonetic",
+        "symbols": "org.kaizen-keyboard.layouts:armenian"
       }
     },
     {
       "languageTag": "hy",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:armenian_dram",
-      "popupMapping": "org.florisboard.localization:hy",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:armenian_dram",
+      "popupMapping": "org.kaizen-keyboard.localization:hy",
       "preferred": {
-        "characters": "org.florisboard.layouts:western_armenian",
-        "symbols": "org.florisboard.layouts:armenian"
+        "characters": "org.kaizen-keyboard.layouts:western_armenian",
+        "symbols": "org.kaizen-keyboard.layouts:armenian"
       }
     },
     {
       "languageTag": "hy",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:armenian_dram",
-      "popupMapping": "org.florisboard.localization:hy",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:armenian_dram",
+      "popupMapping": "org.kaizen-keyboard.localization:hy",
       "preferred": {
-        "characters": "org.florisboard.layouts:eastern_armenian",
-        "symbols": "org.florisboard.layouts:armenian"
+        "characters": "org.kaizen-keyboard.layouts:eastern_armenian",
+        "symbols": "org.kaizen-keyboard.layouts:armenian"
       }
     },
     {
       "languageTag": "ka-GE",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:georgian_lari",
-      "popupMapping": "org.florisboard.localization:ka-std",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:georgian_lari",
+      "popupMapping": "org.kaizen-keyboard.localization:ka-std",
       "preferred": {
-        "characters": "org.florisboard.layouts:georgian_standard"
+        "characters": "org.kaizen-keyboard.layouts:georgian_standard"
       }
     },
     {
       "languageTag": "ru",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:russian_ruble",
-      "popupMapping": "org.florisboard.localization:ru",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:russian_ruble",
+      "popupMapping": "org.kaizen-keyboard.localization:ru",
       "preferred": {
-        "characters": "org.florisboard.layouts:jcuken_russian"
+        "characters": "org.kaizen-keyboard.layouts:jcuken_russian"
       }
     },
     {
       "languageTag": "rue",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:rue",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:rue",
       "preferred": {
-        "characters": "org.florisboard.layouts:rusyn"
+        "characters": "org.kaizen-keyboard.layouts:rusyn"
       }
     },
     {
       "languageTag": "uk",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:ukrainian_hryvnia",
-      "popupMapping": "org.florisboard.localization:uk",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:ukrainian_hryvnia",
+      "popupMapping": "org.kaizen-keyboard.localization:uk",
       "preferred": {
-        "characters": "org.florisboard.layouts:jcuken_ukrainian"
+        "characters": "org.kaizen-keyboard.layouts:jcuken_ukrainian"
       }
     },
     {
       "languageTag": "el",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:el",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:el",
       "preferred": {
-        "characters": "org.florisboard.layouts:greek"
+        "characters": "org.kaizen-keyboard.layouts:greek"
       }
     },
     {
       "languageTag": "ro",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:ro",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:ro",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "pl",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:pl",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:pl",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "bg-bg",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:bg",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:bg",
       "preferred": {
-        "characters": "org.florisboard.layouts:bulgarian_phonetic"
+        "characters": "org.kaizen-keyboard.layouts:bulgarian_phonetic"
       }
     },
     {
       "languageTag": "tr",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:turkish_lira",
-      "popupMapping": "org.florisboard.localization:tr",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:turkish_lira",
+      "popupMapping": "org.kaizen-keyboard.localization:tr",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "iw-IL",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:israeli_new_shekel",
-      "popupMapping": "org.florisboard.localization:iw",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:israeli_new_shekel",
+      "popupMapping": "org.kaizen-keyboard.localization:iw",
       "preferred": {
-        "characters": "org.florisboard.layouts:hebrew"
+        "characters": "org.kaizen-keyboard.layouts:hebrew"
       }
     },
     {
       "languageTag": "ckb",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:ckb",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:ckb",
       "preferred": {
-        "characters": "org.florisboard.layouts:kurdish",
-        "symbols": "org.florisboard.layouts:eastern",
-        "symbols2": "org.florisboard.layouts:eastern",
-        "numericRow": "org.florisboard.layouts:eastern_arabic"
+        "characters": "org.kaizen-keyboard.layouts:kurdish",
+        "symbols": "org.kaizen-keyboard.layouts:eastern",
+        "symbols2": "org.kaizen-keyboard.layouts:eastern",
+        "numericRow": "org.kaizen-keyboard.layouts:eastern_arabic"
       }
     },
     {
       "languageTag": "sr-RS",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:sr",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:sr",
       "preferred": {
-        "characters": "org.florisboard.layouts:serbian_cyrillic"
+        "characters": "org.kaizen-keyboard.layouts:serbian_cyrillic"
       }
     },
     {
       "languageTag": "sl-SI",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:sl-SI",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:sl-SI",
       "preferred": {
-        "characters": "org.florisboard.layouts:slovenian"
+        "characters": "org.kaizen-keyboard.layouts:slovenian"
       }
     },
     {
       "languageTag": "lv-LV",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:lv",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:lv",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "ku",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
-      "popupMapping": "org.florisboard.localization:ku",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
+      "popupMapping": "org.kaizen-keyboard.localization:ku",
       "preferred": {
-        "characters": "org.florisboard.layouts:kurdish_kurmanci"
+        "characters": "org.kaizen-keyboard.layouts:kurdish_kurmanci"
       }
     },
     {
       "languageTag": "ca",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:ca",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:ca",
       "preferred": {
-        "characters": "org.florisboard.layouts:catalan"
+        "characters": "org.kaizen-keyboard.layouts:catalan"
       }
     },
     {
       "languageTag": "IPA-IPA",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:dollar",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:dollar",
       "preferred": {
-        "characters": "org.florisboard.layouts:ipa",
-        "symbols": "org.florisboard.layouts:ipa",
-        "symbols2": "org.florisboard.layouts:ipa"
+        "characters": "org.kaizen-keyboard.layouts:ipa",
+        "symbols": "org.kaizen-keyboard.layouts:ipa",
+        "symbols2": "org.kaizen-keyboard.layouts:ipa"
       }
     },
     {
       "languageTag": "sk",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:sk",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:sk",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwertz"
+        "characters": "org.kaizen-keyboard.layouts:qwertz"
       }
     },
     {
       "languageTag": "cs",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:cs",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:cs",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwertz"
+        "characters": "org.kaizen-keyboard.layouts:qwertz"
       }
     },
     {
       "languageTag": "ko",
-      "composer": "org.florisboard.composers:hangul-unicode",
-      "currencySet": "org.florisboard.currencysets:south_korean_won",
-      "popupMapping": "org.florisboard.localization:ko",
+      "composer": "org.kaizen-keyboard.composers:hangul-unicode",
+      "currencySet": "org.kaizen-keyboard.currencysets:south_korean_won",
+      "popupMapping": "org.kaizen-keyboard.localization:ko",
       "preferred": {
-        "characters": "org.florisboard.layouts:korean"
+        "characters": "org.kaizen-keyboard.layouts:korean"
       }
     },
     {
       "languageTag": "ko-KR",
-      "composer": "org.florisboard.composers:hangul-unicode",
-      "currencySet": "org.florisboard.currencysets:south_korean_won",
-      "popupMapping": "org.florisboard.localization:ko",
+      "composer": "org.kaizen-keyboard.composers:hangul-unicode",
+      "currencySet": "org.kaizen-keyboard.currencysets:south_korean_won",
+      "popupMapping": "org.kaizen-keyboard.localization:ko",
       "preferred": {
-        "characters": "org.florisboard.layouts:korean_phonetic"
+        "characters": "org.kaizen-keyboard.layouts:korean_phonetic"
       }
     },
     {
       "languageTag": "lt-LT",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:lt",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:lt",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "ja-JP-jis",
-      "composer": "org.florisboard.composers:kana-unicode",
-      "currencySet": "org.florisboard.currencysets:yen",
-      "popupMapping": "org.florisboard.localization:ja-JP-jis",
+      "composer": "org.kaizen-keyboard.composers:kana-unicode",
+      "currencySet": "org.kaizen-keyboard.currencysets:yen",
+      "popupMapping": "org.kaizen-keyboard.localization:ja-JP-jis",
       "preferred": {
-        "characters": "org.florisboard.layouts:jis",
-        "symbols": "org.florisboard.layouts:cjk",
-        "symbols2": "org.florisboard.layouts:cjk",
-        "numericRow": "org.florisboard.layouts:cjk"
+        "characters": "org.kaizen-keyboard.layouts:jis",
+        "symbols": "org.kaizen-keyboard.layouts:cjk",
+        "symbols2": "org.kaizen-keyboard.layouts:cjk",
+        "numericRow": "org.kaizen-keyboard.layouts:cjk"
       }
     },
     {
       "languageTag": "th-kd",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:thai_baht",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:thai_baht",
       "preferred": {
-        "characters": "org.florisboard.layouts:thai_kedmanee",
-        "numericRow": "org.florisboard.layouts:thai"
+        "characters": "org.kaizen-keyboard.layouts:thai_kedmanee",
+        "numericRow": "org.kaizen-keyboard.layouts:thai"
       }
     },
     {
       "languageTag": "vi-VN",
-      "composer": "org.florisboard.composers:telex",
-      "currencySet": "org.florisboard.currencysets:vietnamese_dong",
-      "popupMapping": "org.florisboard.localization:vi-VN",
+      "composer": "org.kaizen-keyboard.composers:telex",
+      "currencySet": "org.kaizen-keyboard.currencysets:vietnamese_dong",
+      "popupMapping": "org.kaizen-keyboard.localization:vi-VN",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "ig-NG",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:nigerian_naira",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:nigerian_naira",
       "preferred": {
-        "characters": "org.florisboard.layouts:igbo"
+        "characters": "org.kaizen-keyboard.layouts:igbo"
       }
     },
     {
       "languageTag": "hoc",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:indian_rupee",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:indian_rupee",
       "preferred": {
-        "characters": "org.florisboard.layouts:warang_citi",
-        "numericRow": "org.florisboard.layouts:warang_citi"
+        "characters": "org.kaizen-keyboard.layouts:warang_citi",
+        "numericRow": "org.kaizen-keyboard.layouts:warang_citi"
       }
     },
     {
       "languageTag": "udm",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:russian_ruble",
-      "popupMapping": "org.florisboard.localization:udm",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:russian_ruble",
+      "popupMapping": "org.kaizen-keyboard.localization:udm",
       "preferred": {
-        "characters": "org.florisboard.layouts:udmurt_extended"
+        "characters": "org.kaizen-keyboard.layouts:udmurt_extended"
       }
     },
     {
       "languageTag": "ur-PK",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:pakistani_rupee",
-      "popupMapping": "org.florisboard.localization:ur-PK",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:pakistani_rupee",
+      "popupMapping": "org.kaizen-keyboard.localization:ur-PK",
       "preferred": {
-        "characters": "org.florisboard.layouts:urdu_phonetic"
+        "characters": "org.kaizen-keyboard.layouts:urdu_phonetic"
       }
     },
     {
       "languageTag": "zh-CN-zhengma",
-      "composer": "org.florisboard.composers:appender",
+      "composer": "org.kaizen-keyboard.composers:appender",
       "nlpProviders": {
-        "spelling": "org.florisboard.nlp.providers.han.shape",
-        "suggestion": "org.florisboard.nlp.providers.han.shape"
+        "spelling": "org.kaizen-keyboard.nlp.providers.han.shape",
+        "suggestion": "org.kaizen-keyboard.nlp.providers.han.shape"
       },
-      "currencySet": "org.florisboard.currencysets:yen",
-      "popupMapping": "org.florisboard.localization:cjk",
+      "currencySet": "org.kaizen-keyboard.currencysets:yen",
+      "popupMapping": "org.kaizen-keyboard.localization:cjk",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty",
-        "symbols": "org.florisboard.layouts:cjk",
-        "symbols2": "org.florisboard.layouts:cjk"
+        "characters": "org.kaizen-keyboard.layouts:qwerty",
+        "symbols": "org.kaizen-keyboard.layouts:cjk",
+        "symbols2": "org.kaizen-keyboard.layouts:cjk"
       }
     },
 	  {
       "languageTag": "bn-BD",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:bangladeshi_taka",
-      "popupMapping": "org.florisboard.localization:bn-unijoy",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:bangladeshi_taka",
+      "popupMapping": "org.kaizen-keyboard.localization:bn-unijoy",
       "preferred": {
-        "characters": "org.florisboard.layouts:bengali_unijoy",
-        "numericRow": "org.florisboard.layouts:bengali",
-        "numericAdvanced": "org.florisboard.layouts:bengali"
+        "characters": "org.kaizen-keyboard.layouts:bengali_unijoy",
+        "numericRow": "org.kaizen-keyboard.layouts:bengali",
+        "numericAdvanced": "org.kaizen-keyboard.layouts:bengali"
       }
     },
     {
       "languageTag": "bn-IN",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:indian_rupee",
-      "popupMapping": "org.florisboard.localization:bn-unijoy",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:indian_rupee",
+      "popupMapping": "org.kaizen-keyboard.localization:bn-unijoy",
       "preferred": {
-        "characters": "org.florisboard.layouts:bengali_unijoy",
-        "numericRow": "org.florisboard.layouts:bengali",
-        "numericAdvanced": "org.florisboard.layouts:bengali"
+        "characters": "org.kaizen-keyboard.layouts:bengali_unijoy",
+        "numericRow": "org.kaizen-keyboard.layouts:bengali",
+        "numericAdvanced": "org.kaizen-keyboard.layouts:bengali"
       }
     },
     {
       "languageTag": "hi-IN",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:indian_rupee",
-      "popupMapping": "org.florisboard.localization:hi-IN",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:indian_rupee",
+      "popupMapping": "org.kaizen-keyboard.localization:hi-IN",
       "preferred": {
-        "characters": "org.florisboard.layouts:hindi_in",
-        "numericRow": "org.florisboard.layouts:devanagari"
+        "characters": "org.kaizen-keyboard.layouts:hindi_in",
+        "numericRow": "org.kaizen-keyboard.layouts:devanagari"
       }
     },
     {
       "languageTag": "ast",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:ast",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:ast",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     },
     {
       "languageTag": "ta-lk",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:indian_rupee",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:indian_rupee",
       "preferred": {
-        "characters": "org.florisboard.layouts:tamil"
+        "characters": "org.kaizen-keyboard.layouts:tamil"
       }
     },
     {
       "languageTag": "kab",
-      "composer": "org.florisboard.composers:appender",
-      "currencySet": "org.florisboard.currencysets:euro",
-      "popupMapping": "org.florisboard.localization:kab",
+      "composer": "org.kaizen-keyboard.composers:appender",
+      "currencySet": "org.kaizen-keyboard.currencysets:euro",
+      "popupMapping": "org.kaizen-keyboard.localization:kab",
       "preferred": {
-        "characters": "org.florisboard.layouts:qwerty"
+        "characters": "org.kaizen-keyboard.layouts:qwerty"
       }
     }
   ]

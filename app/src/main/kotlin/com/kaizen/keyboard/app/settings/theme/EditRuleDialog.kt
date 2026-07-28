@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -92,19 +92,19 @@ import dev.patrickgold.jetpref.material.ui.JetPrefAlertDialog
 import dev.patrickgold.jetpref.material.ui.JetPrefDropdown
 import dev.patrickgold.jetpref.material.ui.JetPrefTextField
 import dev.patrickgold.jetpref.material.ui.JetPrefTextFieldDefaults
-import org.florisboard.lib.android.showShortToastSync
-import org.florisboard.lib.android.stringRes
-import org.florisboard.lib.compose.FlorisChip
-import org.florisboard.lib.compose.FlorisIconButton
-import org.florisboard.lib.compose.florisHorizontalScroll
-import org.florisboard.lib.compose.stringRes
-import org.florisboard.lib.kotlin.curlyFormat
-import org.florisboard.lib.snygg.SnyggAnnotationRule
-import org.florisboard.lib.snygg.SnyggAttributes
-import org.florisboard.lib.snygg.SnyggElementRule
-import org.florisboard.lib.snygg.SnyggRule
-import org.florisboard.lib.snygg.SnyggSelector
-import org.florisboard.lib.snygg.ui.NonNullSaver
+import org.kaizen-keyboard.lib.android.showShortToastSync
+import org.kaizen-keyboard.lib.android.stringRes
+import org.kaizen-keyboard.lib.compose.FlorisChip
+import org.kaizen-keyboard.lib.compose.FlorisIconButton
+import org.kaizen-keyboard.lib.compose.florisHorizontalScroll
+import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.kotlin.curlyFormat
+import org.kaizen-keyboard.lib.snygg.SnyggAnnotationRule
+import org.kaizen-keyboard.lib.snygg.SnyggAttributes
+import org.kaizen-keyboard.lib.snygg.SnyggElementRule
+import org.kaizen-keyboard.lib.snygg.SnyggRule
+import org.kaizen-keyboard.lib.snygg.SnyggSelector
+import org.kaizen-keyboard.lib.snygg.ui.NonNullSaver
 import kotlin.reflect.KClass
 
 private val TransparentTextSelectionColors = TextSelectionColors(
@@ -391,8 +391,8 @@ private fun EditCodeValueDialog(
     var errorId by rememberSaveable(codeValue) { mutableIntStateOf(NATIVE_NULLPTR.toInt()) }
 
     val focusRequester = remember { FocusRequester() }
-    val isFlorisBoardEnabled by InputMethodUtils.observeIsFlorisboardEnabled(foregroundOnly = true)
-    val isFlorisBoardSelected by InputMethodUtils.observeIsFlorisboardSelected(foregroundOnly = true)
+    val isKaizen KeyboardEnabled by InputMethodUtils.observeIsFlorisboardEnabled(foregroundOnly = true)
+    val isKaizen KeyboardSelected by InputMethodUtils.observeIsFlorisboardSelected(foregroundOnly = true)
 
     var isRecordingKey by remember { mutableStateOf(false) }
     var lastRecordingToast by remember { mutableStateOf<Toast?>(null) }
@@ -414,7 +414,7 @@ private fun EditCodeValueDialog(
             isRecordingKey = false
             return
         }
-        if (!isFlorisBoardEnabled || !isFlorisBoardSelected) {
+        if (!isKaizen KeyboardEnabled || !isKaizen KeyboardSelected) {
             lastRecordingToast?.cancel()
             lastRecordingToast = context.showShortToastSync(
                 R.string.settings__theme_editor__code_recording_requires_default_ime_floris,
@@ -520,11 +520,11 @@ private fun EditCodeValueDialog(
                     Text(text = stringRes(R.string.settings__theme_editor__code_help_text))
                     FlorisHyperlinkText(
                         text = "Characters (unicode-table.com)",
-                        url = stringRes(R.string.florisboard__character_key_codes_url),
+                        url = stringRes(R.string.kaizen-keyboard__character_key_codes_url),
                     )
                     FlorisHyperlinkText(
                         text = "Internal (github.com)",
-                        url = stringRes(R.string.florisboard__internal_key_codes_url),
+                        url = stringRes(R.string.kaizen-keyboard__internal_key_codes_url),
                     )
                 }
             }

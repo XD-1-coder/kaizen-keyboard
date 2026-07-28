@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -43,10 +43,10 @@ import com.kaizen.keyboard.ime.theme.ThemeExtensionComponent
 import com.kaizen.keyboard.lib.ext.ExtensionComponent
 import com.kaizen.keyboard.lib.ext.ExtensionComponentName
 import com.kaizen.keyboard.lib.ext.ExtensionMeta
-import org.florisboard.lib.compose.FlorisIconButton
-import org.florisboard.lib.compose.FlorisOutlinedBox
-import org.florisboard.lib.compose.FlorisTextButton
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.compose.FlorisIconButton
+import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen-keyboard.lib.compose.FlorisTextButton
+import org.kaizen-keyboard.lib.compose.stringRes
 
 @Composable
 fun ExtensionComponentNoneFoundView() {

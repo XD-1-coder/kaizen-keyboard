@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2025 The FlorisBoard Contributors
+ * Copyright (C) 2020-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -49,13 +49,13 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.florisboard.lib.kotlin.collectIn
-import org.florisboard.lib.kotlin.io.FsDir
-import org.florisboard.lib.kotlin.io.deleteContentsRecursively
-import org.florisboard.lib.kotlin.io.subDir
-import org.florisboard.lib.kotlin.io.subFile
-import org.florisboard.lib.snygg.SnyggStylesheet
-import org.florisboard.lib.snygg.value.SnyggStaticColorValue
+import org.kaizen-keyboard.lib.kotlin.collectIn
+import org.kaizen-keyboard.lib.kotlin.io.FsDir
+import org.kaizen-keyboard.lib.kotlin.io.deleteContentsRecursively
+import org.kaizen-keyboard.lib.kotlin.io.subDir
+import org.kaizen-keyboard.lib.kotlin.io.subFile
+import org.kaizen-keyboard.lib.snygg.SnyggStylesheet
+import org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue
 import java.time.LocalTime
 import java.util.*
 import java.util.concurrent.atomic.AtomicInteger

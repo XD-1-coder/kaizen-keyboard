@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025-2026 The FlorisBoard Contributors
+ * Copyright (C) 2025-2026 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -68,16 +68,16 @@ import com.kaizen.keyboard.ime.text.TextInputLayout
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import com.kaizen.keyboard.keyboardManager
 import kotlinx.coroutines.delay
-import org.florisboard.lib.compose.ProvideActualLayoutDirection
-import org.florisboard.lib.compose.conditional
-import org.florisboard.lib.compose.drawBorder
-import org.florisboard.lib.compose.drawableRes
-import org.florisboard.lib.compose.fold
-import org.florisboard.lib.compose.ifIsInstance
-import org.florisboard.lib.snygg.ui.SnyggBox
-import org.florisboard.lib.snygg.ui.SnyggIcon
-import org.florisboard.lib.snygg.ui.SnyggIconButton
-import org.florisboard.lib.snygg.ui.rememberSnyggThemeQuery
+import org.kaizen-keyboard.lib.compose.ProvideActualLayoutDirection
+import org.kaizen-keyboard.lib.compose.conditional
+import org.kaizen-keyboard.lib.compose.drawBorder
+import org.kaizen-keyboard.lib.compose.drawableRes
+import org.kaizen-keyboard.lib.compose.fold
+import org.kaizen-keyboard.lib.compose.ifIsInstance
+import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen-keyboard.lib.snygg.ui.SnyggIconButton
+import org.kaizen-keyboard.lib.snygg.ui.rememberSnyggThemeQuery
 
 /**
  * The main entry point of the IME user interface. This includes the keyboard itself, devtools overlays,

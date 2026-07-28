@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -43,10 +43,10 @@ import com.kaizen.keyboard.themeManager
 import dev.patrickgold.jetpref.datastore.model.collectAsState
 import dev.patrickgold.jetpref.material.ui.JetPrefListItem
 import kotlinx.coroutines.launch
-import org.florisboard.lib.compose.FlorisOutlinedBox
-import org.florisboard.lib.compose.defaultFlorisOutlinedBox
-import org.florisboard.lib.compose.rippleClickable
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen-keyboard.lib.compose.rippleClickable
+import org.kaizen-keyboard.lib.compose.stringRes
 
 enum class ThemeManagerScreenAction(val id: String) {
     SELECT_DAY("select-day"),

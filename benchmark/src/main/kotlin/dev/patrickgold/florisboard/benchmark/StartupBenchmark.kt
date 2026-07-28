@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -72,15 +72,15 @@ abstract class AbstractStartupBenchmark(private val startupMode: StartupMode) {
     fun startupFullCompilation() = startup(CompilationMode.Full())
 
     private fun startup(compilationMode: CompilationMode) = benchmarkRule.measureRepeated(
-        packageName = "dev.patrickgold.florisboard",
+        packageName = "dev.patrickgold.kaizen-keyboard",
         metrics = listOf(StartupTimingMetric()),
         compilationMode = compilationMode,
         iterations = 10,
         startupMode = startupMode,
         setupBlock = {
             pressHome()
-            device.executeShellCommand("ime enable dev.patrickgold.florisboard/.FlorisImeService")
-            device.executeShellCommand("ime set dev.patrickgold.florisboard/.FlorisImeService")
+            device.executeShellCommand("ime enable dev.patrickgold.kaizen-keyboard/.FlorisImeService")
+            device.executeShellCommand("ime set dev.patrickgold.kaizen-keyboard/.FlorisImeService")
         }
     ) {
         startActivityAndWait()

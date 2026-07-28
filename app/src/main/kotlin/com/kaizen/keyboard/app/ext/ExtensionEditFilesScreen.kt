@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 The FlorisBoard Contributors
+ * Copyright (C) 2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -54,18 +54,18 @@ import dev.patrickgold.jetpref.material.ui.JetPrefAlertDialog
 import dev.patrickgold.jetpref.material.ui.JetPrefTextField
 import java.io.File
 import java.util.*
-import org.florisboard.lib.android.query
-import org.florisboard.lib.android.readToFile
-import org.florisboard.lib.android.showLongToast
-import org.florisboard.lib.android.showLongToastSync
-import org.florisboard.lib.android.showShortToast
-import org.florisboard.lib.android.showShortToastSync
-import org.florisboard.lib.compose.FlorisIconButton
-import org.florisboard.lib.compose.stringRes
-import org.florisboard.lib.kotlin.io.parentDir
-import org.florisboard.lib.kotlin.io.subDir
-import org.florisboard.lib.kotlin.io.subFile
-import org.florisboard.lib.kotlin.mimeTypeFilterOf
+import org.kaizen-keyboard.lib.android.query
+import org.kaizen-keyboard.lib.android.readToFile
+import org.kaizen-keyboard.lib.android.showLongToast
+import org.kaizen-keyboard.lib.android.showLongToastSync
+import org.kaizen-keyboard.lib.android.showShortToast
+import org.kaizen-keyboard.lib.android.showShortToastSync
+import org.kaizen-keyboard.lib.compose.FlorisIconButton
+import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.kotlin.io.parentDir
+import org.kaizen-keyboard.lib.kotlin.io.subDir
+import org.kaizen-keyboard.lib.kotlin.io.subFile
+import org.kaizen-keyboard.lib.kotlin.mimeTypeFilterOf
 
 const val FONTS = "fonts"
 const val IMAGES = "images"

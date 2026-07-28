@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2024-2025 The FlorisBoard Contributors
+ * Copyright (C) 2024-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -46,9 +46,9 @@ import com.kaizen.keyboard.ime.nlp.NlpInlineAutofillSuggestion
 import com.kaizen.keyboard.ime.popup.GlobalStateNumPopupsShowing
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import com.kaizen.keyboard.lib.toIntOffset
-import org.florisboard.lib.compose.florisHorizontalScroll
-import org.florisboard.lib.snygg.SnyggSinglePropertySet
-import org.florisboard.lib.snygg.ui.rememberSnyggThemeQuery
+import org.kaizen-keyboard.lib.compose.florisHorizontalScroll
+import org.kaizen-keyboard.lib.snygg.SnyggSinglePropertySet
+import org.kaizen-keyboard.lib.snygg.ui.rememberSnyggThemeQuery
 
 val InlineSuggestionsChipMargin = PaddingValues(5.dp)
 

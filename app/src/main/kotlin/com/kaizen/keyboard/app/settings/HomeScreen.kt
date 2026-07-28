@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -41,9 +41,9 @@ import com.kaizen.keyboard.lib.compose.FlorisScreen
 import com.kaizen.keyboard.lib.util.InputMethodUtils
 import dev.patrickgold.jetpref.datastore.model.collectAsState
 import dev.patrickgold.jetpref.datastore.ui.Preference
-import org.florisboard.lib.compose.FlorisErrorCard
-import org.florisboard.lib.compose.FlorisWarningCard
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.compose.FlorisErrorCard
+import org.kaizen-keyboard.lib.compose.FlorisWarningCard
+import org.kaizen-keyboard.lib.compose.stringRes
 
 @Composable
 fun HomeScreen() = FlorisScreen {
@@ -57,16 +57,16 @@ fun HomeScreen() = FlorisScreen {
     content {
         val isCollapsed by prefs.internal.homeIsBetaToolboxCollapsed.collectAsState()
 
-        val isFlorisBoardEnabled by InputMethodUtils.observeIsFlorisboardEnabled(foregroundOnly = true)
-        val isFlorisBoardSelected by InputMethodUtils.observeIsFlorisboardSelected(foregroundOnly = true)
-        if (!isFlorisBoardEnabled) {
+        val isKaizen KeyboardEnabled by InputMethodUtils.observeIsFlorisboardEnabled(foregroundOnly = true)
+        val isKaizen KeyboardSelected by InputMethodUtils.observeIsFlorisboardSelected(foregroundOnly = true)
+        if (!isKaizen KeyboardEnabled) {
             FlorisErrorCard(
                 modifier = Modifier.padding(8.dp),
                 showIcon = false,
                 text = stringRes(R.string.settings__home__ime_not_enabled),
                 onClick = { InputMethodUtils.showImeEnablerActivity(context) },
             )
-        } else if (!isFlorisBoardSelected) {
+        } else if (!isKaizen KeyboardSelected) {
             FlorisWarningCard(
                 modifier = Modifier.padding(8.dp),
                 showIcon = false,

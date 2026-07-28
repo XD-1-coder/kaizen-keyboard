@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -84,17 +84,17 @@ import dev.patrickgold.jetpref.datastore.ui.Preference
 import dev.patrickgold.jetpref.material.ui.JetPrefAlertDialog
 import dev.patrickgold.jetpref.material.ui.JetPrefTextField
 import java.util.*
-import org.florisboard.lib.compose.FlorisButtonBar
-import org.florisboard.lib.compose.FlorisIconButton
-import org.florisboard.lib.compose.FlorisInfoCard
-import org.florisboard.lib.compose.FlorisOutlinedBox
-import org.florisboard.lib.compose.defaultFlorisOutlinedBox
-import org.florisboard.lib.compose.stringRes
-import org.florisboard.lib.android.showLongToastSync
-import org.florisboard.lib.kotlin.io.deleteContentsRecursively
-import org.florisboard.lib.kotlin.io.subDir
-import org.florisboard.lib.kotlin.io.subFile
-import org.florisboard.lib.kotlin.io.writeJson
+import org.kaizen-keyboard.lib.compose.FlorisButtonBar
+import org.kaizen-keyboard.lib.compose.FlorisIconButton
+import org.kaizen-keyboard.lib.compose.FlorisInfoCard
+import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.android.showLongToastSync
+import org.kaizen-keyboard.lib.kotlin.io.deleteContentsRecursively
+import org.kaizen-keyboard.lib.kotlin.io.subDir
+import org.kaizen-keyboard.lib.kotlin.io.subFile
+import org.kaizen-keyboard.lib.kotlin.io.writeJson
 import kotlin.reflect.KClass
 
 private val TextFieldVerticalPadding = 8.dp

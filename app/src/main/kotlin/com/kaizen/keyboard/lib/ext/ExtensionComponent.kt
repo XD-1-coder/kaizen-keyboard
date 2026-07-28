@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import kotlinx.serialization.descriptors.PrimitiveKind
 import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
 import kotlinx.serialization.encoding.Decoder
 import kotlinx.serialization.encoding.Encoder
-import org.florisboard.lib.kotlin.tryOrNull
+import org.kaizen-keyboard.lib.kotlin.tryOrNull
 
 /**
  * An extension component, typically a layout, theme, file, etc. descriptor.
@@ -40,7 +40,7 @@ interface ExtensionComponent {
  * based on an [extensionId] and an [componentId] for a component type.
  *
  * Example component name:
- *  `org.florisboard.layouts:qwerty`
+ *  `org.kaizen-keyboard.layouts:qwerty`
  */
 @Serializable(with = ExtensionComponentName.Serializer::class)
 data class ExtensionComponentName(

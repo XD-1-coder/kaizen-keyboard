@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2026 The FlorisBoard Contributors
+ * Copyright (C) 2021-2026 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -57,15 +57,15 @@ import androidx.core.view.WindowInsetsControllerCompat
 import com.kaizen.keyboard.FlorisImeService
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
-import org.florisboard.lib.android.AndroidVersion
-import org.florisboard.lib.compose.FlorisIconButton
-import org.florisboard.lib.compose.drawableRes
-import org.florisboard.lib.compose.stringRes
-import org.florisboard.lib.snygg.ui.SnyggButton
-import org.florisboard.lib.snygg.ui.SnyggIcon
-import org.florisboard.lib.snygg.ui.SnyggText
-import org.florisboard.lib.snygg.ui.rememberSnyggThemeQuery
-import org.florisboard.lib.snygg.ui.uriOrNull
+import org.kaizen-keyboard.lib.android.AndroidVersion
+import org.kaizen-keyboard.lib.compose.FlorisIconButton
+import org.kaizen-keyboard.lib.compose.drawableRes
+import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.snygg.ui.SnyggButton
+import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen-keyboard.lib.snygg.ui.SnyggText
+import org.kaizen-keyboard.lib.snygg.ui.rememberSnyggThemeQuery
+import org.kaizen-keyboard.lib.snygg.ui.uriOrNull
 
 /**
  * Configures the system navigation and caption bar.

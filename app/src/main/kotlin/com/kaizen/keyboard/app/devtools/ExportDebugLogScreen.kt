@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -43,11 +43,11 @@ import com.kaizen.keyboard.app.FlorisPreferenceStore
 import com.kaizen.keyboard.clipboardManager
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import com.kaizen.keyboard.lib.devtools.Devtools
-import org.florisboard.lib.android.showShortToastSync
-import org.florisboard.lib.compose.FlorisButton
-import org.florisboard.lib.compose.florisHorizontalScroll
-import org.florisboard.lib.compose.florisScrollbar
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.android.showShortToastSync
+import org.kaizen-keyboard.lib.compose.FlorisButton
+import org.kaizen-keyboard.lib.compose.florisHorizontalScroll
+import org.kaizen-keyboard.lib.compose.florisScrollbar
+import org.kaizen-keyboard.lib.compose.stringRes
 
 // TODO: This screen is just a quick thrown-together thing and needs further enhancing in the UI
 @Composable

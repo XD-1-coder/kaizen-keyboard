@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -239,7 +239,7 @@ interface SuggestionProvider : NlpProvider {
  * Fallback NLP provider which implements all provider variants. Is used in case no other providers can be found.
  */
 object FallbackNlpProvider : SpellingProvider, SuggestionProvider {
-    override val providerId = "org.florisboard.nlp.providers.fallback"
+    override val providerId = "org.kaizen-keyboard.nlp.providers.fallback"
 
     override suspend fun create() {
         // Do nothing

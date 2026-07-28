@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2025 The FlorisBoard Contributors
+ * Copyright (C) 2020-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,7 +32,7 @@ import com.kaizen.keyboard.BuildConfig
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.app.FlorisPreferenceModel
 import com.kaizen.keyboard.app.FlorisPreferenceStore
-import org.florisboard.lib.android.stringRes
+import org.kaizen-keyboard.lib.android.stringRes
 import com.kaizen.keyboard.lib.devtools.Devtools
 import com.kaizen.keyboard.lib.devtools.LogTopic
 import com.kaizen.keyboard.lib.devtools.flogWarning
@@ -77,15 +77,15 @@ class CrashDialogActivity : ComponentActivity() {
             append(BuildConfig.VERSION_NAME)
             append("](")
             if (BuildConfig.DEBUG) {
-                append(stringRes(R.string.florisboard__commit_by_hash_url, "hash" to BuildConfig.BUILD_COMMIT_HASH))
+                append(stringRes(R.string.kaizen-keyboard__commit_by_hash_url, "hash" to BuildConfig.BUILD_COMMIT_HASH))
             } else {
-                append(stringRes(R.string.florisboard__changelog_url, "version" to BuildConfig.VERSION_NAME))
+                append(stringRes(R.string.kaizen-keyboard__changelog_url, "version" to BuildConfig.VERSION_NAME))
             }
             append(")")
         }
         errorReport.apply {
             appendLine("#### Environment information")
-            appendLine("- FlorisBoard $versionName (${BuildConfig.VERSION_CODE})")
+            appendLine("- Kaizen Keyboard $versionName (${BuildConfig.VERSION_CODE})")
             appendLine("- Device: ${Devtools.getDeviceName()}")
             appendLine("- Android: ${Devtools.getAndroidVersion()}")
             appendLine()
@@ -127,7 +127,7 @@ class CrashDialogActivity : ComponentActivity() {
         openBugReportForm.setOnClickListener {
             val browserIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse(resources.getString(R.string.florisboard__issue_tracker_url))
+                Uri.parse(resources.getString(R.string.kaizen-keyboard__issue_tracker_url))
             )
             startActivity(browserIntent)
         }

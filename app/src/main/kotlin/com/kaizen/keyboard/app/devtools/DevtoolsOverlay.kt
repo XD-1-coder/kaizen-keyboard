@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -53,8 +53,8 @@ import com.kaizen.keyboard.themeManager
 import dev.patrickgold.jetpref.datastore.model.collectAsState
 import java.text.SimpleDateFormat
 import java.util.*
-import org.florisboard.lib.android.AndroidVersion
-import org.florisboard.lib.snygg.SnyggMissingSchemaException
+import org.kaizen-keyboard.lib.android.AndroidVersion
+import org.kaizen-keyboard.lib.snygg.SnyggMissingSchemaException
 
 private val CardBackground = Color.Black.copy(0.6f)
 private val DateFormat = SimpleDateFormat("yyyy-MM-dd'T'HH-mm-ss", FlorisLocale.default().base)
@@ -255,7 +255,7 @@ private fun DevtoolsStylesheetFailedToLoadOverlay(loadFailure: ThemeManager.Load
             DevtoolsSubGroup(title = "Explanation") {
                 DevtoolsText(
                     text = """
-                    It appears you’re trying to load a theme designed for FlorisBoard v0.4 (Snygg v1), which isn’t compatible with the latest release using Snygg v2.
+                    It appears you’re trying to load a theme designed for Kaizen Keyboard v0.4 (Snygg v1), which isn’t compatible with the latest release using Snygg v2.
 
                     If you are the theme author, please update your theme to support Snygg v2.
 

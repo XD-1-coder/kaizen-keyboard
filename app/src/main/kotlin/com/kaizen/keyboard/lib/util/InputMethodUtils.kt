@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,13 +31,13 @@ import androidx.compose.ui.platform.LocalContext
 import com.kaizen.keyboard.BuildConfig
 import com.kaizen.keyboard.lib.devtools.flogDebug
 import kotlinx.coroutines.delay
-import org.florisboard.lib.android.AndroidSettings
-import org.florisboard.lib.android.AndroidVersion
-import org.florisboard.lib.android.systemServiceOrNull
-import org.florisboard.lib.compose.observeAsState
+import org.kaizen-keyboard.lib.android.AndroidSettings
+import org.kaizen-keyboard.lib.android.AndroidVersion
+import org.kaizen-keyboard.lib.android.systemServiceOrNull
+import org.kaizen-keyboard.lib.compose.observeAsState
 
 private const val DELIMITER = ':'
-private const val IME_SERVICE_CLASS_NAME = "dev.patrickgold.florisboard.FlorisImeService"
+private const val IME_SERVICE_CLASS_NAME = "dev.patrickgold.kaizen-keyboard.FlorisImeService"
 private const val TIMED_QUERY_DELAY = 500L
 
 object InputMethodUtils {
@@ -73,7 +73,7 @@ object InputMethodUtils {
         foregroundOnly: Boolean = false,
     ): State<Boolean> {
         return if (AndroidVersion.ATLEAST_API34_U) {
-            timedObserveIsFlorisBoardEnabled()
+            timedObserveIsKaizen KeyboardEnabled()
         } else {
             AndroidSettings.Secure.observeAsState(
                 key = Settings.Secure.ENABLED_INPUT_METHODS,
@@ -89,7 +89,7 @@ object InputMethodUtils {
         foregroundOnly: Boolean = false,
     ): State<Boolean> {
         return if (AndroidVersion.ATLEAST_API34_U) {
-            timedObserveIsFlorisBoardSelected()
+            timedObserveIsKaizen KeyboardSelected()
         } else {
             AndroidSettings.Secure.observeAsState(
                 key = Settings.Secure.DEFAULT_INPUT_METHOD,
@@ -131,7 +131,7 @@ object InputMethodUtils {
 
     @RequiresApi(api = 34)
     @Composable
-    private fun timedObserveIsFlorisBoardEnabled(): State<Boolean> {
+    private fun timedObserveIsKaizen KeyboardEnabled(): State<Boolean> {
         val state = remember { mutableStateOf(false) }
         val context = LocalContext.current
         LaunchedEffect(Unit) {
@@ -145,7 +145,7 @@ object InputMethodUtils {
 
     @RequiresApi(api = 34)
     @Composable
-    private fun timedObserveIsFlorisBoardSelected(): State<Boolean> {
+    private fun timedObserveIsKaizen KeyboardSelected(): State<Boolean> {
         val state = remember { mutableStateOf(false) }
         val context = LocalContext.current
         LaunchedEffect(Unit) {

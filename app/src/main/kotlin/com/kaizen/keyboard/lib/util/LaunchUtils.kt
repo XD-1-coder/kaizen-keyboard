@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,8 +24,8 @@ import androidx.annotation.StringRes
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.lib.devtools.flogError
 import com.kaizen.keyboard.lib.io.FlorisRef
-import org.florisboard.lib.android.stringRes
-import org.florisboard.lib.kotlin.CurlyArg
+import org.kaizen-keyboard.lib.android.stringRes
+import org.kaizen-keyboard.lib.kotlin.CurlyArg
 import kotlin.contracts.InvocationKind
 import kotlin.contracts.contract
 import kotlin.reflect.KClass

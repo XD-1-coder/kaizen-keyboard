@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-package org.florisboard.lib.kotlin
+package org.kaizen-keyboard.lib.kotlin
 
 fun Number.toStringWithoutDotZero(): String = this.toString().removeSuffix(".0")

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 The FlorisBoard Contributors
+ * Copyright (C) 2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.florisboard.lib.snygg.ui
+package org.kaizen-keyboard.lib.snygg.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -46,24 +46,24 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.unit.takeOrElse
 import com.materialkolor.dynamicColorScheme
 import kotlinx.coroutines.runBlocking
-import org.florisboard.lib.color.MaterialYouFlags
-import org.florisboard.lib.color.systemAccentOrDefault
-import org.florisboard.lib.snygg.CompiledFontFamilyData
-import org.florisboard.lib.snygg.SnyggQueryAttributes
-import org.florisboard.lib.snygg.SnyggRule
-import org.florisboard.lib.snygg.SnyggSelector
-import org.florisboard.lib.snygg.SnyggSinglePropertySet
-import org.florisboard.lib.snygg.SnyggSinglePropertySetEditor
-import org.florisboard.lib.snygg.SnyggStylesheet
-import org.florisboard.lib.snygg.SnyggTheme
-import org.florisboard.lib.snygg.value.SnyggAssetResolver
-import org.florisboard.lib.snygg.value.SnyggDefaultAssetResolver
-import org.florisboard.lib.snygg.value.SnyggDpSizeValue
-import org.florisboard.lib.snygg.value.SnyggNoValue
-import org.florisboard.lib.snygg.value.SnyggPaddingValue
-import org.florisboard.lib.snygg.value.SnyggStaticColorValue
-import org.florisboard.lib.snygg.value.SnyggUriValue
-import org.florisboard.lib.snygg.value.SnyggValue
+import org.kaizen-keyboard.lib.color.MaterialYouFlags
+import org.kaizen-keyboard.lib.color.systemAccentOrDefault
+import org.kaizen-keyboard.lib.snygg.CompiledFontFamilyData
+import org.kaizen-keyboard.lib.snygg.SnyggQueryAttributes
+import org.kaizen-keyboard.lib.snygg.SnyggRule
+import org.kaizen-keyboard.lib.snygg.SnyggSelector
+import org.kaizen-keyboard.lib.snygg.SnyggSinglePropertySet
+import org.kaizen-keyboard.lib.snygg.SnyggSinglePropertySetEditor
+import org.kaizen-keyboard.lib.snygg.SnyggStylesheet
+import org.kaizen-keyboard.lib.snygg.SnyggTheme
+import org.kaizen-keyboard.lib.snygg.value.SnyggAssetResolver
+import org.kaizen-keyboard.lib.snygg.value.SnyggDefaultAssetResolver
+import org.kaizen-keyboard.lib.snygg.value.SnyggDpSizeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggNoValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggPaddingValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggUriValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggValue
 
 internal val LocalSnyggTheme: ProvidableCompositionLocal<SnyggTheme> =
     compositionLocalOf {
@@ -111,7 +111,7 @@ internal val LocalSnyggParentSelector: ProvidableCompositionLocal<SnyggSelector>
  * When the stylesheet changes the [SnyggTheme] is recompiled.
  *
  * @param stylesheet [SnyggStylesheet] the [SnyggTheme] is compiled from
- * @param assetResolver The [SnyggAssetResolver] used to resolve [an asset Uri][org.florisboard.lib.snygg.value.SnyggUriValue]
+ * @param assetResolver The [SnyggAssetResolver] used to resolve [an asset Uri][org.kaizen-keyboard.lib.snygg.value.SnyggUriValue]
  *
  * @since 0.5.0-alpha01
  *
@@ -135,7 +135,7 @@ fun rememberSnyggTheme(
  * @param snyggTheme The [SnyggTheme] for the composable functions.
  * @param dynamicAccentColor The [Color] for the dynamic color schemes.
  * [Color.Unspecified] means default/material you color.
- * @param assetResolver The [SnyggAssetResolver] used to resolve [an asset Uri][org.florisboard.lib.snygg.value.SnyggUriValue].
+ * @param assetResolver The [SnyggAssetResolver] used to resolve [an asset Uri][org.kaizen-keyboard.lib.snygg.value.SnyggUriValue].
  *
  * @since 0.5.0-alpha01
  *

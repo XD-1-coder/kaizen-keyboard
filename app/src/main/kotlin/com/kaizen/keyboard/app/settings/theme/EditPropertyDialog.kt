@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -89,49 +89,49 @@ import dev.patrickgold.jetpref.material.ui.JetPrefListItem
 import dev.patrickgold.jetpref.material.ui.JetPrefTextField
 import dev.patrickgold.jetpref.material.ui.rememberJetPrefColorPickerState
 import java.io.File
-import org.florisboard.lib.color.ColorPalette
-import org.florisboard.lib.compose.DpSizeSaver
-import org.florisboard.lib.compose.FlorisChip
-import org.florisboard.lib.compose.FlorisIconButton
-import org.florisboard.lib.compose.FlorisTextButton
-import org.florisboard.lib.compose.florisVerticalScroll
-import org.florisboard.lib.compose.stringRes
-import org.florisboard.lib.kotlin.curlyFormat
-import org.florisboard.lib.kotlin.io.subDir
-import org.florisboard.lib.kotlin.toStringWithoutDotZero
-import org.florisboard.lib.snygg.SnyggAnnotationRule
-import org.florisboard.lib.snygg.SnyggRule
-import org.florisboard.lib.snygg.SnyggSpec
-import org.florisboard.lib.snygg.value.SnyggContentScaleValue
-import org.florisboard.lib.snygg.value.SnyggCustomFontFamilyValue
-import org.florisboard.lib.snygg.value.SnyggCutCornerDpShapeValue
-import org.florisboard.lib.snygg.value.SnyggCutCornerPercentShapeValue
-import org.florisboard.lib.snygg.value.SnyggDefinedVarValue
-import org.florisboard.lib.snygg.value.SnyggDpShapeValue
-import org.florisboard.lib.snygg.value.SnyggDpSizeValue
-import org.florisboard.lib.snygg.value.SnyggDynamicColorValue
-import org.florisboard.lib.snygg.value.SnyggDynamicDarkColorValue
-import org.florisboard.lib.snygg.value.SnyggDynamicLightColorValue
-import org.florisboard.lib.snygg.value.SnyggEnumLikeValueEncoder
-import org.florisboard.lib.snygg.value.SnyggFontStyleValue
-import org.florisboard.lib.snygg.value.SnyggFontWeightValue
-import org.florisboard.lib.snygg.value.SnyggGenericFontFamilyValue
-import org.florisboard.lib.snygg.value.SnyggPaddingValue
-import org.florisboard.lib.snygg.value.SnyggPercentShapeValue
-import org.florisboard.lib.snygg.value.SnyggPercentageSizeValue
-import org.florisboard.lib.snygg.value.SnyggRoundedCornerDpShapeValue
-import org.florisboard.lib.snygg.value.SnyggRoundedCornerPercentShapeValue
-import org.florisboard.lib.snygg.value.SnyggShapeValue
-import org.florisboard.lib.snygg.value.SnyggSpSizeValue
-import org.florisboard.lib.snygg.value.SnyggStaticColorValue
-import org.florisboard.lib.snygg.value.SnyggTextAlignValue
-import org.florisboard.lib.snygg.value.SnyggTextDecorationLineValue
-import org.florisboard.lib.snygg.value.SnyggTextMaxLinesValue
-import org.florisboard.lib.snygg.value.SnyggTextOverflowValue
-import org.florisboard.lib.snygg.value.SnyggUndefinedValue
-import org.florisboard.lib.snygg.value.SnyggUriValue
-import org.florisboard.lib.snygg.value.SnyggValue
-import org.florisboard.lib.snygg.value.SnyggValueEncoder
+import org.kaizen-keyboard.lib.color.ColorPalette
+import org.kaizen-keyboard.lib.compose.DpSizeSaver
+import org.kaizen-keyboard.lib.compose.FlorisChip
+import org.kaizen-keyboard.lib.compose.FlorisIconButton
+import org.kaizen-keyboard.lib.compose.FlorisTextButton
+import org.kaizen-keyboard.lib.compose.florisVerticalScroll
+import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.kotlin.curlyFormat
+import org.kaizen-keyboard.lib.kotlin.io.subDir
+import org.kaizen-keyboard.lib.kotlin.toStringWithoutDotZero
+import org.kaizen-keyboard.lib.snygg.SnyggAnnotationRule
+import org.kaizen-keyboard.lib.snygg.SnyggRule
+import org.kaizen-keyboard.lib.snygg.SnyggSpec
+import org.kaizen-keyboard.lib.snygg.value.SnyggContentScaleValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggCustomFontFamilyValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggCutCornerDpShapeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggCutCornerPercentShapeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggDefinedVarValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggDpShapeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggDpSizeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggDynamicColorValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggDynamicDarkColorValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggDynamicLightColorValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggEnumLikeValueEncoder
+import org.kaizen-keyboard.lib.snygg.value.SnyggFontStyleValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggFontWeightValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggGenericFontFamilyValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggPaddingValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggPercentShapeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggPercentageSizeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggRoundedCornerDpShapeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggRoundedCornerPercentShapeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggShapeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggSpSizeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggTextAlignValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggTextDecorationLineValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggTextMaxLinesValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggTextOverflowValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggUndefinedValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggUriValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggValueEncoder
 
 internal val SnyggEmptyPropertyInfoForAdding = PropertyInfo(
     rule = SnyggEmptyRuleForAdding,

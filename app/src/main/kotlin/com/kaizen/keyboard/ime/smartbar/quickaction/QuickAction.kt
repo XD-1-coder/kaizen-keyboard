@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@ import com.kaizen.keyboard.ime.text.keyboard.TextKeyData
 import com.kaizen.keyboard.keyboardManager
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.compose.stringRes
 
 @Serializable
 sealed class QuickAction {

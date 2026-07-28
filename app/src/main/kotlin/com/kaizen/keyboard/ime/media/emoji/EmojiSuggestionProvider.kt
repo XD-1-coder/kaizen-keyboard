@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2024-2025 The FlorisBoard Contributors
+ * Copyright (C) 2024-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -39,7 +39,7 @@ import io.github.reactivecircus.cache4k.Cache
  * @param context The application context.
  */
 class EmojiSuggestionProvider(private val context: Context) : SuggestionProvider {
-    override val providerId = "org.florisboard.nlp.providers.emoji"
+    override val providerId = "org.kaizen-keyboard.nlp.providers.emoji"
 
     private val prefs by FlorisPreferenceStore
     private val lettersRegex = "^[A-Za-z]*$".toRegex()

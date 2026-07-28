@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025-2026 The FlorisBoard Contributors
+ * Copyright (C) 2025-2026 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@ import com.kaizen.keyboard.FlorisImeService
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.ime.input.LocalInputFeedbackController
 import com.kaizen.keyboard.ime.theme.FlorisImeTheme
-import org.florisboard.lib.compose.ProvideLocalizedResources
+import org.kaizen-keyboard.lib.compose.ProvideLocalizedResources
 
 /**
  * Provides the [ImeWindowController] instance this composition tree is associated with.
@@ -41,7 +41,7 @@ val LocalWindowController = staticCompositionLocalOf<ImeWindowController> {
  *
  * The layout direction will be forced to [LayoutDirection.Ltr], to ensure the window positioning logic's left/right
  * corresponds to the physical left/right. For UI components that need to conform to the actual system layout
- * direction, the UI components should be wrapped with [org.florisboard.lib.compose.ProvideActualLayoutDirection].
+ * direction, the UI components should be wrapped with [org.kaizen-keyboard.lib.compose.ProvideActualLayoutDirection].
  *
  * @see ImeRootWindow
  */

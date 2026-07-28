@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,11 +23,11 @@ import androidx.compose.ui.platform.LocalContext
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.app.LocalNavController
 import com.kaizen.keyboard.extensionManager
-import org.florisboard.lib.android.showLongToast
+import org.kaizen-keyboard.lib.android.showLongToast
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import com.kaizen.keyboard.lib.ext.Extension
 import com.kaizen.keyboard.lib.ext.ExtensionDefaults
-import org.florisboard.lib.android.showLongToastSync
+import org.kaizen-keyboard.lib.android.showLongToastSync
 
 @Composable
 fun ExtensionExportScreen(id: String) {

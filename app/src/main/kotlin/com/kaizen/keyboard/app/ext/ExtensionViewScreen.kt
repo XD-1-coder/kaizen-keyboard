@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -58,10 +58,10 @@ import com.kaizen.keyboard.lib.ext.Extension
 import com.kaizen.keyboard.lib.ext.ExtensionMaintainer
 import com.kaizen.keyboard.lib.ext.ExtensionMeta
 import com.kaizen.keyboard.lib.io.FlorisRef
-import org.florisboard.lib.android.showLongToastSync
-import org.florisboard.lib.compose.FlorisOutlinedButton
-import org.florisboard.lib.compose.defaultFlorisOutlinedBox
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.android.showLongToastSync
+import org.kaizen-keyboard.lib.compose.FlorisOutlinedButton
+import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen-keyboard.lib.compose.stringRes
 
 @Composable
 fun ExtensionViewScreen(id: String) {

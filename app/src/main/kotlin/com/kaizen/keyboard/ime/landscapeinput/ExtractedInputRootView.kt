@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 The FlorisBoard Contributors
+ * Copyright (C) 2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -48,12 +48,12 @@ import com.kaizen.keyboard.ime.theme.FlorisImeTheme
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import com.kaizen.keyboard.ime.window.LocalWindowController
 import com.kaizen.keyboard.lib.devtools.flogError
-import org.florisboard.lib.compose.ProvideLocalizedResources
-import org.florisboard.lib.snygg.ui.SnyggBox
-import org.florisboard.lib.snygg.ui.SnyggButton
-import org.florisboard.lib.snygg.ui.SnyggRow
-import org.florisboard.lib.snygg.ui.SnyggText
-import org.florisboard.lib.snygg.ui.rememberSnyggThemeQuery
+import org.kaizen-keyboard.lib.compose.ProvideLocalizedResources
+import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen-keyboard.lib.snygg.ui.SnyggButton
+import org.kaizen-keyboard.lib.snygg.ui.SnyggRow
+import org.kaizen-keyboard.lib.snygg.ui.SnyggText
+import org.kaizen-keyboard.lib.snygg.ui.rememberSnyggThemeQuery
 
 @SuppressLint("ViewConstructor")
 class ExtractedInputRootView(val ims: FlorisImeService, eet: ExtractEditText?) : FrameLayout(ims) {

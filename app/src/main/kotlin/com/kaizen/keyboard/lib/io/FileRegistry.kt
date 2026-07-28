@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
 package com.kaizen.keyboard.lib.io
 
 import com.kaizen.keyboard.lib.cache.CacheManager
-import org.florisboard.lib.kotlin.io.FsFile
+import org.kaizen-keyboard.lib.kotlin.io.FsFile
 
 object FileRegistry {
     val BackupArchive = Entry(
@@ -32,7 +32,7 @@ object FileRegistry {
     val FlexExtension = Entry(
         type = Type.BINARY,
         fileExt = "flex",
-        mediaType = "application/vnd.florisboard.extension+zip",
+        mediaType = "application/vnd.kaizen-keyboard.extension+zip",
         alternativeMediaTypes = listOf(
             "application/zip",
             "application/octet-stream",

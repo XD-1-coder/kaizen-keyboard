@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -43,8 +43,8 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.florisboard.lib.kotlin.guardedByLock
-import org.florisboard.lib.kotlin.collectLatestIn
+import org.kaizen-keyboard.lib.kotlin.guardedByLock
+import org.kaizen-keyboard.lib.kotlin.collectLatestIn
 import java.util.concurrent.atomic.AtomicBoolean
 import kotlin.properties.Delegates
 
@@ -349,7 +349,7 @@ class NlpManager(context: Context) {
     inner class ClipboardSuggestionProvider internal constructor(private val context: Context) : SuggestionProvider {
         private var lastClipboardItemId: Long = -1
 
-        override val providerId = "org.florisboard.nlp.providers.clipboard"
+        override val providerId = "org.kaizen-keyboard.nlp.providers.clipboard"
 
         override suspend fun create() {
             // Do nothing

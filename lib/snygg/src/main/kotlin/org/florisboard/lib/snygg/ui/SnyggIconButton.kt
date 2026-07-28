@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 The FlorisBoard Contributors
+ * Copyright (C) 2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.florisboard.lib.snygg.ui
+package org.kaizen-keyboard.lib.snygg.ui
 
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -32,15 +32,15 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.florisboard.lib.snygg.SnyggQueryAttributes
-import org.florisboard.lib.snygg.SnyggSelector
-import org.florisboard.lib.snygg.SnyggStylesheet
-import org.florisboard.lib.snygg.value.SnyggStaticColorValue
+import org.kaizen-keyboard.lib.snygg.SnyggQueryAttributes
+import org.kaizen-keyboard.lib.snygg.SnyggSelector
+import org.kaizen-keyboard.lib.snygg.SnyggStylesheet
+import org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue
 
 /**
  * Simple interactive Box with integrated clickable state management.
  *
- * This composable infers its style from the current [SnyggTheme][org.florisboard.lib.snygg.SnyggTheme], which is
+ * This composable infers its style from the current [SnyggTheme][org.kaizen-keyboard.lib.snygg.SnyggTheme], which is
  * required to be provided by [ProvideSnyggTheme].
  *
  * @param elementName The name of this element. If `null` the style will be inherited from the parent element.

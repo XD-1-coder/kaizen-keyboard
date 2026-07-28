@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -98,27 +98,27 @@ import dev.patrickgold.jetpref.material.ui.JetPrefListItem
 import dev.patrickgold.jetpref.material.ui.JetPrefTextField
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import org.florisboard.lib.android.showLongToastSync
-import org.florisboard.lib.color.MaterialYouFlagsSaver
-import org.florisboard.lib.compose.FlorisIconButton
-import org.florisboard.lib.compose.FlorisOutlinedBox
-import org.florisboard.lib.compose.defaultFlorisOutlinedBox
-import org.florisboard.lib.compose.florisVerticalScroll
-import org.florisboard.lib.compose.rippleClickable
-import org.florisboard.lib.compose.stringRes
-import org.florisboard.lib.kotlin.io.subFile
-import org.florisboard.lib.snygg.SnyggAnnotationRule
-import org.florisboard.lib.snygg.SnyggElementRule
-import org.florisboard.lib.snygg.SnyggJsonConfiguration
-import org.florisboard.lib.snygg.SnyggMultiplePropertySetsEditor
-import org.florisboard.lib.snygg.SnyggRule
-import org.florisboard.lib.snygg.SnyggSelector
-import org.florisboard.lib.snygg.SnyggSinglePropertySetEditor
-import org.florisboard.lib.snygg.SnyggSpec
-import org.florisboard.lib.snygg.SnyggSpecDecl
-import org.florisboard.lib.snygg.SnyggStylesheet
-import org.florisboard.lib.snygg.SnyggStylesheetEditor
-import org.florisboard.lib.snygg.ui.Saver
+import org.kaizen-keyboard.lib.android.showLongToastSync
+import org.kaizen-keyboard.lib.color.MaterialYouFlagsSaver
+import org.kaizen-keyboard.lib.compose.FlorisIconButton
+import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen-keyboard.lib.compose.florisVerticalScroll
+import org.kaizen-keyboard.lib.compose.rippleClickable
+import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.kotlin.io.subFile
+import org.kaizen-keyboard.lib.snygg.SnyggAnnotationRule
+import org.kaizen-keyboard.lib.snygg.SnyggElementRule
+import org.kaizen-keyboard.lib.snygg.SnyggJsonConfiguration
+import org.kaizen-keyboard.lib.snygg.SnyggMultiplePropertySetsEditor
+import org.kaizen-keyboard.lib.snygg.SnyggRule
+import org.kaizen-keyboard.lib.snygg.SnyggSelector
+import org.kaizen-keyboard.lib.snygg.SnyggSinglePropertySetEditor
+import org.kaizen-keyboard.lib.snygg.SnyggSpec
+import org.kaizen-keyboard.lib.snygg.SnyggSpecDecl
+import org.kaizen-keyboard.lib.snygg.SnyggStylesheet
+import org.kaizen-keyboard.lib.snygg.SnyggStylesheetEditor
+import org.kaizen-keyboard.lib.snygg.ui.Saver
 
 internal val PrettyPrintConfig = SnyggJsonConfiguration.of(
     prettyPrint = true,

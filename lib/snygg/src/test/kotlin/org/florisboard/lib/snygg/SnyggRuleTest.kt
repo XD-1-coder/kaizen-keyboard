@@ -1,4 +1,4 @@
-package org.florisboard.lib.snygg
+package org.kaizen-keyboard.lib.snygg
 
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.assertAll

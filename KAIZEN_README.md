@@ -3,7 +3,7 @@
 تطبيق لوحة مفاتيح احترافي ومتقدم مع دعم كامل للغة العربية والإنجليزية.
 
 **Developer:** Kaizen | @o_vf4  
-**Based on:** FlorisBoard (https://github.com/florisboard/florisboard)  
+**Based on:** Kaizen Keyboard (https://github.com/kaizen-keyboard/kaizen-keyboard)  
 **Version:** 1.0.0  
 **License:** Apache License 2.0
 

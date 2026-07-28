@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -65,14 +65,14 @@ import dev.patrickgold.jetpref.datastore.model.PreferenceModel
 import dev.patrickgold.jetpref.datastore.model.PreferenceType
 import dev.patrickgold.jetpref.material.ui.ColorRepresentation
 import kotlinx.serialization.json.Json
-import org.florisboard.lib.android.isOrientationPortrait
+import org.kaizen-keyboard.lib.android.isOrientationPortrait
 
 val FlorisPreferenceStore = jetprefDataStoreOf(FlorisPreferenceModel::class)
 
 @Preferences
 abstract class FlorisPreferenceModel : PreferenceModel() {
     companion object {
-        const val NAME = "florisboard-app-prefs"
+        const val NAME = "kaizen-keyboard-app-prefs"
     }
 
     val clipboard = Clipboard()
@@ -756,7 +756,7 @@ abstract class FlorisPreferenceModel : PreferenceModel() {
             "media__emoji_recently_used" -> {
                 val emojiValues = entry.rawValue.split(";")
                 val recent = emojiValues.map {
-                    dev.patrickgold.florisboard.ime.media.emoji.Emoji(it, "", emptyList())
+                    dev.patrickgold.kaizen-keyboard.ime.media.emoji.Emoji(it, "", emptyList())
                 }
                 val data = EmojiHistory(emptyList(), recent)
                 entry.transform(key = "emoji__history_data", rawValue = Json.encodeToString(data))

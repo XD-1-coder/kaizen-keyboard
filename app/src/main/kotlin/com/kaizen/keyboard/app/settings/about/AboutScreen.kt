@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2025 The FlorisBoard Contributors
+ * Copyright (C) 2021-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -44,9 +44,9 @@ import com.kaizen.keyboard.clipboardManager
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import com.kaizen.keyboard.lib.util.launchUrl
 import dev.patrickgold.jetpref.datastore.ui.Preference
-import org.florisboard.lib.android.stringRes
-import org.florisboard.lib.compose.FlorisCanvasIcon
-import org.florisboard.lib.compose.stringRes
+import org.kaizen-keyboard.lib.android.stringRes
+import org.kaizen-keyboard.lib.compose.FlorisCanvasIcon
+import org.kaizen-keyboard.lib.compose.stringRes
 
 @Composable
 fun AboutScreen() = FlorisScreen {
@@ -69,7 +69,7 @@ fun AboutScreen() = FlorisScreen {
             FlorisCanvasIcon(
                 modifier = Modifier.requiredSize(64.dp),
                 iconId = R.mipmap.floris_app_icon,
-                contentDescription = "FlorisBoard app icon",
+                contentDescription = "Kaizen Keyboard app icon",
             )
             Text(
                 text = stringRes(R.string.floris_app_name),
@@ -99,19 +99,19 @@ fun AboutScreen() = FlorisScreen {
             icon = Icons.Default.History,
             title = stringRes(R.string.about__changelog__title),
             summary = stringRes(R.string.about__changelog__summary),
-            onClick = { context.launchUrl(R.string.florisboard__changelog_url, "version" to BuildConfig.VERSION_NAME) },
+            onClick = { context.launchUrl(R.string.kaizen-keyboard__changelog_url, "version" to BuildConfig.VERSION_NAME) },
         )
         Preference(
             icon = Icons.Default.Code,
             title = stringRes(R.string.about__repository__title),
             summary = stringRes(R.string.about__repository__summary),
-            onClick = { context.launchUrl(R.string.florisboard__repo_url) },
+            onClick = { context.launchUrl(R.string.kaizen-keyboard__repo_url) },
         )
         Preference(
             icon = Icons.Outlined.Policy,
             title = stringRes(R.string.about__privacy_policy__title),
             summary = stringRes(R.string.about__privacy_policy__summary),
-            onClick = { context.launchUrl(R.string.florisboard__privacy_policy_url) },
+            onClick = { context.launchUrl(R.string.kaizen-keyboard__privacy_policy_url) },
         )
         Preference(
             icon = Icons.Outlined.Description,

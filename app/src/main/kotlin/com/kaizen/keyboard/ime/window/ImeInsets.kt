@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025-2026 The FlorisBoard Contributors
+ * Copyright (C) 2025-2026 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.DpRect
 import androidx.compose.ui.unit.IntRect
 import androidx.compose.ui.unit.dp
-import org.florisboard.lib.compose.toDpRect
+import org.kaizen-keyboard.lib.compose.toDpRect
 
 /**
  * Insets describe the size and position within the next logical parent. All bounds are given in two

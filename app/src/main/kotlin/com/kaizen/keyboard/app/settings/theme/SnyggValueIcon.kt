@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 The FlorisBoard Contributors
+ * Copyright (C) 2022-2025 The Kaizen Keyboard Contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -60,30 +60,30 @@ import com.materialkolor.dynamicColorScheme
 import com.kaizen.keyboard.app.FlorisPreferenceStore
 import dev.patrickgold.jetpref.datastore.model.collectAsState
 import dev.patrickgold.jetpref.material.ui.checkeredBackground
-import org.florisboard.lib.color.getColor
-import org.florisboard.lib.color.systemAccentOrDefault
-import org.florisboard.lib.snygg.value.SnyggContentScaleValue
-import org.florisboard.lib.snygg.value.SnyggCustomFontFamilyValue
-import org.florisboard.lib.snygg.value.SnyggCutCornerDpShapeValue
-import org.florisboard.lib.snygg.value.SnyggDefinedVarValue
-import org.florisboard.lib.snygg.value.SnyggDpSizeValue
-import org.florisboard.lib.snygg.value.SnyggDynamicDarkColorValue
-import org.florisboard.lib.snygg.value.SnyggDynamicLightColorValue
-import org.florisboard.lib.snygg.value.SnyggFontStyleValue
-import org.florisboard.lib.snygg.value.SnyggFontWeightValue
-import org.florisboard.lib.snygg.value.SnyggGenericFontFamilyValue
-import org.florisboard.lib.snygg.value.SnyggNoValue
-import org.florisboard.lib.snygg.value.SnyggPaddingValue
-import org.florisboard.lib.snygg.value.SnyggRoundedCornerDpShapeValue
-import org.florisboard.lib.snygg.value.SnyggShapeValue
-import org.florisboard.lib.snygg.value.SnyggSpSizeValue
-import org.florisboard.lib.snygg.value.SnyggStaticColorValue
-import org.florisboard.lib.snygg.value.SnyggTextAlignValue
-import org.florisboard.lib.snygg.value.SnyggTextDecorationLineValue
-import org.florisboard.lib.snygg.value.SnyggTextOverflowValue
-import org.florisboard.lib.snygg.value.SnyggUriValue
-import org.florisboard.lib.snygg.value.SnyggValue
-import org.florisboard.lib.snygg.value.SnyggYesValue
+import org.kaizen-keyboard.lib.color.getColor
+import org.kaizen-keyboard.lib.color.systemAccentOrDefault
+import org.kaizen-keyboard.lib.snygg.value.SnyggContentScaleValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggCustomFontFamilyValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggCutCornerDpShapeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggDefinedVarValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggDpSizeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggDynamicDarkColorValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggDynamicLightColorValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggFontStyleValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggFontWeightValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggGenericFontFamilyValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggNoValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggPaddingValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggRoundedCornerDpShapeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggShapeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggSpSizeValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggTextAlignValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggTextDecorationLineValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggTextOverflowValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggUriValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggValue
+import org.kaizen-keyboard.lib.snygg.value.SnyggYesValue
 
 object SnyggValueIcon {
     interface Spec {
