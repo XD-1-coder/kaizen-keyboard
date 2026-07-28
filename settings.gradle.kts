@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-rootProject.name = "kaizen-keyboard"
+rootProject.name = "kaizen_keyboard"
 
 pluginManagement {
     repositories {

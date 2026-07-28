@@ -1,13 +1,13 @@
 <resources>
     <item name="floris_app_name" translatable="false" type="string">@string/app_name</item>
 
-    <string name="kaizen-keyboard__repo_url" translatable="false">https://github.com/kaizen-keyboard/kaizen-keyboard</string>
-    <string name="kaizen-keyboard__issue_tracker_url" translatable="false">https://github.com/kaizen-keyboard/kaizen-keyboard/issues</string>
-    <string name="kaizen-keyboard__privacy_policy_url" translatable="false">https://kaizen-keyboard.org/legal/privacy/</string>
-    <string name="kaizen-keyboard__changelog_url" translatable="false">https://github.com/kaizen-keyboard/kaizen-keyboard/releases/v{version}</string>
-    <string name="kaizen-keyboard__commit_by_hash_url" translatable="false">https://github.com/kaizen-keyboard/kaizen-keyboard/commit/{hash}</string>
-    <string name="kaizen-keyboard__internal_key_codes_url" translatable="false">https://github.com/kaizen-keyboard/kaizen-keyboard/blob/main/app/src/main/kotlin/dev/patrickgold/kaizen-keyboard/ime/text/key/KeyCode.kt</string>
-    <string name="kaizen-keyboard__character_key_codes_url" translatable="false">https://unicode-table.com/en</string>
+    <string name="kaizen_keyboard__repo_url" translatable="false">https://github.com/kaizen_keyboard/kaizen_keyboard</string>
+    <string name="kaizen_keyboard__issue_tracker_url" translatable="false">https://github.com/kaizen_keyboard/kaizen_keyboard/issues</string>
+    <string name="kaizen_keyboard__privacy_policy_url" translatable="false">https://kaizen_keyboard.org/legal/privacy/</string>
+    <string name="kaizen_keyboard__changelog_url" translatable="false">https://github.com/kaizen_keyboard/kaizen_keyboard/releases/v{version}</string>
+    <string name="kaizen_keyboard__commit_by_hash_url" translatable="false">https://github.com/kaizen_keyboard/kaizen_keyboard/commit/{hash}</string>
+    <string name="kaizen_keyboard__internal_key_codes_url" translatable="false">https://github.com/kaizen_keyboard/kaizen_keyboard/blob/main/app/src/main/kotlin/dev/patrickgold/kaizen_keyboard/ime/text/key/KeyCode.kt</string>
+    <string name="kaizen_keyboard__character_key_codes_url" translatable="false">https://unicode-table.com/en</string>
 
     <string name="general__system_string_placeholder" translatable="false">%s</string>
     <string name="general__empty_string" translatable="false"/>

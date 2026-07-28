@@ -59,7 +59,7 @@ data class KeyboardExtension(
 @Suppress("NOTHING_TO_INLINE")
 inline fun extCoreComposer(id: String): ExtensionComponentName {
     return ExtensionComponentName(
-        extensionId = "org.kaizen-keyboard.composers",
+        extensionId = "org.kaizen_keyboard.composers",
         componentId = id,
     )
 }
@@ -67,7 +67,7 @@ inline fun extCoreComposer(id: String): ExtensionComponentName {
 @Suppress("NOTHING_TO_INLINE")
 inline fun extCoreCurrencySet(id: String): ExtensionComponentName {
     return ExtensionComponentName(
-        extensionId = "org.kaizen-keyboard.currencysets",
+        extensionId = "org.kaizen_keyboard.currencysets",
         componentId = id,
     )
 }
@@ -75,7 +75,7 @@ inline fun extCoreCurrencySet(id: String): ExtensionComponentName {
 @Suppress("NOTHING_TO_INLINE")
 inline fun extCoreLayout(id: String): ExtensionComponentName {
     return ExtensionComponentName(
-        extensionId = "org.kaizen-keyboard.layouts",
+        extensionId = "org.kaizen_keyboard.layouts",
         componentId = id,
     )
 }
@@ -83,7 +83,7 @@ inline fun extCoreLayout(id: String): ExtensionComponentName {
 @Suppress("NOTHING_TO_INLINE")
 inline fun extCorePunctuationRule(id: String): ExtensionComponentName {
     return ExtensionComponentName(
-        extensionId = "org.kaizen-keyboard.localization",
+        extensionId = "org.kaizen_keyboard.localization",
         componentId = id,
     )
 }
@@ -91,7 +91,7 @@ inline fun extCorePunctuationRule(id: String): ExtensionComponentName {
 @Suppress("NOTHING_TO_INLINE")
 inline fun extCorePopupMapping(id: String): ExtensionComponentName {
     return ExtensionComponentName(
-        extensionId = "org.kaizen-keyboard.localization",
+        extensionId = "org.kaizen_keyboard.localization",
         componentId = id,
     )
 }

@@ -72,15 +72,15 @@ abstract class AbstractStartupBenchmark(private val startupMode: StartupMode) {
     fun startupFullCompilation() = startup(CompilationMode.Full())
 
     private fun startup(compilationMode: CompilationMode) = benchmarkRule.measureRepeated(
-        packageName = "dev.patrickgold.kaizen-keyboard",
+        packageName = "dev.patrickgold.kaizen_keyboard",
         metrics = listOf(StartupTimingMetric()),
         compilationMode = compilationMode,
         iterations = 10,
         startupMode = startupMode,
         setupBlock = {
             pressHome()
-            device.executeShellCommand("ime enable dev.patrickgold.kaizen-keyboard/.FlorisImeService")
-            device.executeShellCommand("ime set dev.patrickgold.kaizen-keyboard/.FlorisImeService")
+            device.executeShellCommand("ime enable dev.patrickgold.kaizen_keyboard/.FlorisImeService")
+            device.executeShellCommand("ime set dev.patrickgold.kaizen_keyboard/.FlorisImeService")
         }
     ) {
         startActivityAndWait()

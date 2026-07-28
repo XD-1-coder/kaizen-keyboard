@@ -239,7 +239,7 @@ interface SuggestionProvider : NlpProvider {
  * Fallback NLP provider which implements all provider variants. Is used in case no other providers can be found.
  */
 object FallbackNlpProvider : SpellingProvider, SuggestionProvider {
-    override val providerId = "org.kaizen-keyboard.nlp.providers.fallback"
+    override val providerId = "org.kaizen_keyboard.nlp.providers.fallback"
 
     override suspend fun create() {
         // Do nothing

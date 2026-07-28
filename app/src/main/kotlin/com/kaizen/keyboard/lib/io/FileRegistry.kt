@@ -32,7 +32,7 @@ object FileRegistry {
     val FlexExtension = Entry(
         type = Type.BINARY,
         fileExt = "flex",
-        mediaType = "application/vnd.kaizen-keyboard.extension+zip",
+        mediaType = "application/vnd.kaizen_keyboard.extension+zip",
         alternativeMediaTypes = listOf(
             "application/zip",
             "application/octet-stream",

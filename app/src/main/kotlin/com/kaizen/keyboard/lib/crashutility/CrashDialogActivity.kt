@@ -77,9 +77,9 @@ class CrashDialogActivity : ComponentActivity() {
             append(BuildConfig.VERSION_NAME)
             append("](")
             if (BuildConfig.DEBUG) {
-                append(stringRes(R.string.kaizen-keyboard__commit_by_hash_url, "hash" to BuildConfig.BUILD_COMMIT_HASH))
+                append(stringRes(R.string.kaizen_keyboard__commit_by_hash_url, "hash" to BuildConfig.BUILD_COMMIT_HASH))
             } else {
-                append(stringRes(R.string.kaizen-keyboard__changelog_url, "version" to BuildConfig.VERSION_NAME))
+                append(stringRes(R.string.kaizen_keyboard__changelog_url, "version" to BuildConfig.VERSION_NAME))
             }
             append(")")
         }
@@ -127,7 +127,7 @@ class CrashDialogActivity : ComponentActivity() {
         openBugReportForm.setOnClickListener {
             val browserIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse(resources.getString(R.string.kaizen-keyboard__issue_tracker_url))
+                Uri.parse(resources.getString(R.string.kaizen_keyboard__issue_tracker_url))
             )
             startActivity(browserIntent)
         }

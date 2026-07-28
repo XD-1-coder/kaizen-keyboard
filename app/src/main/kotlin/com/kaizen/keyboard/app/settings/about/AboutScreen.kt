@@ -99,19 +99,19 @@ fun AboutScreen() = FlorisScreen {
             icon = Icons.Default.History,
             title = stringRes(R.string.about__changelog__title),
             summary = stringRes(R.string.about__changelog__summary),
-            onClick = { context.launchUrl(R.string.kaizen-keyboard__changelog_url, "version" to BuildConfig.VERSION_NAME) },
+            onClick = { context.launchUrl(R.string.kaizen_keyboard__changelog_url, "version" to BuildConfig.VERSION_NAME) },
         )
         Preference(
             icon = Icons.Default.Code,
             title = stringRes(R.string.about__repository__title),
             summary = stringRes(R.string.about__repository__summary),
-            onClick = { context.launchUrl(R.string.kaizen-keyboard__repo_url) },
+            onClick = { context.launchUrl(R.string.kaizen_keyboard__repo_url) },
         )
         Preference(
             icon = Icons.Outlined.Policy,
             title = stringRes(R.string.about__privacy_policy__title),
             summary = stringRes(R.string.about__privacy_policy__summary),
-            onClick = { context.launchUrl(R.string.kaizen-keyboard__privacy_policy_url) },
+            onClick = { context.launchUrl(R.string.kaizen_keyboard__privacy_policy_url) },
         )
         Preference(
             icon = Icons.Outlined.Description,

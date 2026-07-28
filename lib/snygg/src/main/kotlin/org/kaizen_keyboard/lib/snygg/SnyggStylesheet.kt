@@ -47,9 +47,9 @@ data class SnyggStylesheet internal constructor(
     }
 
     companion object {
-        const val SCHEMA_V2 = "https://schemas.kaizen-keyboard.org/snygg/v2/stylesheet"
+        const val SCHEMA_V2 = "https://schemas.kaizen_keyboard.org/snygg/v2/stylesheet"
 
-        private val SCHEMA_PATTERN = """^https://schemas.kaizen-keyboard.org/snygg/v[0-9]+/stylesheet$""".toRegex()
+        private val SCHEMA_PATTERN = """^https://schemas.kaizen_keyboard.org/snygg/v[0-9]+/stylesheet$""".toRegex()
 
         fun v2(stylesheetBlock: SnyggStylesheetEditor.() -> Unit): SnyggStylesheet {
             val builder = SnyggStylesheetEditor(SCHEMA_V2)

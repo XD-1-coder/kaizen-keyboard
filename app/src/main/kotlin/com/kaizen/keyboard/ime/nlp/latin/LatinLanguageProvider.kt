@@ -37,7 +37,7 @@ class LatinLanguageProvider(context: Context) : SpellingProvider, SuggestionProv
     companion object {
         // Default user ID used for all subtypes, unless otherwise specified.
         // See `ime/core/Subtype.kt` Line 210 and 211 for the default usage
-        const val ProviderId = "org.kaizen-keyboard.nlp.providers.latin"
+        const val ProviderId = "org.kaizen_keyboard.nlp.providers.latin"
     }
 
     private val appContext by context.appContext()

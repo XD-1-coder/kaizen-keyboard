@@ -34,7 +34,7 @@ import org.kaizen_keyboard.lib.snygg.SnyggStylesheet
 /**
  * Simple Icon composable, which displays a given [imageVector] annotated by the [contentDescription].
  *
- * This composable infers its style from the current [SnyggTheme][org.kaizen-keyboard.lib.snygg.SnyggTheme], which is
+ * This composable infers its style from the current [SnyggTheme][org.kaizen_keyboard.lib.snygg.SnyggTheme], which is
  * required to be provided by [ProvideSnyggTheme].
  *
  * @param elementName The name of this element. If `null` the style will be inherited from the parent element.
@@ -72,7 +72,7 @@ fun SnyggIcon(
 /**
  * Simple Icon composable, which displays a given [bitmap] annotated by the [contentDescription].
  *
- * This composable infers its style from the current [SnyggTheme][org.kaizen-keyboard.lib.snygg.SnyggTheme], which is
+ * This composable infers its style from the current [SnyggTheme][org.kaizen_keyboard.lib.snygg.SnyggTheme], which is
  * required to be provided by [ProvideSnyggTheme].
  *
  * @param elementName The name of this element. If `null` the style will be inherited from the parent element.
@@ -110,7 +110,7 @@ fun SnyggIcon(
 /**
  * Simple Icon composable, which displays a given [painter] annotated by the [contentDescription].
  *
- * This composable infers its style from the current [SnyggTheme][org.kaizen-keyboard.lib.snygg.SnyggTheme], which is
+ * This composable infers its style from the current [SnyggTheme][org.kaizen_keyboard.lib.snygg.SnyggTheme], which is
  * required to be provided by [ProvideSnyggTheme].
  *
  * @param elementName The name of this element. If `null` the style will be inherited from the parent element.

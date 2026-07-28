@@ -111,7 +111,7 @@ internal val LocalSnyggParentSelector: ProvidableCompositionLocal<SnyggSelector>
  * When the stylesheet changes the [SnyggTheme] is recompiled.
  *
  * @param stylesheet [SnyggStylesheet] the [SnyggTheme] is compiled from
- * @param assetResolver The [SnyggAssetResolver] used to resolve [an asset Uri][org.kaizen-keyboard.lib.snygg.value.SnyggUriValue]
+ * @param assetResolver The [SnyggAssetResolver] used to resolve [an asset Uri][org.kaizen_keyboard.lib.snygg.value.SnyggUriValue]
  *
  * @since 0.5.0-alpha01
  *
@@ -135,7 +135,7 @@ fun rememberSnyggTheme(
  * @param snyggTheme The [SnyggTheme] for the composable functions.
  * @param dynamicAccentColor The [Color] for the dynamic color schemes.
  * [Color.Unspecified] means default/material you color.
- * @param assetResolver The [SnyggAssetResolver] used to resolve [an asset Uri][org.kaizen-keyboard.lib.snygg.value.SnyggUriValue].
+ * @param assetResolver The [SnyggAssetResolver] used to resolve [an asset Uri][org.kaizen_keyboard.lib.snygg.value.SnyggUriValue].
  *
  * @since 0.5.0-alpha01
  *

@@ -72,7 +72,7 @@ val FlorisPreferenceStore = jetprefDataStoreOf(FlorisPreferenceModel::class)
 @Preferences
 abstract class FlorisPreferenceModel : PreferenceModel() {
     companion object {
-        const val NAME = "kaizen-keyboard-app-prefs"
+        const val NAME = "kaizen_keyboard-app-prefs"
     }
 
     val clipboard = Clipboard()
@@ -756,7 +756,7 @@ abstract class FlorisPreferenceModel : PreferenceModel() {
             "media__emoji_recently_used" -> {
                 val emojiValues = entry.rawValue.split(";")
                 val recent = emojiValues.map {
-                    dev.patrickgold.kaizen-keyboard.ime.media.emoji.Emoji(it, "", emptyList())
+                    dev.patrickgold.kaizen_keyboard.ime.media.emoji.Emoji(it, "", emptyList())
                 }
                 val data = EmojiHistory(emptyList(), recent)
                 entry.transform(key = "emoji__history_data", rawValue = Json.encodeToString(data))

@@ -35,7 +35,7 @@ import org.kaizen_keyboard.lib.snygg.SnyggStylesheet
 /**
  * Simple text composable, which displays the given [text].
  *
- * This composable infers its style from the current [SnyggTheme][org.kaizen-keyboard.lib.snygg.SnyggTheme], which is
+ * This composable infers its style from the current [SnyggTheme][org.kaizen_keyboard.lib.snygg.SnyggTheme], which is
  * required to be provided by [ProvideSnyggTheme].
  *
  * @param elementName The name of this element. If `null` the style will be inherited from the parent element.

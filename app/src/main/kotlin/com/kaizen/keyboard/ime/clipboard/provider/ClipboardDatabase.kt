@@ -105,7 +105,7 @@ data class ClipboardItem @OptIn(ExperimentalSerializationApi::class) constructor
         private val TEXT_PLAIN = listOf("text/plain")
         private val MEDIA_PROJECTION = arrayOf(OpenableColumns.DISPLAY_NAME)
 
-        const val FLORIS_CLIP_LABEL = "kaizen-keyboard/clipboard_item"
+        const val FLORIS_CLIP_LABEL = "kaizen_keyboard/clipboard_item"
 
         fun text(text: String): ClipboardItem {
             return ClipboardItem(

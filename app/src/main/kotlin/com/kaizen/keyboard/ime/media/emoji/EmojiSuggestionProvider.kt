@@ -39,7 +39,7 @@ import io.github.reactivecircus.cache4k.Cache
  * @param context The application context.
  */
 class EmojiSuggestionProvider(private val context: Context) : SuggestionProvider {
-    override val providerId = "org.kaizen-keyboard.nlp.providers.emoji"
+    override val providerId = "org.kaizen_keyboard.nlp.providers.emoji"
 
     private val prefs by FlorisPreferenceStore
     private val lettersRegex = "^[A-Za-z]*$".toRegex()

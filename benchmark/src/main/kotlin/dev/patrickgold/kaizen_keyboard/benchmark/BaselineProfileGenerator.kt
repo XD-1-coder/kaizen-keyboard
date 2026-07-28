@@ -31,7 +31,7 @@ class BaselineProfileGenerator {
 
     @Test
     fun startup() =
-        baselineProfileRule.collectBaselineProfile(packageName = "dev.patrickgold.kaizen-keyboard") {
+        baselineProfileRule.collectBaselineProfile(packageName = "dev.patrickgold.kaizen_keyboard") {
             pressHome()
             // This block defines the app's critical user journey. Here we are interested in
             // optimizing for app startup. But you can also navigate and scroll

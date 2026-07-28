@@ -45,7 +45,7 @@ class HanShapeBasedLanguageProvider(val context: Context) : SpellingProvider, Su
     companion object {
         // Default user ID used for all subtypes, unless otherwise specified.
         // See `ime/core/Subtype.kt` Line 210 and 211 for the default usage
-        const val ProviderId = "org.kaizen-keyboard.nlp.providers.han.shape"
+        const val ProviderId = "org.kaizen_keyboard.nlp.providers.han.shape"
 
         const val DB_PATH = "han.sqlite3";
     }

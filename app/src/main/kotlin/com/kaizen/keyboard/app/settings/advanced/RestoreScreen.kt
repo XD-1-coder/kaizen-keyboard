@@ -81,7 +81,7 @@ import org.kaizen_keyboard.lib.kotlin.io.subFile
 
 object Restore {
     const val MIN_VERSION_CODE = 64
-    const val PACKAGE_NAME = "dev.patrickgold.kaizen-keyboard"
+    const val PACKAGE_NAME = "dev.patrickgold.kaizen_keyboard"
     const val BACKUP_ARCHIVE_FILE_NAME = "backup.zip"
 }
 

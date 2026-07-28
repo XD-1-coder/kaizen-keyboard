@@ -75,10 +75,10 @@ data class SnyggContentScaleValue(val contentScale: ContentScale) : SnyggValue {
  * The assert resolver for [SnyggUriValue].
  *
  * Implement this interface if you want to use [SnyggUriValue] (image and custom font-family support)
- * and pass the instance to [org.kaizen-keyboard.lib.snygg.ui.ProvideSnyggTheme]
+ * and pass the instance to [org.kaizen_keyboard.lib.snygg.ui.ProvideSnyggTheme]
  *
  * @since 0.5.0-alpha01
- * @see [org.kaizen-keyboard.lib.snygg.ui.ProvideSnyggTheme]
+ * @see [org.kaizen_keyboard.lib.snygg.ui.ProvideSnyggTheme]
  */
 interface SnyggAssetResolver {
     /**

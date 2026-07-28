@@ -27,7 +27,7 @@ import org.kaizen_keyboard.lib.snygg.SnyggStylesheetEditor
 
 @Suppress("NOTHING_TO_INLINE")
 inline fun extCoreTheme(id: String) = ExtensionComponentName(
-    extensionId = "org.kaizen-keyboard.themes",
+    extensionId = "org.kaizen_keyboard.themes",
     componentId = id,
 )
 

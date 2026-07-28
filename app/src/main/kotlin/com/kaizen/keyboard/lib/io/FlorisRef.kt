@@ -50,7 +50,7 @@ import kotlin.contracts.contract
 value class FlorisRef private constructor(val uri: Uri) {
     companion object {
         @VisibleForTesting(otherwise = VisibleForTesting.PRIVATE)
-        internal const val SCHEME_FLORIS = "kaizen-keyboard"
+        internal const val SCHEME_FLORIS = "kaizen_keyboard"
 
         @VisibleForTesting(otherwise = VisibleForTesting.PRIVATE)
         internal const val AUTHORITY_APP_UI = "app-ui"

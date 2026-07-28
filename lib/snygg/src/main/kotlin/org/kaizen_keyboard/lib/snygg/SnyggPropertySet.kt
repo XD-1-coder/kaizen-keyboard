@@ -58,20 +58,20 @@ sealed class SnyggPropertySet {
         val spec = SnyggSpec.propertySetSpecOf(rule)
         checkNotNull(spec) {
             "Encoder passed rule '$rule' for which no property spec is associated. Please report this bug in the " +
-                "kaizen-keyboard issue tracker."
+                "kaizen_keyboard issue tracker."
         }
         return when (spec.type) {
             SnyggSpecDecl.PropertySet.Type.SINGLE_SET -> {
                 check(this is SnyggSinglePropertySet) {
                     "Encoder called toJsonElement() for rule '$rule' on a MULTIPLE_SETS instance, even though the " +
-                        "spec requires a SINGLE_SET. Please report this bug in the kaizen-keyboard issue tracker."
+                        "spec requires a SINGLE_SET. Please report this bug in the kaizen_keyboard issue tracker."
                 }
                 this.toJsonElementSpecialized(rule, config)
             }
             SnyggSpecDecl.PropertySet.Type.MULTIPLE_SETS -> {
                 check(this is SnyggMultiplePropertySets) {
                     "Encoder called toJsonElement() for rule '$rule' on a SINGLE_SET instance, even though the " +
-                        "spec requires a MULTIPLE_SETS. Please report this bug in the kaizen-keyboard issue tracker."
+                        "spec requires a MULTIPLE_SETS. Please report this bug in the kaizen_keyboard issue tracker."
                 }
                 this.toJsonElementSpecialized(rule, config)
             }
@@ -87,7 +87,7 @@ sealed class SnyggPropertySet {
             val spec = SnyggSpec.propertySetSpecOf(rule)
             checkNotNull(spec) {
                 "Decoder passed rule '$rule' for which no property spec is associated. Please report this bug in the " +
-                    "kaizen-keyboard issue tracker."
+                    "kaizen_keyboard issue tracker."
             }
             return when (spec.type) {
                 SnyggSpecDecl.PropertySet.Type.SINGLE_SET -> {

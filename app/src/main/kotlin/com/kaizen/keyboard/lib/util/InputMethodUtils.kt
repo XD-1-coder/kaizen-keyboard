@@ -37,7 +37,7 @@ import org.kaizen_keyboard.lib.android.systemServiceOrNull
 import org.kaizen_keyboard.lib.compose.observeAsState
 
 private const val DELIMITER = ':'
-private const val IME_SERVICE_CLASS_NAME = "dev.patrickgold.kaizen-keyboard.FlorisImeService"
+private const val IME_SERVICE_CLASS_NAME = "dev.patrickgold.kaizen_keyboard.FlorisImeService"
 private const val TIMED_QUERY_DELAY = 500L
 
 object InputMethodUtils {

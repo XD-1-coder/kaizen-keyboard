@@ -110,8 +110,8 @@ class ClipboardMediaProvider : ContentProvider() {
             IMAGE_CLIP_ITEM, VIDEO_CLIP_ITEM -> {
                 cachedFileInfos.getOrDefault(ContentUris.parseId(uri), null)?.mimeTypes?.getOrNull(0)
             }
-            IMAGE_CLIPS_TABLE -> "${ContentResolver.CURSOR_DIR_BASE_TYPE}/vnd.kaizen-keyboard.image_clip_table"
-            VIDEO_CLIPS_TABLE -> "${ContentResolver.CURSOR_DIR_BASE_TYPE}/vnd.kaizen-keyboard.video_clip_table"
+            IMAGE_CLIPS_TABLE -> "${ContentResolver.CURSOR_DIR_BASE_TYPE}/vnd.kaizen_keyboard.image_clip_table"
+            VIDEO_CLIPS_TABLE -> "${ContentResolver.CURSOR_DIR_BASE_TYPE}/vnd.kaizen_keyboard.video_clip_table"
             else -> null
         }
     }

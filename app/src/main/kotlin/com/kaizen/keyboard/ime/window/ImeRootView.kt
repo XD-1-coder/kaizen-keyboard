@@ -41,7 +41,7 @@ val LocalWindowController = staticCompositionLocalOf<ImeWindowController> {
  *
  * The layout direction will be forced to [LayoutDirection.Ltr], to ensure the window positioning logic's left/right
  * corresponds to the physical left/right. For UI components that need to conform to the actual system layout
- * direction, the UI components should be wrapped with [org.kaizen-keyboard.lib.compose.ProvideActualLayoutDirection].
+ * direction, the UI components should be wrapped with [org.kaizen_keyboard.lib.compose.ProvideActualLayoutDirection].
  *
  * @see ImeRootWindow
  */

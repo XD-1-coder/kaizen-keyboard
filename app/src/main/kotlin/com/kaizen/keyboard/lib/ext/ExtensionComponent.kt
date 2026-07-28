@@ -40,7 +40,7 @@ interface ExtensionComponent {
  * based on an [extensionId] and an [componentId] for a component type.
  *
  * Example component name:
- *  `org.kaizen-keyboard.layouts:qwerty`
+ *  `org.kaizen_keyboard.layouts:qwerty`
  */
 @Serializable(with = ExtensionComponentName.Serializer::class)
 data class ExtensionComponentName(

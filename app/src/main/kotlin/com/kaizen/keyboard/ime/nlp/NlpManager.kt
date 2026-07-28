@@ -349,7 +349,7 @@ class NlpManager(context: Context) {
     inner class ClipboardSuggestionProvider internal constructor(private val context: Context) : SuggestionProvider {
         private var lastClipboardItemId: Long = -1
 
-        override val providerId = "org.kaizen-keyboard.nlp.providers.clipboard"
+        override val providerId = "org.kaizen_keyboard.nlp.providers.clipboard"
 
         override suspend fun create() {
             // Do nothing

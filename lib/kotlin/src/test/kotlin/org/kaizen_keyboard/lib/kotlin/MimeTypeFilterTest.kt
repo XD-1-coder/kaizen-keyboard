@@ -93,7 +93,7 @@ class MimeTypeFilterTest : FunSpec({
         }
 
         test("legacy otf file should work with wildcard filters") {
-            // https://github.com/kaizen-keyboard/kaizen-keyboard/issues/2957
+            // https://github.com/kaizen_keyboard/kaizen_keyboard/issues/2957
             val filter = mimeTypeFilterOf(
                 "font/*",
                 "application/font-*",

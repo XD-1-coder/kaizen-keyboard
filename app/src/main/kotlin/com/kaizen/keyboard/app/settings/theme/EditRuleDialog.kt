@@ -520,11 +520,11 @@ private fun EditCodeValueDialog(
                     Text(text = stringRes(R.string.settings__theme_editor__code_help_text))
                     FlorisHyperlinkText(
                         text = "Characters (unicode-table.com)",
-                        url = stringRes(R.string.kaizen-keyboard__character_key_codes_url),
+                        url = stringRes(R.string.kaizen_keyboard__character_key_codes_url),
                     )
                     FlorisHyperlinkText(
                         text = "Internal (github.com)",
-                        url = stringRes(R.string.kaizen-keyboard__internal_key_codes_url),
+                        url = stringRes(R.string.kaizen_keyboard__internal_key_codes_url),
                     )
                 }
             }

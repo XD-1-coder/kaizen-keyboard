@@ -33,6 +33,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("dev.patrickgold.kaizen-keyboard", appContext.packageName)
+        assertEquals("dev.patrickgold.kaizen_keyboard", appContext.packageName)
     }
 }

@@ -153,13 +153,13 @@ object ExtensionValidation {
     }
 
     val SnyggStaticColorValue = ValidationRule<String> {
-        forKlass = org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue::class
+        forKlass = org.kaizen_keyboard.lib.snygg.value.SnyggStaticColorValue::class
         forProperty = "color"
         validator { input ->
             val str = input.trim()
             when {
                 str.isBlank() -> resultInvalid(error = R.string.ext__validation__enter_color)
-                org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue.deserialize(str).isFailure -> {
+                org.kaizen_keyboard.lib.snygg.value.SnyggStaticColorValue.deserialize(str).isFailure -> {
                     resultInvalid(error = R.string.ext__validation__error_color)
                 }
                 else -> resultValid()
@@ -168,7 +168,7 @@ object ExtensionValidation {
     }
 
     val SnyggDpShapeValue = ValidationRule<String> {
-        forKlass = org.kaizen-keyboard.lib.snygg.value.SnyggDpShapeValue::class
+        forKlass = org.kaizen_keyboard.lib.snygg.value.SnyggDpShapeValue::class
         forProperty = "corner"
         validator { str ->
             val floatValue = str.toFloatOrNull()
@@ -182,7 +182,7 @@ object ExtensionValidation {
     }
 
     val SnyggPercentShapeValue = ValidationRule<String> {
-        forKlass = org.kaizen-keyboard.lib.snygg.value.SnyggPercentShapeValue::class
+        forKlass = org.kaizen_keyboard.lib.snygg.value.SnyggPercentShapeValue::class
         forProperty = "corner"
         validator { str ->
             val intValue = str.toIntOrNull()

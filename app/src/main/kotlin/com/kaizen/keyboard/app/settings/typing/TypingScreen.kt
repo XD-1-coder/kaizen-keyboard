@@ -120,7 +120,7 @@ fun TypingScreen() = FlorisScreen {
                         )
                         FlorisHyperlinkText(
                             text = "Feedback thread (GitHub)",
-                            url = "https://github.com/kaizen-keyboard/kaizen-keyboard/discussions/1935",
+                            url = "https://github.com/kaizen_keyboard/kaizen_keyboard/discussions/1935",
                         )
                     }
                 }
