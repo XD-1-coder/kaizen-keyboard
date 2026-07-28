@@ -20,7 +20,7 @@ kotlin {
 }
 
 configure<LibraryExtension> {
-    namespace = "org.kaizen-keyboard.lib.color"
+    namespace = "org.kaizen_keyboard.lib.color"
     compileSdk = projectCompileSdk.toInt()
 
     defaultConfig {

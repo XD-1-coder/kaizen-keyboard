@@ -31,7 +31,7 @@ kotlin {
 }
 
 configure<LibraryExtension> {
-    namespace = "org.kaizen-keyboard.libnative"
+    namespace = "org.kaizen_keyboard.libnative"
     compileSdk = projectCompileSdk.toInt()
     ndkVersion = tools.versions.ndk.get()
 

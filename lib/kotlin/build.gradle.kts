@@ -24,7 +24,7 @@ plugins {
 }
 
 val projectGroupId: String by project
-val artifactId = "kaizen-keyboard-lib-kotlin"
+val artifactId = "kaizen_keyboard-lib-kotlin"
 val projectVersion: String by project
 
 java {

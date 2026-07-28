@@ -39,7 +39,7 @@ kotlin {
 }
 
 configure<LibraryExtension> {
-    namespace = "org.kaizen-keyboard.lib.snygg"
+    namespace = "org.kaizen_keyboard.lib.snygg"
     compileSdk = projectCompileSdk.toInt()
 
     defaultConfig {
@@ -110,7 +110,7 @@ dependencies {
 tasks.register<JavaExec>("generateJsonSchema") {
     description = "Generate the JSON schema for Snygg themes"
     dependsOn("compileDebugKotlin")
-    mainClass.set("org.kaizen-keyboard.lib.snygg.SnyggJsonSchemaGenerator")
+    mainClass.set("org.kaizen_keyboard.lib.snygg.SnyggJsonSchemaGenerator")
     val debugRuntime = configurations.named("debugRuntimeClasspath")
     val compileTask = tasks.named<KotlinCompile>("compileDebugKotlin")
     val debugRuntimeArtifactView = debugRuntime.get().incoming.artifactView {

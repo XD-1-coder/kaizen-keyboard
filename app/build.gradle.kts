@@ -77,7 +77,7 @@ configure<ApplicationExtension> {
 
         buildConfigField("String", "BUILD_COMMIT_HASH", "\"${getGitCommitHash().get()}\"")
         buildConfigField("String", "FLADDONS_API_VERSION", "\"v~draft2\"")
-        buildConfigField("String", "FLADDONS_STORE_URL", "\"beta.addons.kaizen-keyboard.org\"")
+        buildConfigField("String", "FLADDONS_STORE_URL", "\"beta.addons.kaizen_keyboard.org\"")
 
         sourceSets {
             maybeCreate("main").apply {

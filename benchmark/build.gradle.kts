@@ -20,7 +20,7 @@ plugins {
 }
 
 android {
-    namespace = "dev.patrickgold.kaizen-keyboard.benchmark"
+    namespace = "dev.patrickgold.kaizen_keyboard.benchmark"
     compileSdk = 34
 
     compileOptions {

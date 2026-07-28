@@ -36,7 +36,7 @@ kotlin {
 }
 
 configure<LibraryExtension> {
-    namespace = "org.kaizen-keyboard.lib.android"
+    namespace = "org.kaizen_keyboard.lib.android"
     compileSdk = projectCompileSdk.toInt()
 
     defaultConfig {
