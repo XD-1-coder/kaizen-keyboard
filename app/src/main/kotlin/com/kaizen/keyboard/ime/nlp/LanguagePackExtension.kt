@@ -28,8 +28,8 @@ import com.kaizen.keyboard.lib.ext.ExtensionMeta
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient
-import org.kaizen-keyboard.lib.kotlin.io.FsDir
-import org.kaizen-keyboard.lib.kotlin.io.subFile
+import org.kaizen_keyboard.lib.kotlin.io.FsDir
+import org.kaizen_keyboard.lib.kotlin.io.subFile
 
 @Serializable
 class LanguagePackComponent(

@@ -43,7 +43,7 @@ import com.kaizen.keyboard.nlpManager
 import com.kaizen.keyboard.subtypeManager
 import java.util.concurrent.atomic.AtomicInteger
 import kotlinx.coroutines.runBlocking
-import org.kaizen-keyboard.lib.android.showShortToastSync
+import org.kaizen_keyboard.lib.android.showShortToastSync
 
 class EditorInstance(context: Context) : AbstractEditorInstance(context) {
     companion object {

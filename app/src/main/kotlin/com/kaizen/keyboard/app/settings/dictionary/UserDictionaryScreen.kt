@@ -64,12 +64,12 @@ import dev.patrickgold.jetpref.material.ui.JetPrefListItem
 import dev.patrickgold.jetpref.material.ui.JetPrefTextField
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import org.kaizen-keyboard.lib.android.showLongToast
-import org.kaizen-keyboard.lib.android.showLongToastSync
-import org.kaizen-keyboard.lib.android.stringRes
-import org.kaizen-keyboard.lib.compose.FlorisIconButton
-import org.kaizen-keyboard.lib.compose.rippleClickable
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.android.showLongToast
+import org.kaizen_keyboard.lib.android.showLongToastSync
+import org.kaizen_keyboard.lib.android.stringRes
+import org.kaizen_keyboard.lib.compose.FlorisIconButton
+import org.kaizen_keyboard.lib.compose.rippleClickable
+import org.kaizen_keyboard.lib.compose.stringRes
 
 private val AllLanguagesLocale = FlorisLocale.from(language = "zz")
 private val UserDictionaryEntryToAdd = UserDictionaryEntry(id = 0, "", 255, null, null)

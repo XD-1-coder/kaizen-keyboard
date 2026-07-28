@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.kotlin
+package org.kaizen_keyboard.lib.kotlin
 
 @Throws(NoSuchElementException::class)
 fun <K, V> Map<K, V>.getKeyByValue(value: V): K {

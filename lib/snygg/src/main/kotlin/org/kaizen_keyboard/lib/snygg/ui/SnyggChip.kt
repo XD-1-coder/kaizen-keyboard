@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg.ui
+package org.kaizen_keyboard.lib.snygg.ui
 
 import androidx.compose.foundation.clickable
 import androidx.compose.material3.ripple
@@ -24,9 +24,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import org.kaizen-keyboard.lib.snygg.SnyggQueryAttributes
-import org.kaizen-keyboard.lib.snygg.SnyggSelector
-import org.kaizen-keyboard.lib.snygg.SnyggStylesheet
+import org.kaizen_keyboard.lib.snygg.SnyggQueryAttributes
+import org.kaizen_keyboard.lib.snygg.SnyggSelector
+import org.kaizen_keyboard.lib.snygg.SnyggStylesheet
 
 /**
  * Simple layout composable that places its children in a horizontal sequence.

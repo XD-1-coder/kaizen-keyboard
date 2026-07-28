@@ -1,4 +1,4 @@
-package org.kaizen-keyboard.lib.snygg
+package org.kaizen_keyboard.lib.snygg
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle
@@ -6,16 +6,16 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.materialkolor.dynamicColorScheme
-import org.kaizen-keyboard.lib.snygg.value.SnyggCircleShapeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggDpSizeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggFontStyleValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggFontWeightValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggPaddingValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggUndefinedValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggRectangleShapeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggSpSizeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggTextMaxLinesValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggCircleShapeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggDpSizeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggFontStyleValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggFontWeightValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggPaddingValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggUndefinedValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggRectangleShapeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggSpSizeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggStaticColorValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggTextMaxLinesValue
 import org.junit.jupiter.api.Nested
 import kotlin.test.Test
 import kotlin.test.assertEquals

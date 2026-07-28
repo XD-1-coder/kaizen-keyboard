@@ -1,13 +1,13 @@
-package org.kaizen-keyboard.lib.snygg
+package org.kaizen_keyboard.lib.snygg
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import org.kaizen-keyboard.lib.snygg.value.SnyggDefinedVarValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggDpSizeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggRectangleShapeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggShapeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggDefinedVarValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggDpSizeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggRectangleShapeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggShapeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggStaticColorValue
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertIs

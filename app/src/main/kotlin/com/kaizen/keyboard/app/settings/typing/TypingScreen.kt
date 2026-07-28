@@ -47,9 +47,9 @@ import dev.patrickgold.jetpref.datastore.ui.ListPreference
 import dev.patrickgold.jetpref.datastore.ui.Preference
 import dev.patrickgold.jetpref.datastore.ui.PreferenceGroup
 import dev.patrickgold.jetpref.datastore.ui.SwitchPreference
-import org.kaizen-keyboard.lib.android.AndroidVersion
-import org.kaizen-keyboard.lib.compose.FlorisErrorCard
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.compose.FlorisErrorCard
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @OptIn(ExperimentalJetPrefDatastoreUi::class)
 @Composable

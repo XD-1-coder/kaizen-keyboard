@@ -23,11 +23,11 @@ import androidx.compose.ui.platform.LocalContext
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.app.LocalNavController
 import com.kaizen.keyboard.extensionManager
-import org.kaizen-keyboard.lib.android.showLongToast
+import org.kaizen_keyboard.lib.android.showLongToast
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import com.kaizen.keyboard.lib.ext.Extension
 import com.kaizen.keyboard.lib.ext.ExtensionDefaults
-import org.kaizen-keyboard.lib.android.showLongToastSync
+import org.kaizen_keyboard.lib.android.showLongToastSync
 
 @Composable
 fun ExtensionExportScreen(id: String) {

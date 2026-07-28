@@ -42,11 +42,11 @@ import com.kaizen.keyboard.app.FlorisPreferenceStore
 import com.kaizen.keyboard.app.LocalNavController
 import dev.patrickgold.jetpref.datastore.ui.PreferenceLayout
 import dev.patrickgold.jetpref.datastore.ui.PreferenceUiContent
-import org.kaizen-keyboard.lib.android.AndroidVersion
-import org.kaizen-keyboard.lib.compose.FlorisAppBar
-import org.kaizen-keyboard.lib.compose.FlorisIconButton
-import org.kaizen-keyboard.lib.compose.autoMirrorForRtl
-import org.kaizen-keyboard.lib.compose.florisVerticalScroll
+import org.kaizen_keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.compose.FlorisAppBar
+import org.kaizen_keyboard.lib.compose.FlorisIconButton
+import org.kaizen_keyboard.lib.compose.autoMirrorForRtl
+import org.kaizen_keyboard.lib.compose.florisVerticalScroll
 
 @Composable
 fun FlorisScreen(builder: @Composable FlorisScreenScope.() -> Unit) {

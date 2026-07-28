@@ -16,7 +16,7 @@
 
 package com.kaizen.keyboard.lib.ext
 
-import org.kaizen-keyboard.lib.kotlin.curlyFormat
+import org.kaizen_keyboard.lib.kotlin.curlyFormat
 
 object ExtensionDefaults {
     private const val ID_LOCAL_TEMPLATE = "local.{groupName}.{extensionName}"

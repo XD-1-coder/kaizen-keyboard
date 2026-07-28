@@ -17,7 +17,7 @@
 package com.kaizen.keyboard.ime.nlp
 
 import android.view.textservice.SuggestionsInfo
-import org.kaizen-keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.android.AndroidVersion
 
 /**
  * Inline value class wrapping the Android spelling [SuggestionsInfo] class with helpers.

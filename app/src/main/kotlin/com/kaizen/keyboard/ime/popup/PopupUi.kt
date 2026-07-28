@@ -33,13 +33,13 @@ import com.kaizen.keyboard.ime.keyboard.Key
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import org.kaizen-keyboard.lib.snygg.SnyggQueryAttributes
-import org.kaizen-keyboard.lib.snygg.SnyggSelector
-import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
-import org.kaizen-keyboard.lib.snygg.ui.SnyggColumn
-import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
-import org.kaizen-keyboard.lib.snygg.ui.SnyggRow
-import org.kaizen-keyboard.lib.snygg.ui.SnyggText
+import org.kaizen_keyboard.lib.snygg.SnyggQueryAttributes
+import org.kaizen_keyboard.lib.snygg.SnyggSelector
+import org.kaizen_keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen_keyboard.lib.snygg.ui.SnyggColumn
+import org.kaizen_keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen_keyboard.lib.snygg.ui.SnyggRow
+import org.kaizen_keyboard.lib.snygg.ui.SnyggText
 
 val GlobalStateNumPopupsShowing = MutableStateFlow(0)
 

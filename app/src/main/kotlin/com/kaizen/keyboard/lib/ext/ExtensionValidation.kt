@@ -20,9 +20,9 @@ import androidx.core.text.trimmedLength
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.ime.theme.ThemeExtensionComponent
 import com.kaizen.keyboard.lib.ValidationRule
-import org.kaizen-keyboard.lib.snygg.SnyggStylesheet
+import org.kaizen_keyboard.lib.snygg.SnyggStylesheet
 import com.kaizen.keyboard.lib.validate
-import org.kaizen-keyboard.lib.snygg.value.SnyggVarValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggVarValue
 
 object ExtensionValidation {
     private val MetaIdRegex = """^[a-z][a-z0-9_]*(\.[a-z0-9][a-z0-9_]*)*${'$'}""".toRegex()

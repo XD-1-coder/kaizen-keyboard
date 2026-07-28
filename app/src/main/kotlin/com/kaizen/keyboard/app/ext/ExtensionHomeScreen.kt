@@ -30,7 +30,7 @@ import com.kaizen.keyboard.app.Routes
 import com.kaizen.keyboard.extensionManager
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import dev.patrickgold.jetpref.datastore.ui.Preference
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @Composable
 fun ExtensionHomeScreen() = FlorisScreen {

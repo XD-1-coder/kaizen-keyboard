@@ -27,7 +27,7 @@ import androidx.compose.ui.unit.takeOrElse
 import androidx.compose.ui.unit.width
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.UseSerializers
-import org.kaizen-keyboard.lib.compose.DpSizeSerializer
+import org.kaizen_keyboard.lib.compose.DpSizeSerializer
 import kotlin.math.sqrt
 
 /**

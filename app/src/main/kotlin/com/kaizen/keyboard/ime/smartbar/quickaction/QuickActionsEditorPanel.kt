@@ -58,14 +58,14 @@ import com.kaizen.keyboard.ime.text.keyboard.TextKeyData
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import com.kaizen.keyboard.keyboardManager
 import com.kaizen.keyboard.lib.toIntOffset
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.stringRes
 import kotlinx.coroutines.runBlocking
-import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
-import org.kaizen-keyboard.lib.snygg.ui.SnyggColumn
-import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
-import org.kaizen-keyboard.lib.snygg.ui.SnyggIconButton
-import org.kaizen-keyboard.lib.snygg.ui.SnyggRow
-import org.kaizen-keyboard.lib.snygg.ui.SnyggText
+import org.kaizen_keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen_keyboard.lib.snygg.ui.SnyggColumn
+import org.kaizen_keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen_keyboard.lib.snygg.ui.SnyggIconButton
+import org.kaizen_keyboard.lib.snygg.ui.SnyggRow
+import org.kaizen_keyboard.lib.snygg.ui.SnyggText
 
 private const val ItemNotFound = -1
 private val NoopAction = QuickAction.InsertKey(TextKeyData(code = KeyCode.NOOP))

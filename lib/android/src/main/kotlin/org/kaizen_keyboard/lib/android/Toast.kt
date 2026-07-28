@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.android
+package org.kaizen_keyboard.lib.android
 
 import android.content.Context
 import android.widget.Toast
@@ -22,7 +22,7 @@ import androidx.annotation.StringRes
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
-import org.kaizen-keyboard.lib.kotlin.CurlyArg
+import org.kaizen_keyboard.lib.kotlin.CurlyArg
 
 /**
  * Shows a short toast with specified text.

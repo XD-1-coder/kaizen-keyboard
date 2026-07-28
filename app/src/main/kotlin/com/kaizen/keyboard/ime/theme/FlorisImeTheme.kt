@@ -31,8 +31,8 @@ import com.kaizen.keyboard.ime.window.LocalWindowController
 import com.kaizen.keyboard.keyboardManager
 import com.kaizen.keyboard.themeManager
 import dev.patrickgold.jetpref.datastore.model.collectAsState
-import org.kaizen-keyboard.lib.snygg.ui.ProvideSnyggTheme
-import org.kaizen-keyboard.lib.snygg.ui.rememberSnyggTheme
+import org.kaizen_keyboard.lib.snygg.ui.ProvideSnyggTheme
+import org.kaizen_keyboard.lib.snygg.ui.rememberSnyggTheme
 
 @Composable
 fun FlorisImeTheme(content: @Composable () -> Unit) {

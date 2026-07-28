@@ -1,4 +1,4 @@
-package org.kaizen-keyboard.lib.snygg.value
+package org.kaizen_keyboard.lib.snygg.value
 
 import androidx.compose.ui.graphics.Color
 import org.junit.jupiter.api.Nested

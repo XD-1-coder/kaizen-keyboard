@@ -68,16 +68,16 @@ import com.kaizen.keyboard.ime.text.TextInputLayout
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import com.kaizen.keyboard.keyboardManager
 import kotlinx.coroutines.delay
-import org.kaizen-keyboard.lib.compose.ProvideActualLayoutDirection
-import org.kaizen-keyboard.lib.compose.conditional
-import org.kaizen-keyboard.lib.compose.drawBorder
-import org.kaizen-keyboard.lib.compose.drawableRes
-import org.kaizen-keyboard.lib.compose.fold
-import org.kaizen-keyboard.lib.compose.ifIsInstance
-import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
-import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
-import org.kaizen-keyboard.lib.snygg.ui.SnyggIconButton
-import org.kaizen-keyboard.lib.snygg.ui.rememberSnyggThemeQuery
+import org.kaizen_keyboard.lib.compose.ProvideActualLayoutDirection
+import org.kaizen_keyboard.lib.compose.conditional
+import org.kaizen_keyboard.lib.compose.drawBorder
+import org.kaizen_keyboard.lib.compose.drawableRes
+import org.kaizen_keyboard.lib.compose.fold
+import org.kaizen_keyboard.lib.compose.ifIsInstance
+import org.kaizen_keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen_keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen_keyboard.lib.snygg.ui.SnyggIconButton
+import org.kaizen_keyboard.lib.snygg.ui.rememberSnyggThemeQuery
 
 /**
  * The main entry point of the IME user interface. This includes the keyboard itself, devtools overlays,

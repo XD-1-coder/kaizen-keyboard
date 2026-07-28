@@ -65,19 +65,19 @@ import java.util.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.kaizen-keyboard.lib.android.readToFile
-import org.kaizen-keyboard.lib.android.showLongToast
-import org.kaizen-keyboard.lib.android.showLongToastSync
-import org.kaizen-keyboard.lib.compose.FlorisButtonBar
-import org.kaizen-keyboard.lib.compose.FlorisCardDefaults
-import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.FlorisOutlinedButton
-import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.kotlin.io.deleteContentsRecursively
-import org.kaizen-keyboard.lib.kotlin.io.readJson
-import org.kaizen-keyboard.lib.kotlin.io.subDir
-import org.kaizen-keyboard.lib.kotlin.io.subFile
+import org.kaizen_keyboard.lib.android.readToFile
+import org.kaizen_keyboard.lib.android.showLongToast
+import org.kaizen_keyboard.lib.android.showLongToastSync
+import org.kaizen_keyboard.lib.compose.FlorisButtonBar
+import org.kaizen_keyboard.lib.compose.FlorisCardDefaults
+import org.kaizen_keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.FlorisOutlinedButton
+import org.kaizen_keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.kotlin.io.deleteContentsRecursively
+import org.kaizen_keyboard.lib.kotlin.io.readJson
+import org.kaizen_keyboard.lib.kotlin.io.subDir
+import org.kaizen_keyboard.lib.kotlin.io.subFile
 
 object Restore {
     const val MIN_VERSION_CODE = 64

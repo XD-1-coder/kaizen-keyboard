@@ -35,12 +35,12 @@ import com.kaizen.keyboard.R
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import com.kaizen.keyboard.keyboardManager
 import com.kaizen.keyboard.subtypeManager
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
-import org.kaizen-keyboard.lib.snygg.ui.SnyggColumn
-import org.kaizen-keyboard.lib.snygg.ui.SnyggListItem
-import org.kaizen-keyboard.lib.snygg.ui.SnyggRow
-import org.kaizen-keyboard.lib.snygg.ui.SnyggText
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen_keyboard.lib.snygg.ui.SnyggColumn
+import org.kaizen_keyboard.lib.snygg.ui.SnyggListItem
+import org.kaizen_keyboard.lib.snygg.ui.SnyggRow
+import org.kaizen_keyboard.lib.snygg.ui.SnyggText
 
 @Composable
 fun SelectSubtypePanel(modifier: Modifier = Modifier) {

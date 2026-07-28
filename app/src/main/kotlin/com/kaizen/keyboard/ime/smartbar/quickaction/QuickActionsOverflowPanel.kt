@@ -36,10 +36,10 @@ import com.kaizen.keyboard.ime.keyboard.FlorisImeSizing
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import com.kaizen.keyboard.keyboardManager
 import dev.patrickgold.jetpref.datastore.model.collectAsState
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
-import org.kaizen-keyboard.lib.snygg.ui.SnyggButton
-import org.kaizen-keyboard.lib.snygg.ui.SnyggText
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen_keyboard.lib.snygg.ui.SnyggButton
+import org.kaizen_keyboard.lib.snygg.ui.SnyggText
 
 @Composable
 fun QuickActionsOverflowPanel() {

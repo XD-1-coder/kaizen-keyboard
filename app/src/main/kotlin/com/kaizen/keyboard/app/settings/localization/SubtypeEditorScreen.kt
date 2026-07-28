@@ -84,10 +84,10 @@ import dev.patrickgold.jetpref.material.ui.JetPrefAlertDialog
 import dev.patrickgold.jetpref.material.ui.JetPrefDropdown
 import dev.patrickgold.jetpref.material.ui.JetPrefDropdownMenuDefaults
 import dev.patrickgold.jetpref.material.ui.JetPrefListItem
-import org.kaizen-keyboard.lib.compose.FlorisButtonBar
-import org.kaizen-keyboard.lib.compose.FlorisDropdownLikeButton
-import org.kaizen-keyboard.lib.compose.florisScrollbar
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.FlorisButtonBar
+import org.kaizen_keyboard.lib.compose.FlorisDropdownLikeButton
+import org.kaizen_keyboard.lib.compose.florisScrollbar
+import org.kaizen_keyboard.lib.compose.stringRes
 
 
 private val SelectComponentName = ExtensionComponentName("00", "00")

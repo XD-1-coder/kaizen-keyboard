@@ -55,11 +55,11 @@ import com.kaizen.keyboard.extensionManager
 import com.kaizen.keyboard.ime.theme.ThemeExtension
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import com.kaizen.keyboard.lib.ext.ExtensionManager
-import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.FlorisTextButton
-import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.florisScrollbar
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.FlorisTextButton
+import org.kaizen_keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.florisScrollbar
+import org.kaizen_keyboard.lib.compose.stringRes
 
 enum class ExtensionListScreenType(
     val id: String,

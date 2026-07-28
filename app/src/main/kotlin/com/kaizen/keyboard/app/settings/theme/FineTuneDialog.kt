@@ -26,7 +26,7 @@ import dev.patrickgold.jetpref.datastore.ui.ListPreference
 import dev.patrickgold.jetpref.datastore.ui.PreferenceLayout
 import dev.patrickgold.jetpref.material.ui.ColorRepresentation
 import dev.patrickgold.jetpref.material.ui.JetPrefAlertDialog
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.stringRes
 
 private val FineTuneContentPadding = PaddingValues(horizontal = 8.dp)
 

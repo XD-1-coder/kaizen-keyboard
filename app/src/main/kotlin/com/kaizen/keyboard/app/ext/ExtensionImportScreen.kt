@@ -53,15 +53,15 @@ import com.kaizen.keyboard.lib.NATIVE_NULLPTR
 import com.kaizen.keyboard.lib.cache.CacheManager
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import com.kaizen.keyboard.lib.io.FileRegistry
-import org.kaizen-keyboard.lib.compose.FlorisBulletSpacer
-import org.kaizen-keyboard.lib.compose.FlorisButtonBar
-import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.FlorisOutlinedButton
-import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.florisHorizontalScroll
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.android.showLongToastSync
-import org.kaizen-keyboard.lib.kotlin.resultOk
+import org.kaizen_keyboard.lib.compose.FlorisBulletSpacer
+import org.kaizen_keyboard.lib.compose.FlorisButtonBar
+import org.kaizen_keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.FlorisOutlinedButton
+import org.kaizen_keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.florisHorizontalScroll
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.android.showLongToastSync
+import org.kaizen_keyboard.lib.kotlin.resultOk
 
 enum class ExtensionImportScreenType(
     val id: String,

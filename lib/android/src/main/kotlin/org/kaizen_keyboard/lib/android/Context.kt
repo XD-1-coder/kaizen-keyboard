@@ -16,12 +16,12 @@
 
 @file:Suppress("NOTHING_TO_INLINE")
 
-package org.kaizen-keyboard.lib.android
+package org.kaizen_keyboard.lib.android
 
 import android.content.Context
 import androidx.annotation.StringRes
-import org.kaizen-keyboard.lib.kotlin.CurlyArg
-import org.kaizen-keyboard.lib.kotlin.curlyFormat
+import org.kaizen_keyboard.lib.kotlin.CurlyArg
+import org.kaizen_keyboard.lib.kotlin.curlyFormat
 import kotlin.reflect.KClass
 
 /**

@@ -55,10 +55,10 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.lib.util.InputMethodUtils
-import org.kaizen-keyboard.lib.android.showShortToastSync
-import org.kaizen-keyboard.lib.android.showShortToast
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.compose.verticalTween
+import org.kaizen_keyboard.lib.android.showShortToastSync
+import org.kaizen_keyboard.lib.android.showShortToast
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.verticalTween
 
 private const val AnimationDuration = 200
 

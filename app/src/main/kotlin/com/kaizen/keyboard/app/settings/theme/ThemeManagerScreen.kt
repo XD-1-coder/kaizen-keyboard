@@ -43,10 +43,10 @@ import com.kaizen.keyboard.themeManager
 import dev.patrickgold.jetpref.datastore.model.collectAsState
 import dev.patrickgold.jetpref.material.ui.JetPrefListItem
 import kotlinx.coroutines.launch
-import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.rippleClickable
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.rippleClickable
+import org.kaizen_keyboard.lib.compose.stringRes
 
 enum class ThemeManagerScreenAction(val id: String) {
     SELECT_DAY("select-day"),

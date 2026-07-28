@@ -37,7 +37,7 @@ import com.kaizen.keyboard.ime.text.keyboard.TextKeyboardLayout
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import com.kaizen.keyboard.keyboardManager
 import dev.patrickgold.jetpref.datastore.model.collectAsState
-import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen_keyboard.lib.snygg.ui.SnyggIcon
 
 @Composable
 fun TextInputLayout(

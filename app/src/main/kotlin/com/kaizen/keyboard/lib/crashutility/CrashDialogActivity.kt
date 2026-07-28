@@ -32,7 +32,7 @@ import com.kaizen.keyboard.BuildConfig
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.app.FlorisPreferenceModel
 import com.kaizen.keyboard.app.FlorisPreferenceStore
-import org.kaizen-keyboard.lib.android.stringRes
+import org.kaizen_keyboard.lib.android.stringRes
 import com.kaizen.keyboard.lib.devtools.Devtools
 import com.kaizen.keyboard.lib.devtools.LogTopic
 import com.kaizen.keyboard.lib.devtools.flogWarning

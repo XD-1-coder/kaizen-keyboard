@@ -26,7 +26,7 @@ import com.kaizen.keyboard.FlorisImeService
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.ime.input.LocalInputFeedbackController
 import com.kaizen.keyboard.ime.theme.FlorisImeTheme
-import org.kaizen-keyboard.lib.compose.ProvideLocalizedResources
+import org.kaizen_keyboard.lib.compose.ProvideLocalizedResources
 
 /**
  * Provides the [ImeWindowController] instance this composition tree is associated with.

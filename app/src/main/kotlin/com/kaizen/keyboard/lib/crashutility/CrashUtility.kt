@@ -36,10 +36,10 @@ import com.kaizen.keyboard.lib.devtools.LogTopic
 import com.kaizen.keyboard.lib.devtools.flogError
 import com.kaizen.keyboard.lib.devtools.flogInfo
 import java.lang.ref.WeakReference
-import org.kaizen-keyboard.lib.kotlin.io.FsDir
-import org.kaizen-keyboard.lib.kotlin.io.FsFile
-import org.kaizen-keyboard.lib.kotlin.io.subDir
-import org.kaizen-keyboard.lib.kotlin.io.subFile
+import org.kaizen_keyboard.lib.kotlin.io.FsDir
+import org.kaizen_keyboard.lib.kotlin.io.FsFile
+import org.kaizen_keyboard.lib.kotlin.io.subDir
+import org.kaizen_keyboard.lib.kotlin.io.subFile
 import kotlin.system.exitProcess
 
 /**

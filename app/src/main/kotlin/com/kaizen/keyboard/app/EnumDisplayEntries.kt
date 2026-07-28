@@ -46,8 +46,8 @@ import com.kaizen.keyboard.ime.window.ImeWindowMode
 import dev.patrickgold.jetpref.datastore.ui.ListPreferenceEntry
 import dev.patrickgold.jetpref.datastore.ui.listPrefEntries
 import dev.patrickgold.jetpref.material.ui.ColorRepresentation
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.kotlin.curlyFormat
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.kotlin.curlyFormat
 import kotlin.reflect.KClass
 
 private const val DEFAULT = ""

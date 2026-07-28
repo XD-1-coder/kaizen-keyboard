@@ -35,13 +35,13 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.lib.util.launchActivity
-import org.kaizen-keyboard.lib.android.AndroidSettings
-import org.kaizen-keyboard.lib.compose.FlorisCanvasIcon
-import org.kaizen-keyboard.lib.compose.FlorisErrorCard
-import org.kaizen-keyboard.lib.compose.FlorisSimpleCard
-import org.kaizen-keyboard.lib.compose.FlorisWarningCard
-import org.kaizen-keyboard.lib.compose.observeAsState
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.android.AndroidSettings
+import org.kaizen_keyboard.lib.compose.FlorisCanvasIcon
+import org.kaizen_keyboard.lib.compose.FlorisErrorCard
+import org.kaizen_keyboard.lib.compose.FlorisSimpleCard
+import org.kaizen_keyboard.lib.compose.FlorisWarningCard
+import org.kaizen_keyboard.lib.compose.observeAsState
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @Composable
 fun SpellCheckerServiceSelector(florisSpellCheckerEnabled: MutableState<Boolean>) {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.compose
+package org.kaizen_keyboard.lib.compose
 
 import androidx.compose.foundation.lazy.grid.GridItemSpan
 import androidx.compose.foundation.lazy.grid.LazyGridItemScope

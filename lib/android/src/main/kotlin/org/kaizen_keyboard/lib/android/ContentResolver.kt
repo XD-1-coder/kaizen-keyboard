@@ -16,12 +16,12 @@
 
 @file:Suppress("NOTHING_TO_INLINE")
 
-package org.kaizen-keyboard.lib.android
+package org.kaizen_keyboard.lib.android
 
 import android.content.ContentResolver
 import android.content.res.AssetFileDescriptor
 import android.net.Uri
-import org.kaizen-keyboard.lib.kotlin.io.FsFile
+import org.kaizen_keyboard.lib.kotlin.io.FsFile
 import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.InputStream

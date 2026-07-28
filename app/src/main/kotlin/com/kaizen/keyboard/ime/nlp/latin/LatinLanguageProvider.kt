@@ -30,8 +30,8 @@ import kotlinx.coroutines.withContext
 import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.json.Json
-import org.kaizen-keyboard.lib.android.readText
-import org.kaizen-keyboard.lib.kotlin.guardedByLock
+import org.kaizen_keyboard.lib.android.readText
+import org.kaizen_keyboard.lib.kotlin.guardedByLock
 
 class LatinLanguageProvider(context: Context) : SpellingProvider, SuggestionProvider {
     companion object {

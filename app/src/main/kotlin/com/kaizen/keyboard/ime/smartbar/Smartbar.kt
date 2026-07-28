@@ -67,15 +67,15 @@ import com.kaizen.keyboard.keyboardManager
 import com.kaizen.keyboard.nlpManager
 import dev.patrickgold.jetpref.datastore.model.collectAsState
 import kotlinx.coroutines.launch
-import org.kaizen-keyboard.lib.android.AndroidVersion
-import org.kaizen-keyboard.lib.compose.horizontalTween
-import org.kaizen-keyboard.lib.compose.verticalTween
-import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
-import org.kaizen-keyboard.lib.snygg.ui.SnyggColumn
-import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
-import org.kaizen-keyboard.lib.snygg.ui.SnyggIconButton
-import org.kaizen-keyboard.lib.snygg.ui.SnyggRow
-import org.kaizen-keyboard.lib.snygg.ui.rememberSnyggThemeQuery
+import org.kaizen_keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.compose.horizontalTween
+import org.kaizen_keyboard.lib.compose.verticalTween
+import org.kaizen_keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen_keyboard.lib.snygg.ui.SnyggColumn
+import org.kaizen_keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen_keyboard.lib.snygg.ui.SnyggIconButton
+import org.kaizen_keyboard.lib.snygg.ui.SnyggRow
+import org.kaizen_keyboard.lib.snygg.ui.rememberSnyggThemeQuery
 
 const val AnimationDuration = 200
 

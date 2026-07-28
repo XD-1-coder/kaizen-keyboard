@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg.value
+package org.kaizen_keyboard.lib.snygg.value
 
 /**
  * SnyggValue is the base interface for all possible property values a Snygg stylesheet can hold. In general, a Snygg

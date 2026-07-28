@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg.value
+package org.kaizen_keyboard.lib.snygg.value
 
 import androidx.compose.ui.graphics.Color
-import org.kaizen-keyboard.lib.color.ColorPalette
+import org.kaizen_keyboard.lib.color.ColorPalette
 import kotlin.math.roundToInt
 
 sealed interface SnyggAppearanceValue : SnyggValue

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg
+package org.kaizen_keyboard.lib.snygg
 
 class SnyggStylesheetEditor(
     private val schema: String,

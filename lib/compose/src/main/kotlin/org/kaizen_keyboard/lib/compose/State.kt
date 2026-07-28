@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.compose
+package org.kaizen_keyboard.lib.compose
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
@@ -25,8 +25,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
-import org.kaizen-keyboard.lib.android.AndroidSettingsHelper
-import org.kaizen-keyboard.lib.android.SystemSettingsObserver
+import org.kaizen_keyboard.lib.android.AndroidSettingsHelper
+import org.kaizen_keyboard.lib.android.SystemSettingsObserver
 
 @Composable
 fun AndroidSettingsHelper.observeAsState(

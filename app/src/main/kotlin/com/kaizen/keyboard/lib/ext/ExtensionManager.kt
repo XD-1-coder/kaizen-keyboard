@@ -53,10 +53,10 @@ import kotlinx.serialization.KSerializer
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.modules.SerializersModule
 import kotlinx.serialization.modules.polymorphic
-import org.kaizen-keyboard.lib.android.FileObserver
-import org.kaizen-keyboard.lib.kotlin.io.FsFile
-import org.kaizen-keyboard.lib.kotlin.io.writeJson
-import org.kaizen-keyboard.lib.kotlin.throwOnFailure
+import org.kaizen_keyboard.lib.android.FileObserver
+import org.kaizen_keyboard.lib.kotlin.io.FsFile
+import org.kaizen_keyboard.lib.kotlin.io.writeJson
+import org.kaizen_keyboard.lib.kotlin.throwOnFailure
 
 @OptIn(ExperimentalSerializationApi::class)
 val ExtensionJsonConfig = Json {

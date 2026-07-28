@@ -24,8 +24,8 @@ import androidx.annotation.StringRes
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.lib.devtools.flogError
 import com.kaizen.keyboard.lib.io.FlorisRef
-import org.kaizen-keyboard.lib.android.stringRes
-import org.kaizen-keyboard.lib.kotlin.CurlyArg
+import org.kaizen_keyboard.lib.android.stringRes
+import org.kaizen_keyboard.lib.kotlin.CurlyArg
 import kotlin.contracts.InvocationKind
 import kotlin.contracts.contract
 import kotlin.reflect.KClass

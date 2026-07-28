@@ -43,10 +43,10 @@ import com.kaizen.keyboard.ime.theme.ThemeExtensionComponent
 import com.kaizen.keyboard.lib.ext.ExtensionComponent
 import com.kaizen.keyboard.lib.ext.ExtensionComponentName
 import com.kaizen.keyboard.lib.ext.ExtensionMeta
-import org.kaizen-keyboard.lib.compose.FlorisIconButton
-import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.FlorisTextButton
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.FlorisIconButton
+import org.kaizen_keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.FlorisTextButton
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @Composable
 fun ExtensionComponentNoneFoundView() {

@@ -21,7 +21,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.kaizen.keyboard.R
 import dev.patrickgold.jetpref.material.ui.JetPrefAlertDialog
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @Composable
 fun FlorisConfirmDeleteDialog(

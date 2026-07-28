@@ -31,9 +31,9 @@ import com.kaizen.keyboard.R
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import com.kaizen.keyboard.lib.io.FlorisRef
 import com.kaizen.keyboard.lib.io.loadTextAsset
-import org.kaizen-keyboard.lib.compose.florisHorizontalScroll
-import org.kaizen-keyboard.lib.compose.florisVerticalScroll
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.florisHorizontalScroll
+import org.kaizen_keyboard.lib.compose.florisVerticalScroll
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @Composable
 fun ProjectLicenseScreen() = FlorisScreen {

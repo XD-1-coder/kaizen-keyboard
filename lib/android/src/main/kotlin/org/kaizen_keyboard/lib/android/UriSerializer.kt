@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.android
+package org.kaizen_keyboard.lib.android
 
 import android.net.Uri
 import androidx.core.net.toUri

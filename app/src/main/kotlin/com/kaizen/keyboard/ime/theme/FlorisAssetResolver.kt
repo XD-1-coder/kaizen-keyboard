@@ -18,8 +18,8 @@ package com.kaizen.keyboard.ime.theme
 
 import android.content.Context
 import com.kaizen.keyboard.lib.devtools.flogError
-import org.kaizen-keyboard.lib.kotlin.io.subFile
-import org.kaizen-keyboard.lib.snygg.value.SnyggAssetResolver
+import org.kaizen_keyboard.lib.kotlin.io.subFile
+import org.kaizen_keyboard.lib.snygg.value.SnyggAssetResolver
 import java.net.URI
 
 class FlorisAssetResolver(val context: Context, val themeInfo: ThemeManager.ThemeInfo) : SnyggAssetResolver {

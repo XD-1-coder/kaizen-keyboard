@@ -31,7 +31,7 @@ import com.kaizen.keyboard.subtypeManager
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
-import org.kaizen-keyboard.lib.android.systemService
+import org.kaizen_keyboard.lib.android.systemService
 
 @Suppress("MemberVisibilityCanBePrivate")
 object Devtools {

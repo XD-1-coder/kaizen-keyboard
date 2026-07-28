@@ -23,7 +23,7 @@ import androidx.compose.ui.platform.LocalContext
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.extensionManager
 import com.kaizen.keyboard.lib.compose.FlorisScreen
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @Composable
 fun CheckUpdatesScreen() = FlorisScreen {

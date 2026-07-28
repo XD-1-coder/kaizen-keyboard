@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg.ui
+package org.kaizen_keyboard.lib.snygg.ui
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -32,8 +32,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.role
 import androidx.compose.ui.semantics.semantics
-import org.kaizen-keyboard.lib.snygg.SnyggQueryAttributes
-import org.kaizen-keyboard.lib.snygg.SnyggSelector
+import org.kaizen_keyboard.lib.snygg.SnyggQueryAttributes
+import org.kaizen_keyboard.lib.snygg.SnyggSelector
 
 /**
  * Simple interactive Box with integrated clickable state management.

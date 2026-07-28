@@ -48,12 +48,12 @@ import com.kaizen.keyboard.ime.theme.FlorisImeTheme
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import com.kaizen.keyboard.ime.window.LocalWindowController
 import com.kaizen.keyboard.lib.devtools.flogError
-import org.kaizen-keyboard.lib.compose.ProvideLocalizedResources
-import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
-import org.kaizen-keyboard.lib.snygg.ui.SnyggButton
-import org.kaizen-keyboard.lib.snygg.ui.SnyggRow
-import org.kaizen-keyboard.lib.snygg.ui.SnyggText
-import org.kaizen-keyboard.lib.snygg.ui.rememberSnyggThemeQuery
+import org.kaizen_keyboard.lib.compose.ProvideLocalizedResources
+import org.kaizen_keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen_keyboard.lib.snygg.ui.SnyggButton
+import org.kaizen_keyboard.lib.snygg.ui.SnyggRow
+import org.kaizen_keyboard.lib.snygg.ui.SnyggText
+import org.kaizen_keyboard.lib.snygg.ui.rememberSnyggThemeQuery
 
 @SuppressLint("ViewConstructor")
 class ExtractedInputRootView(val ims: FlorisImeService, eet: ExtractEditText?) : FrameLayout(ims) {

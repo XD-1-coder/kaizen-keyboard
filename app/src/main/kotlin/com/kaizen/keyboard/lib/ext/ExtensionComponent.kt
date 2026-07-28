@@ -24,7 +24,7 @@ import kotlinx.serialization.descriptors.PrimitiveKind
 import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
 import kotlinx.serialization.encoding.Decoder
 import kotlinx.serialization.encoding.Encoder
-import org.kaizen-keyboard.lib.kotlin.tryOrNull
+import org.kaizen_keyboard.lib.kotlin.tryOrNull
 
 /**
  * An extension component, typically a layout, theme, file, etc. descriptor.

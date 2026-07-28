@@ -22,8 +22,8 @@ import kotlinx.serialization.EncodeDefault
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.kaizen-keyboard.lib.color.MaterialYouFlags
-import org.kaizen-keyboard.lib.snygg.SnyggStylesheetEditor
+import org.kaizen_keyboard.lib.color.MaterialYouFlags
+import org.kaizen_keyboard.lib.snygg.SnyggStylesheetEditor
 
 @Suppress("NOTHING_TO_INLINE")
 inline fun extCoreTheme(id: String) = ExtensionComponentName(

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg.ui
+package org.kaizen_keyboard.lib.snygg.ui
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
@@ -27,9 +27,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.kaizen-keyboard.lib.snygg.SnyggQueryAttributes
-import org.kaizen-keyboard.lib.snygg.SnyggSelector
-import org.kaizen-keyboard.lib.snygg.SnyggStylesheet
+import org.kaizen_keyboard.lib.snygg.SnyggQueryAttributes
+import org.kaizen_keyboard.lib.snygg.SnyggSelector
+import org.kaizen_keyboard.lib.snygg.SnyggStylesheet
 
 /**
  * Simple Icon composable, which displays a given [imageVector] annotated by the [contentDescription].

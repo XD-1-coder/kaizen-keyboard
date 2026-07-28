@@ -16,7 +16,7 @@
 
 package com.kaizen.keyboard.ime.editor
 
-import org.kaizen-keyboard.lib.kotlin.safeSubstring
+import org.kaizen_keyboard.lib.kotlin.safeSubstring
 
 /**
  * A snapshot window of an input editor content around the selection/cursor.

@@ -47,9 +47,9 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
-import org.kaizen-keyboard.lib.kotlin.io.deleteContentsRecursively
-import org.kaizen-keyboard.lib.kotlin.tryOrNull
-import org.kaizen-keyboard.libnative.dummyAdd
+import org.kaizen_keyboard.lib.kotlin.io.deleteContentsRecursively
+import org.kaizen_keyboard.lib.kotlin.tryOrNull
+import org.kaizen_keyboard.libnative.dummyAdd
 import java.lang.ref.WeakReference
 
 /**

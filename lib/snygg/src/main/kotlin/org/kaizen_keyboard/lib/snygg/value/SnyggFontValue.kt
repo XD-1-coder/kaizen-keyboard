@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg.value
+package org.kaizen_keyboard.lib.snygg.value
 
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
-import org.kaizen-keyboard.lib.snygg.value.SnyggFontValue.Companion.FontNameRegex
+import org.kaizen_keyboard.lib.snygg.value.SnyggFontValue.Companion.FontNameRegex
 
 sealed interface SnyggFontValue : SnyggValue {
     companion object {

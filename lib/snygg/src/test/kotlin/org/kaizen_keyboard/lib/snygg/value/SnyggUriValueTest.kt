@@ -1,4 +1,4 @@
-package org.kaizen-keyboard.lib.snygg.value
+package org.kaizen_keyboard.lib.snygg.value
 
 import org.junit.jupiter.api.assertAll
 import java.net.URI

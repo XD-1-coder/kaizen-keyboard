@@ -47,15 +47,15 @@ import com.kaizen.keyboard.keyboardManager
 import com.kaizen.keyboard.nlpManager
 import com.kaizen.keyboard.subtypeManager
 import dev.patrickgold.jetpref.datastore.model.collectAsState
-import org.kaizen-keyboard.lib.compose.conditional
-import org.kaizen-keyboard.lib.compose.florisHorizontalScroll
-import org.kaizen-keyboard.lib.snygg.SnyggSelector
-import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
-import org.kaizen-keyboard.lib.snygg.ui.SnyggColumn
-import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
-import org.kaizen-keyboard.lib.snygg.ui.SnyggRow
-import org.kaizen-keyboard.lib.snygg.ui.SnyggSpacer
-import org.kaizen-keyboard.lib.snygg.ui.SnyggText
+import org.kaizen_keyboard.lib.compose.conditional
+import org.kaizen_keyboard.lib.compose.florisHorizontalScroll
+import org.kaizen_keyboard.lib.snygg.SnyggSelector
+import org.kaizen_keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen_keyboard.lib.snygg.ui.SnyggColumn
+import org.kaizen_keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen_keyboard.lib.snygg.ui.SnyggRow
+import org.kaizen_keyboard.lib.snygg.ui.SnyggSpacer
+import org.kaizen_keyboard.lib.snygg.ui.SnyggText
 
 val CandidatesRowScrollbarHeight = 2.dp
 

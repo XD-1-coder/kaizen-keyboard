@@ -50,13 +50,13 @@ import com.kaizen.keyboard.R
 import com.kaizen.keyboard.app.FlorisPreferenceStore
 import com.kaizen.keyboard.app.apptheme.FlorisAppTheme
 import dev.patrickgold.jetpref.datastore.model.collectAsState
-import org.kaizen-keyboard.lib.android.AndroidClipboardManager
-import org.kaizen-keyboard.lib.android.AndroidVersion
-import org.kaizen-keyboard.lib.android.stringRes
-import org.kaizen-keyboard.lib.android.systemService
-import org.kaizen-keyboard.lib.compose.ProvideLocalizedResources
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.kotlin.mimeTypeFilterOf
+import org.kaizen_keyboard.lib.android.AndroidClipboardManager
+import org.kaizen_keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.android.stringRes
+import org.kaizen_keyboard.lib.android.systemService
+import org.kaizen_keyboard.lib.compose.ProvideLocalizedResources
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.kotlin.mimeTypeFilterOf
 
 class FlorisCopyToClipboardActivity : ComponentActivity() {
     private var error: CopyToClipboardError? = null

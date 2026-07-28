@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg
+package org.kaizen_keyboard.lib.snygg
 
 import androidx.compose.material3.ColorScheme
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
-import org.kaizen-keyboard.lib.color.getColor
-import org.kaizen-keyboard.lib.snygg.value.SnyggAssetResolver
-import org.kaizen-keyboard.lib.snygg.value.SnyggDefinedVarValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggDynamicDarkColorValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggDynamicLightColorValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggDefaultAssetResolver
-import org.kaizen-keyboard.lib.snygg.value.SnyggFontStyleValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggFontWeightValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggUndefinedValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggUriValue
+import org.kaizen_keyboard.lib.color.getColor
+import org.kaizen_keyboard.lib.snygg.value.SnyggAssetResolver
+import org.kaizen_keyboard.lib.snygg.value.SnyggDefinedVarValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggDynamicDarkColorValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggDynamicLightColorValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggDefaultAssetResolver
+import org.kaizen_keyboard.lib.snygg.value.SnyggFontStyleValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggFontWeightValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggUndefinedValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggStaticColorValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggUriValue
 import java.io.File
 
 /**

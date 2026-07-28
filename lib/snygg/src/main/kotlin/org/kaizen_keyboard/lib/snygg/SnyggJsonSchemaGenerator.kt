@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg
+package org.kaizen_keyboard.lib.snygg
 
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.encodeToJsonElement
-import org.kaizen-keyboard.lib.kotlin.io.writeJson
-import org.kaizen-keyboard.lib.kotlin.simpleNameOrEnclosing
-import org.kaizen-keyboard.lib.snygg.value.SnyggKeywordValueSpec
-import org.kaizen-keyboard.lib.snygg.value.SnyggValueEncoder
-import org.kaizen-keyboard.lib.snygg.value.SnyggValueSpec
+import org.kaizen_keyboard.lib.kotlin.io.writeJson
+import org.kaizen_keyboard.lib.kotlin.simpleNameOrEnclosing
+import org.kaizen_keyboard.lib.snygg.value.SnyggKeywordValueSpec
+import org.kaizen_keyboard.lib.snygg.value.SnyggValueEncoder
+import org.kaizen_keyboard.lib.snygg.value.SnyggValueSpec
 import java.io.File
 
 object SnyggJsonSchemaGenerator {

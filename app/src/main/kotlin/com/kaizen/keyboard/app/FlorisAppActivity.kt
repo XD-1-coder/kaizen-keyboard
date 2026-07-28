@@ -56,13 +56,13 @@ import com.kaizen.keyboard.lib.util.AppVersionUtils
 import dev.patrickgold.jetpref.datastore.model.collectAsState
 import dev.patrickgold.jetpref.datastore.ui.ProvideDefaultDialogPrefStrings
 import java.util.concurrent.atomic.AtomicBoolean
-import org.kaizen-keyboard.lib.android.AndroidVersion
-import org.kaizen-keyboard.lib.android.hideAppIcon
-import org.kaizen-keyboard.lib.android.showAppIcon
-import org.kaizen-keyboard.lib.compose.ProvideLocalizedResources
-import org.kaizen-keyboard.lib.compose.conditional
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.kotlin.collectIn
+import org.kaizen_keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.android.hideAppIcon
+import org.kaizen_keyboard.lib.android.showAppIcon
+import org.kaizen_keyboard.lib.compose.ProvideLocalizedResources
+import org.kaizen_keyboard.lib.compose.conditional
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.kotlin.collectIn
 
 enum class AppTheme(val id: String) {
     AUTO("auto"),

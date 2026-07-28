@@ -58,10 +58,10 @@ import com.kaizen.keyboard.lib.ext.Extension
 import com.kaizen.keyboard.lib.ext.ExtensionMaintainer
 import com.kaizen.keyboard.lib.ext.ExtensionMeta
 import com.kaizen.keyboard.lib.io.FlorisRef
-import org.kaizen-keyboard.lib.android.showLongToastSync
-import org.kaizen-keyboard.lib.compose.FlorisOutlinedButton
-import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.android.showLongToastSync
+import org.kaizen_keyboard.lib.compose.FlorisOutlinedButton
+import org.kaizen_keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @Composable
 fun ExtensionViewScreen(id: String) {

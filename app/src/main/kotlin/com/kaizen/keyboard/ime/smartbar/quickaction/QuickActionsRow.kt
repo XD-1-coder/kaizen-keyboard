@@ -34,7 +34,7 @@ import com.kaizen.keyboard.ime.smartbar.SmartbarLayout
 import com.kaizen.keyboard.ime.text.keyboard.TextKeyData
 import com.kaizen.keyboard.keyboardManager
 import dev.patrickgold.jetpref.datastore.model.collectAsState
-import org.kaizen-keyboard.lib.snygg.ui.SnyggRow
+import org.kaizen_keyboard.lib.snygg.ui.SnyggRow
 
 internal val ToggleOverflowPanelAction = QuickAction.InsertKey(TextKeyData.TOGGLE_ACTIONS_OVERFLOW)
 

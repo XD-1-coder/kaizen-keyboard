@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg
+package org.kaizen_keyboard.lib.snygg
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
@@ -34,21 +34,21 @@ import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.decodeFromJsonElement
 import kotlinx.serialization.json.encodeToJsonElement
-import org.kaizen-keyboard.lib.snygg.value.SnyggCustomFontFamilyValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggFontStyleValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggFontWeightValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggGenericFontFamilyValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggContentScaleValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggDpSizeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggShapeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggSpSizeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggTextAlignValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggTextDecorationLineValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggTextMaxLinesValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggTextOverflowValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggUndefinedValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggCustomFontFamilyValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggFontStyleValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggFontWeightValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggGenericFontFamilyValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggContentScaleValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggDpSizeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggShapeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggSpSizeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggStaticColorValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggTextAlignValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggTextDecorationLineValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggTextMaxLinesValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggTextOverflowValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggUndefinedValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggValue
 import kotlin.collections.contains
 
 sealed class SnyggPropertySet {

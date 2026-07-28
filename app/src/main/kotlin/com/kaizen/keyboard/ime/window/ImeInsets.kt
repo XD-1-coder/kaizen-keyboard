@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.DpRect
 import androidx.compose.ui.unit.IntRect
 import androidx.compose.ui.unit.dp
-import org.kaizen-keyboard.lib.compose.toDpRect
+import org.kaizen_keyboard.lib.compose.toDpRect
 
 /**
  * Insets describe the size and position within the next logical parent. All bounds are given in two

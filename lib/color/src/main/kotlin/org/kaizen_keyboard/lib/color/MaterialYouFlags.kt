@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.color
+package org.kaizen_keyboard.lib.color
 
 import androidx.compose.runtime.saveable.Saver
 import com.materialkolor.Contrast

@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.libnative
+package org.kaizen_keyboard.libnative
 
 external fun dummyAdd(a: Int, b: Int): Int

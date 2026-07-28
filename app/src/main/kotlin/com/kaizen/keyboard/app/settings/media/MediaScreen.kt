@@ -42,8 +42,8 @@ import dev.patrickgold.jetpref.datastore.ui.PreferenceGroup
 import dev.patrickgold.jetpref.datastore.ui.SwitchPreference
 import dev.patrickgold.jetpref.material.ui.JetPrefAlertDialog
 import kotlinx.coroutines.launch
-import org.kaizen-keyboard.lib.compose.pluralsRes
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.pluralsRes
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @OptIn(ExperimentalJetPrefDatastoreUi::class)
 @Composable

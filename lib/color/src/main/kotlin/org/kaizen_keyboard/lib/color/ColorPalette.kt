@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.color
+package org.kaizen_keyboard.lib.color
 
 import androidx.compose.material3.ColorScheme
 import androidx.compose.ui.graphics.Color

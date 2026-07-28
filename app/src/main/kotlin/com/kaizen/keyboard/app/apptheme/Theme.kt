@@ -29,8 +29,8 @@ import androidx.core.view.WindowCompat
 import com.kaizen.keyboard.app.AppTheme
 import com.kaizen.keyboard.app.FlorisPreferenceStore
 import dev.patrickgold.jetpref.datastore.model.collectAsState
-import org.kaizen-keyboard.lib.color.neutralDynamicColorScheme
-import org.kaizen-keyboard.lib.color.systemAccentOrDefault
+import org.kaizen_keyboard.lib.color.neutralDynamicColorScheme
+import org.kaizen_keyboard.lib.color.systemAccentOrDefault
 
 
 @Composable

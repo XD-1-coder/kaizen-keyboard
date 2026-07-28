@@ -30,7 +30,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
-import org.kaizen-keyboard.lib.compose.conditional
+import org.kaizen_keyboard.lib.compose.conditional
 
 private val SheetOutOfBoundsBgColorInactive = Color(0x00000000)
 private val SheetOutOfBoundsBgColorActive = Color(0x52000000)

@@ -19,9 +19,9 @@ package com.kaizen.keyboard.lib
 import androidx.annotation.StringRes
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.kotlin.CurlyArg
-import org.kaizen-keyboard.lib.kotlin.curlyFormat
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.kotlin.CurlyArg
+import org.kaizen_keyboard.lib.kotlin.curlyFormat
 import kotlin.contracts.contract
 import kotlin.reflect.KClass
 

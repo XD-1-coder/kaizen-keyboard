@@ -92,19 +92,19 @@ import dev.patrickgold.jetpref.material.ui.JetPrefAlertDialog
 import dev.patrickgold.jetpref.material.ui.JetPrefDropdown
 import dev.patrickgold.jetpref.material.ui.JetPrefTextField
 import dev.patrickgold.jetpref.material.ui.JetPrefTextFieldDefaults
-import org.kaizen-keyboard.lib.android.showShortToastSync
-import org.kaizen-keyboard.lib.android.stringRes
-import org.kaizen-keyboard.lib.compose.FlorisChip
-import org.kaizen-keyboard.lib.compose.FlorisIconButton
-import org.kaizen-keyboard.lib.compose.florisHorizontalScroll
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.kotlin.curlyFormat
-import org.kaizen-keyboard.lib.snygg.SnyggAnnotationRule
-import org.kaizen-keyboard.lib.snygg.SnyggAttributes
-import org.kaizen-keyboard.lib.snygg.SnyggElementRule
-import org.kaizen-keyboard.lib.snygg.SnyggRule
-import org.kaizen-keyboard.lib.snygg.SnyggSelector
-import org.kaizen-keyboard.lib.snygg.ui.NonNullSaver
+import org.kaizen_keyboard.lib.android.showShortToastSync
+import org.kaizen_keyboard.lib.android.stringRes
+import org.kaizen_keyboard.lib.compose.FlorisChip
+import org.kaizen_keyboard.lib.compose.FlorisIconButton
+import org.kaizen_keyboard.lib.compose.florisHorizontalScroll
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.kotlin.curlyFormat
+import org.kaizen_keyboard.lib.snygg.SnyggAnnotationRule
+import org.kaizen_keyboard.lib.snygg.SnyggAttributes
+import org.kaizen_keyboard.lib.snygg.SnyggElementRule
+import org.kaizen_keyboard.lib.snygg.SnyggRule
+import org.kaizen_keyboard.lib.snygg.SnyggSelector
+import org.kaizen_keyboard.lib.snygg.ui.NonNullSaver
 import kotlin.reflect.KClass
 
 private val TransparentTextSelectionColors = TextSelectionColors(

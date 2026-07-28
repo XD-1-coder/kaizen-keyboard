@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.android
+package org.kaizen_keyboard.lib.android
 
 import android.content.Context
 import android.net.Uri
 import android.provider.Settings
-import org.kaizen-keyboard.lib.kotlin.tryOrNull
+import org.kaizen_keyboard.lib.kotlin.tryOrNull
 import java.lang.reflect.Modifier
 import kotlin.reflect.KClass
 

@@ -38,13 +38,13 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import org.kaizen-keyboard.lib.android.AndroidClipboardManager
-import org.kaizen-keyboard.lib.android.AndroidClipboardManager_OnPrimaryClipChangedListener
-import org.kaizen-keyboard.lib.android.clearPrimaryClipAnyApi
-import org.kaizen-keyboard.lib.android.setOrClearPrimaryClip
-import org.kaizen-keyboard.lib.android.showShortToastSync
-import org.kaizen-keyboard.lib.android.systemService
-import org.kaizen-keyboard.lib.kotlin.tryOrNull
+import org.kaizen_keyboard.lib.android.AndroidClipboardManager
+import org.kaizen_keyboard.lib.android.AndroidClipboardManager_OnPrimaryClipChangedListener
+import org.kaizen_keyboard.lib.android.clearPrimaryClipAnyApi
+import org.kaizen_keyboard.lib.android.setOrClearPrimaryClip
+import org.kaizen_keyboard.lib.android.showShortToastSync
+import org.kaizen_keyboard.lib.android.systemService
+import org.kaizen_keyboard.lib.kotlin.tryOrNull
 
 /**
  * [ClipboardManager] manages the clipboard and clipboard history.

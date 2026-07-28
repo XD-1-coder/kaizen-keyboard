@@ -18,7 +18,7 @@ package com.kaizen.keyboard.ime.media.emoji
 
 import android.content.Context
 import com.kaizen.keyboard.lib.FlorisLocale
-import org.kaizen-keyboard.lib.android.bufferedReader
+import org.kaizen_keyboard.lib.android.bufferedReader
 import io.github.reactivecircus.cache4k.Cache
 import java.util.*
 

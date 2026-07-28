@@ -51,11 +51,11 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.serialization.EncodeDefault
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.Serializable
-import org.kaizen-keyboard.lib.android.AndroidVersion
-import org.kaizen-keyboard.lib.android.UriSerializer
-import org.kaizen-keyboard.lib.android.query
-import org.kaizen-keyboard.lib.android.stringRes
-import org.kaizen-keyboard.lib.kotlin.tryOrNull
+import org.kaizen_keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.android.UriSerializer
+import org.kaizen_keyboard.lib.android.query
+import org.kaizen_keyboard.lib.android.stringRes
+import org.kaizen_keyboard.lib.kotlin.tryOrNull
 
 private const val CLIPBOARD_HISTORY_TABLE = "clipboard_history"
 private const val CLIPBOARD_FILES_TABLE = "clipboard_files"

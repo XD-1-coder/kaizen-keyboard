@@ -57,15 +57,15 @@ import androidx.core.view.WindowInsetsControllerCompat
 import com.kaizen.keyboard.FlorisImeService
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
-import org.kaizen-keyboard.lib.android.AndroidVersion
-import org.kaizen-keyboard.lib.compose.FlorisIconButton
-import org.kaizen-keyboard.lib.compose.drawableRes
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.snygg.ui.SnyggButton
-import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
-import org.kaizen-keyboard.lib.snygg.ui.SnyggText
-import org.kaizen-keyboard.lib.snygg.ui.rememberSnyggThemeQuery
-import org.kaizen-keyboard.lib.snygg.ui.uriOrNull
+import org.kaizen_keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.compose.FlorisIconButton
+import org.kaizen_keyboard.lib.compose.drawableRes
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.snygg.ui.SnyggButton
+import org.kaizen_keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen_keyboard.lib.snygg.ui.SnyggText
+import org.kaizen_keyboard.lib.snygg.ui.rememberSnyggThemeQuery
+import org.kaizen_keyboard.lib.snygg.ui.uriOrNull
 
 /**
  * Configures the system navigation and caption bar.

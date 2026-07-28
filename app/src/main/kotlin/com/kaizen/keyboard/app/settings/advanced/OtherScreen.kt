@@ -46,9 +46,9 @@ import dev.patrickgold.jetpref.datastore.ui.PreferenceGroup
 import dev.patrickgold.jetpref.datastore.ui.SwitchPreference
 import dev.patrickgold.jetpref.datastore.ui.isMaterialYou
 import dev.patrickgold.jetpref.datastore.ui.listPrefEntries
-import org.kaizen-keyboard.lib.android.AndroidVersion
-import org.kaizen-keyboard.lib.color.ColorMappings
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.color.ColorMappings
+import org.kaizen_keyboard.lib.compose.stringRes
 
 
 @Composable

@@ -36,10 +36,10 @@ import dev.patrickgold.jetpref.datastore.ui.Preference
 import dev.patrickgold.jetpref.datastore.ui.PreferenceGroup
 import dev.patrickgold.jetpref.datastore.ui.SwitchPreference
 import kotlinx.coroutines.launch
-import org.kaizen-keyboard.lib.android.AndroidSettings
-import org.kaizen-keyboard.lib.android.AndroidVersion
-import org.kaizen-keyboard.lib.android.showLongToast
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.android.AndroidSettings
+import org.kaizen_keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.android.showLongToast
+import org.kaizen_keyboard.lib.compose.stringRes
 
 class DebugOnPurposeCrashException : Exception(
     "Success! The app crashed purposely to display this beautiful screen we all love :)"

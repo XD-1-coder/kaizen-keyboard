@@ -53,8 +53,8 @@ import dev.patrickgold.jetpref.datastore.ui.PreferenceGroup
 import dev.patrickgold.jetpref.datastore.ui.SwitchPreference
 import dev.patrickgold.jetpref.material.ui.JetPrefAlertDialog
 import kotlinx.serialization.json.Json
-import org.kaizen-keyboard.lib.compose.FlorisWarningCard
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.FlorisWarningCard
+import org.kaizen_keyboard.lib.compose.stringRes
 
 internal val SubtypeSaver = Saver<MutableState<Subtype?>, String>(
     save = {

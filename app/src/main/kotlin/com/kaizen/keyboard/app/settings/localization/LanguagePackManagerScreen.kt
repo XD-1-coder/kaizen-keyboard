@@ -54,12 +54,12 @@ import com.kaizen.keyboard.lib.ext.ExtensionComponentName
 import dev.patrickgold.jetpref.datastore.ui.ExperimentalJetPrefDatastoreUi
 import dev.patrickgold.jetpref.datastore.ui.Preference
 import dev.patrickgold.jetpref.material.ui.JetPrefListItem
-import org.kaizen-keyboard.lib.android.showLongToastSync
-import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.FlorisTextButton
-import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.rippleClickable
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.android.showLongToastSync
+import org.kaizen_keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.FlorisTextButton
+import org.kaizen_keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.rippleClickable
+import org.kaizen_keyboard.lib.compose.stringRes
 
 enum class LanguagePackManagerScreenAction(val id: String) {
     MANAGE("manage-installed-language-packs");

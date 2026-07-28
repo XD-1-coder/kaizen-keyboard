@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.kotlin.io
+package org.kaizen_keyboard.lib.kotlin.io
 
 import kotlinx.serialization.StringFormat
 import kotlinx.serialization.decodeFromString

@@ -65,7 +65,7 @@ import dev.patrickgold.jetpref.datastore.model.PreferenceModel
 import dev.patrickgold.jetpref.datastore.model.PreferenceType
 import dev.patrickgold.jetpref.material.ui.ColorRepresentation
 import kotlinx.serialization.json.Json
-import org.kaizen-keyboard.lib.android.isOrientationPortrait
+import org.kaizen_keyboard.lib.android.isOrientationPortrait
 
 val FlorisPreferenceStore = jetprefDataStoreOf(FlorisPreferenceModel::class)
 

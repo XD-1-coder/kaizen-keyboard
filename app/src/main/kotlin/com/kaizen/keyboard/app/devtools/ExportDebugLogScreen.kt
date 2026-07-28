@@ -43,11 +43,11 @@ import com.kaizen.keyboard.app.FlorisPreferenceStore
 import com.kaizen.keyboard.clipboardManager
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import com.kaizen.keyboard.lib.devtools.Devtools
-import org.kaizen-keyboard.lib.android.showShortToastSync
-import org.kaizen-keyboard.lib.compose.FlorisButton
-import org.kaizen-keyboard.lib.compose.florisHorizontalScroll
-import org.kaizen-keyboard.lib.compose.florisScrollbar
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.android.showShortToastSync
+import org.kaizen_keyboard.lib.compose.FlorisButton
+import org.kaizen_keyboard.lib.compose.florisHorizontalScroll
+import org.kaizen_keyboard.lib.compose.florisScrollbar
+import org.kaizen_keyboard.lib.compose.stringRes
 
 // TODO: This screen is just a quick thrown-together thing and needs further enhancing in the UI
 @Composable

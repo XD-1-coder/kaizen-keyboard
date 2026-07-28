@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg.ui
+package org.kaizen_keyboard.lib.snygg.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -46,24 +46,24 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.unit.takeOrElse
 import com.materialkolor.dynamicColorScheme
 import kotlinx.coroutines.runBlocking
-import org.kaizen-keyboard.lib.color.MaterialYouFlags
-import org.kaizen-keyboard.lib.color.systemAccentOrDefault
-import org.kaizen-keyboard.lib.snygg.CompiledFontFamilyData
-import org.kaizen-keyboard.lib.snygg.SnyggQueryAttributes
-import org.kaizen-keyboard.lib.snygg.SnyggRule
-import org.kaizen-keyboard.lib.snygg.SnyggSelector
-import org.kaizen-keyboard.lib.snygg.SnyggSinglePropertySet
-import org.kaizen-keyboard.lib.snygg.SnyggSinglePropertySetEditor
-import org.kaizen-keyboard.lib.snygg.SnyggStylesheet
-import org.kaizen-keyboard.lib.snygg.SnyggTheme
-import org.kaizen-keyboard.lib.snygg.value.SnyggAssetResolver
-import org.kaizen-keyboard.lib.snygg.value.SnyggDefaultAssetResolver
-import org.kaizen-keyboard.lib.snygg.value.SnyggDpSizeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggNoValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggPaddingValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggUriValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggValue
+import org.kaizen_keyboard.lib.color.MaterialYouFlags
+import org.kaizen_keyboard.lib.color.systemAccentOrDefault
+import org.kaizen_keyboard.lib.snygg.CompiledFontFamilyData
+import org.kaizen_keyboard.lib.snygg.SnyggQueryAttributes
+import org.kaizen_keyboard.lib.snygg.SnyggRule
+import org.kaizen_keyboard.lib.snygg.SnyggSelector
+import org.kaizen_keyboard.lib.snygg.SnyggSinglePropertySet
+import org.kaizen_keyboard.lib.snygg.SnyggSinglePropertySetEditor
+import org.kaizen_keyboard.lib.snygg.SnyggStylesheet
+import org.kaizen_keyboard.lib.snygg.SnyggTheme
+import org.kaizen_keyboard.lib.snygg.value.SnyggAssetResolver
+import org.kaizen_keyboard.lib.snygg.value.SnyggDefaultAssetResolver
+import org.kaizen_keyboard.lib.snygg.value.SnyggDpSizeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggNoValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggPaddingValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggStaticColorValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggUriValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggValue
 
 internal val LocalSnyggTheme: ProvidableCompositionLocal<SnyggTheme> =
     compositionLocalOf {

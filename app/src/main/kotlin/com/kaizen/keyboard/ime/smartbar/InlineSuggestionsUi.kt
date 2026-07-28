@@ -46,9 +46,9 @@ import com.kaizen.keyboard.ime.nlp.NlpInlineAutofillSuggestion
 import com.kaizen.keyboard.ime.popup.GlobalStateNumPopupsShowing
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
 import com.kaizen.keyboard.lib.toIntOffset
-import org.kaizen-keyboard.lib.compose.florisHorizontalScroll
-import org.kaizen-keyboard.lib.snygg.SnyggSinglePropertySet
-import org.kaizen-keyboard.lib.snygg.ui.rememberSnyggThemeQuery
+import org.kaizen_keyboard.lib.compose.florisHorizontalScroll
+import org.kaizen_keyboard.lib.snygg.SnyggSinglePropertySet
+import org.kaizen_keyboard.lib.snygg.ui.rememberSnyggThemeQuery
 
 val InlineSuggestionsChipMargin = PaddingValues(5.dp)
 

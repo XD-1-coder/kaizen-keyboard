@@ -43,8 +43,8 @@ import kotlinx.coroutines.cancel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.kaizen-keyboard.lib.kotlin.DeferredResult
-import org.kaizen-keyboard.lib.kotlin.runCatchingAsync
+import org.kaizen_keyboard.lib.kotlin.DeferredResult
+import org.kaizen_keyboard.lib.kotlin.runCatchingAsync
 
 private data class LTN(
     val type: LayoutType,

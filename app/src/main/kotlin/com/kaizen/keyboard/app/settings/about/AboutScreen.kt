@@ -44,9 +44,9 @@ import com.kaizen.keyboard.clipboardManager
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import com.kaizen.keyboard.lib.util.launchUrl
 import dev.patrickgold.jetpref.datastore.ui.Preference
-import org.kaizen-keyboard.lib.android.stringRes
-import org.kaizen-keyboard.lib.compose.FlorisCanvasIcon
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.android.stringRes
+import org.kaizen_keyboard.lib.compose.FlorisCanvasIcon
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @Composable
 fun AboutScreen() = FlorisScreen {

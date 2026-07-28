@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.compose
+package org.kaizen_keyboard.lib.compose
 
 import android.content.Context
 import android.view.View
@@ -34,8 +34,8 @@ import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 import java.time.format.FormatStyle
 import java.util.*
-import org.kaizen-keyboard.lib.kotlin.CurlyArg
-import org.kaizen-keyboard.lib.kotlin.curlyFormat
+import org.kaizen_keyboard.lib.kotlin.CurlyArg
+import org.kaizen_keyboard.lib.kotlin.curlyFormat
 
 private val LocalResourcesContext = staticCompositionLocalOf<Context> {
     error("resources context not initialized!!")

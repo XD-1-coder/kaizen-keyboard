@@ -45,8 +45,8 @@ import dev.patrickgold.jetpref.datastore.ui.ListPreference
 import dev.patrickgold.jetpref.datastore.ui.LocalTimePickerPreference
 import dev.patrickgold.jetpref.datastore.ui.Preference
 import dev.patrickgold.jetpref.datastore.ui.isMaterialYou
-import org.kaizen-keyboard.lib.color.ColorMappings
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.color.ColorMappings
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @Composable
 fun ThemeScreen() = FlorisScreen {

@@ -36,9 +36,9 @@ import androidx.room.Update
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.lib.FlorisLocale
 import com.kaizen.keyboard.lib.ValidationRule
-import org.kaizen-keyboard.lib.android.readText
-import org.kaizen-keyboard.lib.android.writeText
-import org.kaizen-keyboard.lib.kotlin.tryOrNull
+import org.kaizen_keyboard.lib.android.readText
+import org.kaizen_keyboard.lib.android.writeText
+import org.kaizen_keyboard.lib.kotlin.tryOrNull
 import java.lang.ref.WeakReference
 
 private const val WORDS_TABLE = "words"

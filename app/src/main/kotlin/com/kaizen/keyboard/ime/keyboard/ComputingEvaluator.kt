@@ -59,7 +59,7 @@ import com.kaizen.keyboard.ime.text.key.KeyType
 import com.kaizen.keyboard.ime.window.ImeWindowMode
 import com.kaizen.keyboard.lib.FlorisLocale
 import com.kaizen.keyboard.lib.compose.vectorResource
-import org.kaizen-keyboard.lib.compose.icons.ForwardDelete
+import org.kaizen_keyboard.lib.compose.icons.ForwardDelete
 
 interface ComputingEvaluator {
     val version: Int

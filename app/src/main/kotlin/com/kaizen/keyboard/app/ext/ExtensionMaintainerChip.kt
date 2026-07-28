@@ -33,7 +33,7 @@ import androidx.compose.ui.unit.dp
 import com.kaizen.keyboard.lib.ext.ExtensionMaintainer
 import com.kaizen.keyboard.lib.util.launchUrl
 import dev.patrickgold.jetpref.material.ui.JetPrefAlertDialog
-import org.kaizen-keyboard.lib.compose.FlorisChip
+import org.kaizen_keyboard.lib.compose.FlorisChip
 
 @Composable
 fun ExtensionMaintainerChip(

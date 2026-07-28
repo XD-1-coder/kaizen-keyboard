@@ -31,10 +31,10 @@ import androidx.compose.ui.platform.LocalContext
 import com.kaizen.keyboard.BuildConfig
 import com.kaizen.keyboard.lib.devtools.flogDebug
 import kotlinx.coroutines.delay
-import org.kaizen-keyboard.lib.android.AndroidSettings
-import org.kaizen-keyboard.lib.android.AndroidVersion
-import org.kaizen-keyboard.lib.android.systemServiceOrNull
-import org.kaizen-keyboard.lib.compose.observeAsState
+import org.kaizen_keyboard.lib.android.AndroidSettings
+import org.kaizen_keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.android.systemServiceOrNull
+import org.kaizen_keyboard.lib.compose.observeAsState
 
 private const val DELIMITER = ':'
 private const val IME_SERVICE_CLASS_NAME = "dev.patrickgold.kaizen-keyboard.FlorisImeService"

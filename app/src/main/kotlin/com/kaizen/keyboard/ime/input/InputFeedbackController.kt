@@ -25,10 +25,10 @@ import com.kaizen.keyboard.app.FlorisPreferenceStore
 import com.kaizen.keyboard.ime.keyboard.KeyData
 import com.kaizen.keyboard.ime.text.key.KeyCode
 import com.kaizen.keyboard.ime.text.keyboard.TextKeyData
-import org.kaizen-keyboard.lib.android.AndroidVersion
-import org.kaizen-keyboard.lib.android.systemServiceOrNull
-import org.kaizen-keyboard.lib.android.systemVibratorOrNull
-import org.kaizen-keyboard.lib.android.vibrate
+import org.kaizen_keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.android.systemServiceOrNull
+import org.kaizen_keyboard.lib.android.systemVibratorOrNull
+import org.kaizen_keyboard.lib.android.vibrate
 import com.kaizen.keyboard.lib.devtools.flogDebug
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

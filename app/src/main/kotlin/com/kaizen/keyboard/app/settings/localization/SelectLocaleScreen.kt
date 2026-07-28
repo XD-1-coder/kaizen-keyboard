@@ -51,8 +51,8 @@ import com.kaizen.keyboard.lib.FlorisLocale
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import dev.patrickgold.jetpref.datastore.model.collectAsState
 import dev.patrickgold.jetpref.material.ui.JetPrefListItem
-import org.kaizen-keyboard.lib.compose.florisScrollbar
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.florisScrollbar
+import org.kaizen_keyboard.lib.compose.stringRes
 
 const val SelectLocaleScreenResultLanguageTag = "SelectLocaleScreen.languageTag"
 

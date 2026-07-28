@@ -28,8 +28,8 @@ import dev.patrickgold.jetpref.datastore.ui.DialogSliderPreference
 import dev.patrickgold.jetpref.datastore.ui.ExperimentalJetPrefDatastoreUi
 import dev.patrickgold.jetpref.datastore.ui.ListPreference
 import dev.patrickgold.jetpref.datastore.ui.PreferenceGroup
-import org.kaizen-keyboard.lib.compose.FlorisInfoCard
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.FlorisInfoCard
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @OptIn(ExperimentalJetPrefDatastoreUi::class)
 @Composable

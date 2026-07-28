@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.color
+package org.kaizen_keyboard.lib.color
 
 import android.os.Build
 import androidx.annotation.RequiresApi
@@ -29,7 +29,7 @@ import com.materialkolor.PaletteStyle
 import com.materialkolor.dynamicColorScheme
 import com.materialkolor.dynamiccolor.ColorSpec
 import com.materialkolor.scheme.DynamicScheme
-import org.kaizen-keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.android.AndroidVersion
 
 val DEFAULT_GREEN = Color(0xFF4CAF50)
 

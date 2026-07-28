@@ -18,10 +18,10 @@ package com.kaizen.keyboard.lib.io
 
 import android.content.Context
 import android.net.Uri
-import org.kaizen-keyboard.lib.android.copyRecursively
-import org.kaizen-keyboard.lib.android.write
-import org.kaizen-keyboard.lib.kotlin.io.FsDir
-import org.kaizen-keyboard.lib.kotlin.io.FsFile
+import org.kaizen_keyboard.lib.android.copyRecursively
+import org.kaizen_keyboard.lib.android.write
+import org.kaizen_keyboard.lib.kotlin.io.FsDir
+import org.kaizen_keyboard.lib.kotlin.io.FsFile
 import java.io.FileOutputStream
 import java.util.zip.ZipEntry
 import java.util.zip.ZipFile

@@ -29,8 +29,8 @@ import com.mikepenz.aboutlibraries.ui.compose.m3.chipColors
 import com.mikepenz.aboutlibraries.ui.compose.m3.libraryColors
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.lib.compose.FlorisScreen
-import org.kaizen-keyboard.lib.compose.florisScrollbar
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.florisScrollbar
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @Composable
 fun ThirdPartyLicensesScreen() = FlorisScreen {

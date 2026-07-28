@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.compose.icons
+package org.kaizen_keyboard.lib.compose.icons
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.materialIcon

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg.value
+package org.kaizen_keyboard.lib.snygg.value
 
-import org.kaizen-keyboard.lib.kotlin.getKeyByValue
+import org.kaizen_keyboard.lib.kotlin.getKeyByValue
 
 /**
  * SnyggValueEncoder is responsible for the representation of a [SnyggValue] specification and for providing methods

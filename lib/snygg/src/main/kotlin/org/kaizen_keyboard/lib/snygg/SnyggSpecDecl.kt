@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg
+package org.kaizen_keyboard.lib.snygg
 
-import org.kaizen-keyboard.lib.snygg.value.SnyggValueEncoder
+import org.kaizen_keyboard.lib.snygg.value.SnyggValueEncoder
 
 enum class InheritBehavior {
     IMPLICITLY_OR_EXPLICITLY,

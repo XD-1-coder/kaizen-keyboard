@@ -41,10 +41,10 @@ import com.kaizen.keyboard.ime.keyboard.computeImageVector
 import com.kaizen.keyboard.ime.keyboard.computeLabel
 import com.kaizen.keyboard.ime.text.keyboard.TextKeyData
 import com.kaizen.keyboard.ime.theme.FlorisImeUi
-import org.kaizen-keyboard.lib.snygg.SnyggSelector
-import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
-import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
-import org.kaizen-keyboard.lib.snygg.ui.SnyggText
+import org.kaizen_keyboard.lib.snygg.SnyggSelector
+import org.kaizen_keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen_keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen_keyboard.lib.snygg.ui.SnyggText
 
 enum class QuickActionBarType {
     INTERACTIVE_BUTTON,

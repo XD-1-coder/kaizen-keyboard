@@ -54,18 +54,18 @@ import dev.patrickgold.jetpref.material.ui.JetPrefAlertDialog
 import dev.patrickgold.jetpref.material.ui.JetPrefTextField
 import java.io.File
 import java.util.*
-import org.kaizen-keyboard.lib.android.query
-import org.kaizen-keyboard.lib.android.readToFile
-import org.kaizen-keyboard.lib.android.showLongToast
-import org.kaizen-keyboard.lib.android.showLongToastSync
-import org.kaizen-keyboard.lib.android.showShortToast
-import org.kaizen-keyboard.lib.android.showShortToastSync
-import org.kaizen-keyboard.lib.compose.FlorisIconButton
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.kotlin.io.parentDir
-import org.kaizen-keyboard.lib.kotlin.io.subDir
-import org.kaizen-keyboard.lib.kotlin.io.subFile
-import org.kaizen-keyboard.lib.kotlin.mimeTypeFilterOf
+import org.kaizen_keyboard.lib.android.query
+import org.kaizen_keyboard.lib.android.readToFile
+import org.kaizen_keyboard.lib.android.showLongToast
+import org.kaizen_keyboard.lib.android.showLongToastSync
+import org.kaizen_keyboard.lib.android.showShortToast
+import org.kaizen_keyboard.lib.android.showShortToastSync
+import org.kaizen_keyboard.lib.compose.FlorisIconButton
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.kotlin.io.parentDir
+import org.kaizen_keyboard.lib.kotlin.io.subDir
+import org.kaizen_keyboard.lib.kotlin.io.subFile
+import org.kaizen_keyboard.lib.kotlin.mimeTypeFilterOf
 
 const val FONTS = "fonts"
 const val IMAGES = "images"

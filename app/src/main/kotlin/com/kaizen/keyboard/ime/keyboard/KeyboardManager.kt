@@ -73,13 +73,13 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.kaizen-keyboard.lib.android.AndroidKeyguardManager
-import org.kaizen-keyboard.lib.android.showLongToast
-import org.kaizen-keyboard.lib.android.showLongToastSync
-import org.kaizen-keyboard.lib.android.showShortToastSync
-import org.kaizen-keyboard.lib.android.systemService
-import org.kaizen-keyboard.lib.kotlin.collectIn
-import org.kaizen-keyboard.lib.kotlin.collectLatestIn
+import org.kaizen_keyboard.lib.android.AndroidKeyguardManager
+import org.kaizen_keyboard.lib.android.showLongToast
+import org.kaizen_keyboard.lib.android.showLongToastSync
+import org.kaizen_keyboard.lib.android.showShortToastSync
+import org.kaizen_keyboard.lib.android.systemService
+import org.kaizen_keyboard.lib.kotlin.collectIn
+import org.kaizen_keyboard.lib.kotlin.collectLatestIn
 
 private val DoubleSpacePeriodMatcher = """([^.!?‽\s]\s)""".toRegex()
 

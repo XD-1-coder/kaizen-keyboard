@@ -17,7 +17,7 @@
 package com.kaizen.keyboard.lib.io
 
 import com.kaizen.keyboard.lib.cache.CacheManager
-import org.kaizen-keyboard.lib.kotlin.io.FsFile
+import org.kaizen_keyboard.lib.kotlin.io.FsFile
 
 object FileRegistry {
     val BackupArchive = Entry(

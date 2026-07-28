@@ -24,8 +24,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.kaizen.keyboard.ime.input.InputShiftState
 import com.kaizen.keyboard.ime.text.key.KeyCode
-import org.kaizen-keyboard.lib.snygg.SnyggSelector
-import org.kaizen-keyboard.lib.snygg.SnyggStylesheet
+import org.kaizen_keyboard.lib.snygg.SnyggSelector
+import org.kaizen_keyboard.lib.snygg.SnyggStylesheet
 
 val FlorisImeThemeBaseStyle = SnyggStylesheet.v2 {
     defines {

@@ -24,10 +24,10 @@ import com.kaizen.keyboard.lib.io.ZipUtils
 import kotlinx.serialization.Polymorphic
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient
-import org.kaizen-keyboard.lib.kotlin.io.FsDir
-import org.kaizen-keyboard.lib.kotlin.io.FsFile
-import org.kaizen-keyboard.lib.kotlin.resultErr
-import org.kaizen-keyboard.lib.kotlin.resultOk
+import org.kaizen_keyboard.lib.kotlin.io.FsDir
+import org.kaizen_keyboard.lib.kotlin.io.FsFile
+import org.kaizen_keyboard.lib.kotlin.resultErr
+import org.kaizen_keyboard.lib.kotlin.resultOk
 
 /**
  * An extension container holding a parsed config, a working directory file

@@ -61,17 +61,17 @@ import dev.patrickgold.jetpref.material.ui.JetPrefListItem
 import kotlinx.coroutines.launch
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.kaizen-keyboard.lib.android.showLongToast
-import org.kaizen-keyboard.lib.android.showLongToastSync
-import org.kaizen-keyboard.lib.android.writeFromFile
-import org.kaizen-keyboard.lib.compose.FlorisButtonBar
-import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.rippleClickable
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.kotlin.io.subDir
-import org.kaizen-keyboard.lib.kotlin.io.subFile
-import org.kaizen-keyboard.lib.kotlin.io.writeJson
+import org.kaizen_keyboard.lib.android.showLongToast
+import org.kaizen_keyboard.lib.android.showLongToastSync
+import org.kaizen_keyboard.lib.android.writeFromFile
+import org.kaizen_keyboard.lib.compose.FlorisButtonBar
+import org.kaizen_keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.rippleClickable
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.kotlin.io.subDir
+import org.kaizen_keyboard.lib.kotlin.io.subFile
+import org.kaizen_keyboard.lib.kotlin.io.writeJson
 
 object Backup {
     const val FILE_PROVIDER_AUTHORITY = "${BuildConfig.APPLICATION_ID}.provider.file"

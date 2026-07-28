@@ -56,12 +56,12 @@ import dev.patrickgold.jetpref.datastore.ui.PreferenceUiScope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import org.kaizen-keyboard.lib.android.AndroidVersion
-import org.kaizen-keyboard.lib.compose.FlorisBulletSpacer
-import org.kaizen-keyboard.lib.compose.FlorisStep
-import org.kaizen-keyboard.lib.compose.FlorisStepLayout
-import org.kaizen-keyboard.lib.compose.FlorisStepState
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.compose.FlorisBulletSpacer
+import org.kaizen_keyboard.lib.compose.FlorisStep
+import org.kaizen_keyboard.lib.compose.FlorisStepLayout
+import org.kaizen_keyboard.lib.compose.FlorisStepState
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @Composable
 fun SetupScreen() = FlorisScreen {

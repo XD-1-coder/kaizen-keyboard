@@ -36,7 +36,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
-import org.kaizen-keyboard.lib.kotlin.guardedByLock
+import org.kaizen_keyboard.lib.kotlin.guardedByLock
 import kotlin.math.max
 import kotlin.math.min
 

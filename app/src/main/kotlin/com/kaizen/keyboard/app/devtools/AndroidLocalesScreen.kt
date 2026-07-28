@@ -35,11 +35,11 @@ import com.kaizen.keyboard.ime.core.DisplayLanguageNamesIn
 import com.kaizen.keyboard.lib.compose.FlorisScreen
 import dev.patrickgold.jetpref.datastore.model.collectAsState
 import java.util.*
-import org.kaizen-keyboard.lib.android.showLongToastSync
-import org.kaizen-keyboard.lib.compose.FlorisIconButton
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.kotlin.io.subDir
-import org.kaizen-keyboard.lib.kotlin.io.subFile
+import org.kaizen_keyboard.lib.android.showLongToastSync
+import org.kaizen_keyboard.lib.compose.FlorisIconButton
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.kotlin.io.subDir
+import org.kaizen_keyboard.lib.kotlin.io.subFile
 
 @Composable
 fun AndroidLocalesScreen() = FlorisScreen {

@@ -24,7 +24,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.kaizen.keyboard.R
 import com.kaizen.keyboard.lib.compose.FlorisScreen
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @Composable
 internal fun ExtensionNotFoundScreen(id: String) = FlorisScreen {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.kotlin
+package org.kaizen_keyboard.lib.kotlin
 
 import kotlin.contracts.InvocationKind
 import kotlin.contracts.contract

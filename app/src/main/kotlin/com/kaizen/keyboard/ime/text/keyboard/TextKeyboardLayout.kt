@@ -90,13 +90,13 @@ import dev.patrickgold.jetpref.datastore.model.collectAsState
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.onFailure
 import kotlinx.coroutines.isActive
-import org.kaizen-keyboard.lib.android.isOrientationLandscape
-import org.kaizen-keyboard.lib.compose.DisposableLifecycleEffect
-import org.kaizen-keyboard.lib.snygg.SnyggSelector
-import org.kaizen-keyboard.lib.snygg.ui.SnyggBox
-import org.kaizen-keyboard.lib.snygg.ui.SnyggIcon
-import org.kaizen-keyboard.lib.snygg.ui.SnyggText
-import org.kaizen-keyboard.lib.snygg.ui.rememberSnyggThemeQuery
+import org.kaizen_keyboard.lib.android.isOrientationLandscape
+import org.kaizen_keyboard.lib.compose.DisposableLifecycleEffect
+import org.kaizen_keyboard.lib.snygg.SnyggSelector
+import org.kaizen_keyboard.lib.snygg.ui.SnyggBox
+import org.kaizen_keyboard.lib.snygg.ui.SnyggIcon
+import org.kaizen_keyboard.lib.snygg.ui.SnyggText
+import org.kaizen_keyboard.lib.snygg.ui.rememberSnyggThemeQuery
 import kotlin.math.abs
 import kotlin.math.sqrt
 

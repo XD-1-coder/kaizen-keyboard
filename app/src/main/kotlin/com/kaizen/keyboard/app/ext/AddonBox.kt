@@ -38,11 +38,11 @@ import com.kaizen.keyboard.app.Routes
 import com.kaizen.keyboard.lib.ext.Extension
 import com.kaizen.keyboard.lib.ext.generateUpdateUrl
 import com.kaizen.keyboard.lib.util.launchUrl
-import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.FlorisTextButton
-import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.kotlin.curlyFormat
+import org.kaizen_keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.FlorisTextButton
+import org.kaizen_keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.kotlin.curlyFormat
 
 @Composable
 fun ImportExtensionBox(navController: NavController) {

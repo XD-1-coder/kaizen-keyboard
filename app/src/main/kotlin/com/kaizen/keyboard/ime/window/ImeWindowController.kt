@@ -32,7 +32,7 @@ import kotlinx.coroutines.flow.updateAndGet
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.kaizen-keyboard.lib.kotlin.collectIn
+import org.kaizen_keyboard.lib.kotlin.collectIn
 
 /**
  * The window controller is responsible for managing everything related to window config, spec, insets,

@@ -16,7 +16,7 @@
 
 @file:Suppress("NOTHING_TO_INLINE")
 
-package org.kaizen-keyboard.lib.kotlin
+package org.kaizen_keyboard.lib.kotlin
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Deferred

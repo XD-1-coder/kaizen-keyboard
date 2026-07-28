@@ -43,8 +43,8 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.kaizen-keyboard.lib.kotlin.guardedByLock
-import org.kaizen-keyboard.lib.kotlin.collectLatestIn
+import org.kaizen_keyboard.lib.kotlin.guardedByLock
+import org.kaizen_keyboard.lib.kotlin.collectLatestIn
 import java.util.concurrent.atomic.AtomicBoolean
 import kotlin.properties.Delegates
 

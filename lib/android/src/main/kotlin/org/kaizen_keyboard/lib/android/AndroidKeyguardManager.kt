@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.android
+package org.kaizen_keyboard.lib.android
 
 typealias AndroidKeyguardManager = android.app.KeyguardManager

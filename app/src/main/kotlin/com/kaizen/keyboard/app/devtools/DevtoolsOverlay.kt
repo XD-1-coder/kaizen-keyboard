@@ -53,8 +53,8 @@ import com.kaizen.keyboard.themeManager
 import dev.patrickgold.jetpref.datastore.model.collectAsState
 import java.text.SimpleDateFormat
 import java.util.*
-import org.kaizen-keyboard.lib.android.AndroidVersion
-import org.kaizen-keyboard.lib.snygg.SnyggMissingSchemaException
+import org.kaizen_keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.snygg.SnyggMissingSchemaException
 
 private val CardBackground = Color.Black.copy(0.6f)
 private val DateFormat = SimpleDateFormat("yyyy-MM-dd'T'HH-mm-ss", FlorisLocale.default().base)

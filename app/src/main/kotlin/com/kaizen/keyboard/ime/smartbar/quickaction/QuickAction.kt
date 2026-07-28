@@ -27,7 +27,7 @@ import com.kaizen.keyboard.ime.text.keyboard.TextKeyData
 import com.kaizen.keyboard.keyboardManager
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.kaizen-keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.compose.stringRes
 
 @Serializable
 sealed class QuickAction {

@@ -84,17 +84,17 @@ import dev.patrickgold.jetpref.datastore.ui.Preference
 import dev.patrickgold.jetpref.material.ui.JetPrefAlertDialog
 import dev.patrickgold.jetpref.material.ui.JetPrefTextField
 import java.util.*
-import org.kaizen-keyboard.lib.compose.FlorisButtonBar
-import org.kaizen-keyboard.lib.compose.FlorisIconButton
-import org.kaizen-keyboard.lib.compose.FlorisInfoCard
-import org.kaizen-keyboard.lib.compose.FlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.defaultFlorisOutlinedBox
-import org.kaizen-keyboard.lib.compose.stringRes
-import org.kaizen-keyboard.lib.android.showLongToastSync
-import org.kaizen-keyboard.lib.kotlin.io.deleteContentsRecursively
-import org.kaizen-keyboard.lib.kotlin.io.subDir
-import org.kaizen-keyboard.lib.kotlin.io.subFile
-import org.kaizen-keyboard.lib.kotlin.io.writeJson
+import org.kaizen_keyboard.lib.compose.FlorisButtonBar
+import org.kaizen_keyboard.lib.compose.FlorisIconButton
+import org.kaizen_keyboard.lib.compose.FlorisInfoCard
+import org.kaizen_keyboard.lib.compose.FlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.defaultFlorisOutlinedBox
+import org.kaizen_keyboard.lib.compose.stringRes
+import org.kaizen_keyboard.lib.android.showLongToastSync
+import org.kaizen_keyboard.lib.kotlin.io.deleteContentsRecursively
+import org.kaizen_keyboard.lib.kotlin.io.subDir
+import org.kaizen_keyboard.lib.kotlin.io.subFile
+import org.kaizen_keyboard.lib.kotlin.io.writeJson
 import kotlin.reflect.KClass
 
 private val TextFieldVerticalPadding = 8.dp

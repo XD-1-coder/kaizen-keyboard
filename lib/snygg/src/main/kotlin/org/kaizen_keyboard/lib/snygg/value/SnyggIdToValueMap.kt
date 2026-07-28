@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg.value
+package org.kaizen_keyboard.lib.snygg.value
 
-import org.kaizen-keyboard.lib.kotlin.toStringWithoutDotZero
+import org.kaizen_keyboard.lib.kotlin.toStringWithoutDotZero
 
 typealias SnyggIdToValueMap = MutableMap<String, String>
 

@@ -30,7 +30,7 @@ import com.kaizen.keyboard.lib.devtools.LogTopic
 import com.kaizen.keyboard.lib.devtools.flogInfo
 import kotlinx.coroutines.async
 import kotlinx.coroutines.runBlocking
-import org.kaizen-keyboard.lib.kotlin.map
+import org.kaizen_keyboard.lib.kotlin.map
 
 class FlorisSpellCheckerService : SpellCheckerService() {
     private val prefs by FlorisPreferenceStore

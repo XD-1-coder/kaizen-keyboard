@@ -28,7 +28,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import kotlinx.serialization.json.Json
-import org.kaizen-keyboard.lib.kotlin.collectLatestIn
+import org.kaizen_keyboard.lib.kotlin.collectLatestIn
 
 val SubtypeJsonConfig = Json {
     encodeDefaults = true

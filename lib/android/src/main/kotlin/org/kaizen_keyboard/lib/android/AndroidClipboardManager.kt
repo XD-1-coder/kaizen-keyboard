@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.android
+package org.kaizen_keyboard.lib.android
 
 typealias AndroidClipboardManager = android.content.ClipboardManager
 // TODO: remove this once https://youtrack.jetbrains.com/issue/KT-34281 is fixed

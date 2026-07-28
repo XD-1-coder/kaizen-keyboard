@@ -65,12 +65,12 @@ import com.kaizen.keyboard.lib.util.launchActivity
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.update
-import org.kaizen-keyboard.lib.android.AndroidInternalR
-import org.kaizen-keyboard.lib.android.AndroidVersion
-import org.kaizen-keyboard.lib.android.showShortToastSync
-import org.kaizen-keyboard.lib.android.systemServiceOrNull
-import org.kaizen-keyboard.lib.kotlin.collectIn
-import org.kaizen-keyboard.lib.kotlin.collectLatestIn
+import org.kaizen_keyboard.lib.android.AndroidInternalR
+import org.kaizen_keyboard.lib.android.AndroidVersion
+import org.kaizen_keyboard.lib.android.showShortToastSync
+import org.kaizen_keyboard.lib.android.systemServiceOrNull
+import org.kaizen_keyboard.lib.kotlin.collectIn
+import org.kaizen_keyboard.lib.kotlin.collectLatestIn
 import java.lang.ref.WeakReference
 
 /**

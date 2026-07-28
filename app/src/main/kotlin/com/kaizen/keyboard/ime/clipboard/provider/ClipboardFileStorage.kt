@@ -20,9 +20,9 @@ import android.content.Context
 import android.net.Uri
 import com.kaizen.keyboard.lib.devtools.LogTopic
 import com.kaizen.keyboard.lib.devtools.flogDebug
-import org.kaizen-keyboard.lib.android.readToFile
-import org.kaizen-keyboard.lib.kotlin.io.FsFile
-import org.kaizen-keyboard.lib.kotlin.io.subFile
+import org.kaizen_keyboard.lib.android.readToFile
+import org.kaizen_keyboard.lib.kotlin.io.FsFile
+import org.kaizen_keyboard.lib.kotlin.io.subFile
 
 /**
  * Backend helper object which is used by [ClipboardMediaProvider] to serve content.

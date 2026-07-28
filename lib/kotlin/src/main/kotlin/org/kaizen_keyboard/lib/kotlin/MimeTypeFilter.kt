@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.kotlin
+package org.kaizen_keyboard.lib.kotlin
 
 /**
  * Utility class for matching MIME types against predefined filters.

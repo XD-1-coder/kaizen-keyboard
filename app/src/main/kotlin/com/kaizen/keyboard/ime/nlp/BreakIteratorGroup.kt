@@ -19,8 +19,8 @@ package com.kaizen.keyboard.ime.nlp
 import android.icu.text.BreakIterator
 import com.kaizen.keyboard.lib.FlorisLocale
 import io.github.reactivecircus.cache4k.Cache
-import org.kaizen-keyboard.lib.kotlin.GuardedByLock
-import org.kaizen-keyboard.lib.kotlin.guardedByLock
+import org.kaizen_keyboard.lib.kotlin.GuardedByLock
+import org.kaizen_keyboard.lib.kotlin.guardedByLock
 
 open class BreakIteratorGroup {
     private val charInstances = Cache.Builder<FlorisLocale, GuardedByLock<BreakIterator>>().build()

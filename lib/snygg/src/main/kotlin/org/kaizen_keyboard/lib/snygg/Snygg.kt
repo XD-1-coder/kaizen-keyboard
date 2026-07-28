@@ -14,35 +14,35 @@
  * limitations under the License.
  */
 
-package org.kaizen-keyboard.lib.snygg
+package org.kaizen_keyboard.lib.snygg
 
-import org.kaizen-keyboard.lib.snygg.value.SnyggCircleShapeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggCustomFontFamilyValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggCutCornerDpShapeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggCutCornerPercentShapeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggDefinedVarValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggDpSizeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggDynamicDarkColorValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggDynamicLightColorValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggFontStyleValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggFontWeightValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggGenericFontFamilyValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggInheritValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggNoValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggContentScaleValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggPaddingValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggRectangleShapeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggRoundedCornerDpShapeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggRoundedCornerPercentShapeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggSpSizeValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggStaticColorValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggTextAlignValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggTextDecorationLineValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggTextMaxLinesValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggTextOverflowValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggUriValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggVarValue
-import org.kaizen-keyboard.lib.snygg.value.SnyggYesValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggCircleShapeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggCustomFontFamilyValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggCutCornerDpShapeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggCutCornerPercentShapeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggDefinedVarValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggDpSizeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggDynamicDarkColorValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggDynamicLightColorValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggFontStyleValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggFontWeightValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggGenericFontFamilyValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggInheritValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggNoValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggContentScaleValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggPaddingValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggRectangleShapeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggRoundedCornerDpShapeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggRoundedCornerPercentShapeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggSpSizeValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggStaticColorValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggTextAlignValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggTextDecorationLineValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggTextMaxLinesValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggTextOverflowValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggUriValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggVarValue
+import org.kaizen_keyboard.lib.snygg.value.SnyggYesValue
 
 /**
  * Main object for defining all known Snygg property names.
