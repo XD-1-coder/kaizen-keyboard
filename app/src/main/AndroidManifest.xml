@@ -27,7 +27,7 @@
         android:dataExtractionRules="@xml/backup_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/floris_app_icon"
-        android:label="@string/Kaizen Keyboard"
+        android:label="@string/app_name"
         android:enableOnBackInvokedCallback="true"
         android:roundIcon="@mipmap/floris_app_icon_round"
         android:supportsRtl="true"
@@ -40,7 +40,7 @@
         <!-- IME service -->
         <service
             android:name="com.kaizen.keyboard.FlorisImeService"
-            android:label="@string/Kaizen Keyboard"
+            android:label="@string/app_name"
             android:permission="android.permission.BIND_INPUT_METHOD"
             android:directBootAware="true"
             android:exported="true">
@@ -53,7 +53,7 @@
         <!-- Spellchecker service -->
         <service
             android:name="com.kaizen.keyboard.FlorisSpellCheckerService"
-            android:label="@string/Kaizen Keyboard"
+            android:label="@string/app_name"
             android:permission="android.permission.BIND_TEXT_SERVICE"
             android:exported="true">
             <intent-filter>
@@ -97,7 +97,7 @@
         <activity-alias
             android:name="com.kaizen.keyboard.SettingsLauncherAlias"
             android:icon="@mipmap/floris_app_icon"
-            android:label="@string/Kaizen Keyboard"
+            android:label="@string/app_name"
             android:launchMode="singleTask"
             android:roundIcon="@mipmap/floris_app_icon_round"
             android:targetActivity="com.kaizen.keyboard.app.FlorisAppActivity"
